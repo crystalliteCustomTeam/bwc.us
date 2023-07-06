@@ -1,0 +1,10 @@
+.whitebackground{
+    background-color: #fff !important;
+}
+
+
+.flexset{
+    justify-content: center;
+align-items: center;
+display: flex;
+}
