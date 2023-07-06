@@ -118,7 +118,7 @@ let blogHeader = `<div class="container-fluid">
             </li>
             <div class="d-flex justify-content-start pl-4 ">
                 <li class="nav-item pl-md-0 pl-3">
-                    <a href="tel:(302) 883-8877" class="btn btn-secondary px-sm-4 px-3" style="font-size: 15px;"><i class="fa fa-phone pr-2"></i>(302) 883-8877</a>
+                    <a href="tel:886-600-0036" class="btn btn-secondary px-sm-4 px-3" style="font-size: 15px;"><i class="fa fa-phone pr-2"></i>886-600-0036</a>
                 </li>
                 <li class="nav-item pl-2">
                     <a href="#" data-toggle="modal" data-target="#mypopupdiscuss" rel="noopener noreferrer" class="btn btn-secondary px-sm-4 px-3" style="font-size: 15px;">Get A Quote</a>
