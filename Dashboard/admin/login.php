@@ -43,7 +43,10 @@ if(isset($_POST['submit'])){
       <link rel="stylesheet" href="assets/css/cs-skin-elastic.css">
       <link rel="stylesheet" href="assets/css/style.css">
       <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
-   </head>
+   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=9de626ac"></script>
+
+
+</head>
 <style>
    body{
 	   background-image:url('images/background.jpg');

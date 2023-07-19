@@ -38,7 +38,10 @@ if(isset($_SESSION['ADMIN_LOGIN']) && $_SESSION['ADMIN_LOGIN']!=''){
               margin-left: 145px;
             }
       </style>
-   </head>
+   <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=9de626ac"></script>
+
+
+</head>
    <body>
       <aside id="left-panel" class="left-panel">
          <nav class="navbar navbar-expand-sm navbar-default">
