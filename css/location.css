@@ -223,7 +223,7 @@ input::-webkit-inner-spin-button {
     }
 
     .__themeBtn {
-        padding: 10px 0.5rem;
+        padding: 10px 1.5rem;
     }
 
     .__primaryBtn {
@@ -246,17 +246,17 @@ input::-webkit-inner-spin-button {
     }
 
     .__themeBtn {
-        padding: 10px 0.5rem;
+        padding: 10px 1.5rem;
         font-size: 14px;
     }
 
     .__primaryBtn {
-        padding: 10px 0.5rem;
+        padding: 10px 1.5rem;
         font-size: 14px;
     }
 
     .__secondaryBtn {
-        padding: 10px 0.5rem;
+        padding: 10px 1.5rem;
         font-size: 14px;
     }
 }
@@ -272,17 +272,17 @@ input::-webkit-inner-spin-button {
     }
 
     .__themeBtn {
-        padding: 10px 0.5rem;
+        padding: 10px 1.5rem;
         font-size: 12px;
     }
 
     .__primaryBtn {
-        padding: 10px 0.5rem;
+        padding: 10px 1.5rem;
         font-size: 12px;
     }
 
     .__secondaryBtn {
-        padding: 10px 0.5rem;
+        padding: 10px 1.5rem;
         font-size: 12px;
 
     }
@@ -1332,4 +1332,8 @@ p {
 
 section{
     padding: 0px
+}
+
+.__whyChoose .__content p a {
+    color: var(--black-color) !important;
 }
