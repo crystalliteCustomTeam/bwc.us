@@ -664,6 +664,9 @@ button.slick-prev.slick-arrow:hover {
 }
 
 @media screen and (max-width:1199px) {
+  
+     
+    
     .__whyChoose {
         padding: 60px 0
     }
@@ -687,6 +690,17 @@ button.slick-prev.slick-arrow:hover {
 }
 
 @media screen and (max-width:991px) {
+    .__freeQuote .__themeBtn{
+        width: 100% !important;
+        margin: 0px;
+    }
+    .__professionallyPublished{
+        background: url(../images/location/mobilebg.webp) rgb(225, 225, 225 0.5); 
+    }
+    /* background-image: url(../images/location/bg_4.webp); */
+    .__bannerLocation {
+        background-image: url(../images/location/mobilebanner.webp);
+    }
     .__whyChoose .__content h2 {
         font-size: 40px;
         line-height: 50px;
