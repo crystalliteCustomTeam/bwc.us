@@ -174,9 +174,9 @@ fbq('track', 'PageView');
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             text-align: center;
-            width: 60%;
+            width: 56%;
             height: 70%;
-            background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/d945b6c5-e151-4526-0241-2800554bc200/public);
+            background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/e4eac70d-18e5-4d9c-adb2-b19b30a40800/public);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -197,16 +197,28 @@ fbq('track', 'PageView');
         }
 
         #customPopup1 h2 {
-            font-size: 37px;
             font-weight: 900;
             /* background: -webkit-linear-gradient(90deg,#eb335b 35%,#4a78ef 65%); */
-            background: #16467d;
+            background: #fff;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-size: 45px;
-            line-height: 50px;
-            text-align: left;
+            line-height: 55px;
+            margin: 0;
+            padding: 0;
             text-transform: uppercase;
+        }
+
+        #customPopup1 h2 span {
+            background: #81c7ff;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent
+        }
+
+        #customPopup1 .__border {
+            width: 60px;
+            margin: 8px auto 0px;
+            border-bottom: 8px solid #fff;
         }
 
         #customPopup1 h4 {
@@ -225,6 +237,7 @@ fbq('track', 'PageView');
         .Popupforms11 input {
             border: 2px solid #dcdcdc;
             border-radius: 0;
+            width: max-content !important;
             height: 40px;
             padding: 8px;
             font-size: 14px;
@@ -235,6 +248,7 @@ fbq('track', 'PageView');
         .Popupforms11 {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
 
         }
 
@@ -243,33 +257,33 @@ fbq('track', 'PageView');
             width: 44%;
         }
 
-        #customPopup1 P {
-            font-size: 12px;
-            text-align: left;
-            margin-top: 20px;
+        #customPopup1 p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 10px;
             text-transform: uppercase;
-            color: #16467d;
+            color: #fff;
+        }
+
+        #customPopup1 p span {
+            color: #81c7ff;
         }
 
         #customPopup1 button {
-            margin-right: 50px;
-            width: 100%;
+            width: max-content;
             margin-top: 10px;
-            background: #16467d;
-            padding: 12px 30px;
-            font-size: 18px;
-            font-weight: 900;
+            background: #eaebed;
+            padding: 12px 2rem;
+            font-size: 16px;
+            font-weight: 700;
             border: 0px;
-            color: #fff;
-            border-radius: 20px;
+            cursor: pointer;
+            color: #272727;
+            border-radius: 10px;
             text-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.402);
             transition: all 1s ease;
             box-shadow: 0px 0px 8px 1px rgb(139 139 139 / 40%);
             text-transform: uppercase;
-        }
-
-        #customPopup1 button:hover {
-            background: #16467d;
         }
 
         .popbtns {
@@ -297,16 +311,21 @@ fbq('track', 'PageView');
         .footer-tab {
             position: fixed;
             bottom: 0;
-            background: #16467d;
-            padding: 20px 40px;
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+            padding: 10px 40px;
             color: #fff;
             font-size: 8px !important;
-            z-index:20;
+            z-index: 20;
         }
-    .footer-tab h6{
-            font-size: 25px !important;
+
+        .footer-tab h6 {
+            font-size: 22px !important;
+            line-height: 32px;
             font-weight: 600;
+            margin: 0;
         }
+
         .hideme {
             display: none;
         }
@@ -321,6 +340,7 @@ fbq('track', 'PageView');
             font-size: 14px;
             font-weight: 600;
             color: #16467d;
+            margin-right: 110px !important;
         }
     </style>
 
@@ -920,49 +940,55 @@ src="https://www.facebook.com/tr?id=446782904018039&ev=PageView&noscript=1"
 
     <footer>
           <!--thanksgiving popup-->
-        <div class="container-fluid footer-tab hideme" id="setfoot">
-        <div class="row align-items-center">
-            <div class="d-flex justify-content-between align-items-center w-100">
-                <div>
-                    <h6>
-                        30% Off On <br/> Book Publishing Services
-                    </h6>
-                </div>
-                <div>
-                    <a class="get-offer" id="customPopup12" href="#customPopup1">Get the offer Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
+          <div class="container-fluid footer-tab hideme" id="setfoot">
+            <div class="container mx-auto row align-items-center">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <div>
+                        <h6>
+                            30% Off On Children Book Publishing Services <br /> Claim this Special Offer!
 
-    <div id="customPopup1" class="popup">
-        <div class="popup-content">
-            <span class="close" id="closePopupBtn">&times;</span>
-            <div class="componentss">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-5">
+                        </h6>
                     </div>
-                    <div class="col-lg-7 ">
-                        <h2>
-                            THANKSGIVING <br> SPECIAL OFFER!
-                        </h2>
-                        <h4><span class="nycolor"> 30% Off </span>On Book <span class="nycolor"> Publishing </span>
-                            Services</h4>
-                        <form class="Popupforms11">
-                            <input name="email" id="email" type="text" placeholder="Email" required="" />
-                            <input name="phone" id="phone" onkeypress="return /[0-9]/i.test(event.key)" minlength="7"
-                                maxlength="15" type="text" placeholder="Phone" required="" />
-                                <input name="comments" type="hidden" value="From Thanksgiving form"/>
-                            <button type="submit"><span class="popbtns">Claim this Special Offer! </span></button>
-                        </form>
-                        <P>Indulge in a delectable 30% discount on our book publishing services this Thanksgiving. Let
-                            us help you create a captivating story and share your vision with the world. </P>
-
+                    <div class="mr-5">
+                        <a class="get-offer" id="customPopup12" href="#customPopup1">Get the offer Now</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
+        <div id="customPopup1" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopupBtn">&times;</span>
+                <div class="componentss">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-lg-12">
+                            <h2>
+                                black friday <br class="d-lg-block d-none" />
+                                <span>SPECIAL</span>
+                            </h2>
+                            <div class="__border"></div>
+                            <p><span><strong>30%</strong></span> Off On Children Book Publishing Services <br
+                                    class="d-lg-block d-none" /> Claim this <strong>Special Offer!</strong></p>
+                            <div class="col-lg-12">
+                                <form class="Popupforms11">
+                                    <input type="text" id="name" name="name" placeholder="Name" required=""
+                                        onkeypress="return /[a-z]/i.test(event.key)">
+                                    <input name="email" id="email" type="text" placeholder="Email" required="" />
+                                    <input name="phone" id="phone" onkeypress="return /[0-9]/i.test(event.key)"
+                                        minlength="7" maxlength="15" type="text" placeholder="Phone" required="" />
+                                    <input name="comments" type="hidden" value="From Blackfriday form" />
+                                    <button type="submit"><img
+                                            src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/62ef34e6-bda1-47f3-7f10-c1a2fcb18800/public"
+                                            alt="Icons" class="img-fluid pr-3"><span class="popbtns pl-1">Claim
+                                            NOW!</span></button>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
