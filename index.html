@@ -1303,7 +1303,7 @@
     <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
     <script src="slick/slick.js" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/221c81e5c5.js" crossorigin="anonymous"></script>
+    <!-- <script defer src="https://use.fontawesome.com/221c81e5c5.js" crossorigin="anonymous"></script> -->
     <script id="clickguard"></script>
     <script src="js/custom.js"></script>
     <script id="chatform"></script>
@@ -1324,18 +1324,7 @@
 
 
 <script>
-    // Variables to track whether the scripts have been loaded
-    var scriptLoaded = false;
-    var gtagScriptLoaded = false;
-    var luckyOrangeScriptLoaded = false;
-
-    // Function to append the main script to the head
-    function appendMainScript() {
-        // Check if the script has already been loaded
-        if (!scriptLoaded) {
-            var mainScript = document.createElement("script");
-            mainScript.type = "text/javascript";
-            mainScript.innerHTML = `
+  var scriptLoaded=!1,gtagScriptLoaded=!1,luckyOrangeScriptLoaded=!1;function appendMainScript(){if(!scriptLoaded){var e=document.createElement("script");e.type="text/javascript",e.innerHTML=`
                 function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-210328564-1");
 
                 !function (e, t, a, r, g) { e[r] = e[r] || [], e[r].push({ "gtm.start": new Date().getTime(), event: "gtm.js" }); var n = t.getElementsByTagName(a)[0], s = t.createElement(a); s.async = !0, s.src = "https://www.googletagmanager.com/gtm.js?id=" + g + ("dataLayer" != r ? "&l=" + r : ""), n.parentNode.insertBefore(s, n) }(window, document, "script", "dataLayer", "GTM-KM5VM3H");
@@ -1343,64 +1332,7 @@
                 !function (e, t, n, a, c, o, s) { e.fbq || (c = e.fbq = function () { c.callMethod ? c.callMethod.apply(c, arguments) : c.queue.push(arguments) }, e._fbq || (e._fbq = c), c.push = c, c.loaded = !0, c.version = "2.0", c.queue = [], (o = t.createElement(n)).async = !0, o.src = a, (s = t.getElementsByTagName(n)[0]).parentNode.insertBefore(o, s)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"), fbq("init", "446782904018039"), fbq("track", "PageView");
 
                 !function (e, t) { var r = "000e78ee541e39c79501061e72217d4b90"; if (e.obApi) { var a = function (e) { return "[object Array]" === Object.prototype.toString.call(e) ? e : [e] }; e.obApi.marketerId = a(e.obApi.marketerId).concat(a(r)); return } var c = e.obApi = function () { c.dispatch ? c.dispatch.apply(c, arguments) : c.queue.push(arguments) }; c.version = "1.1", c.loaded = !0, c.marketerId = r, c.queue = []; var o = t.createElement("script"); o.async = !0, o.src = "//amplify.outbrain.com/cp/obtp.js", o.type = "text/javascript"; var p = t.getElementsByTagName("script")[0]; p.parentNode.insertBefore(o, p) }(window, document), obApi("track", "PAGE_VIEW");
-            `;
-            document.head.appendChild(mainScript);
-
-            // Set the scriptLoaded variable to true to indicate that the script has been loaded
-            scriptLoaded = true;
-        }
-    }
-
-    // Function to append the gtag script to the head
-    function appendGtagScript() {
-        if (!gtagScriptLoaded) {
-            var gtagScript = document.createElement("script");
-            gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=UA-210328564-1";
-            gtagScript.defer = true;
-            document.head.appendChild(gtagScript);
-
-            gtagScriptLoaded = true;
-        }
-    }
-
-    // Function to append the Lucky Orange script to the head
-    function appendLuckyOrangeScript() {
-        if (!luckyOrangeScriptLoaded) {
-            var luckyOrangeScript = document.createElement("script");
-            luckyOrangeScript.src = "https://tools.luckyorange.com/core/lo.js?site-id=9de626ac";
-            luckyOrangeScript.async = true;
-            luckyOrangeScript.defer = true;
-            document.head.appendChild(luckyOrangeScript);
-
-            luckyOrangeScriptLoaded = true;
-        }
-    }
-
-    // Function to append all scripts
-    function appendAllScripts() {
-        appendMainScript();
-        appendGtagScript();
-        appendLuckyOrangeScript();
-
-        console.log("Scripts loaded");
-    }
-
-    // Adding event listeners for mouse click, mouse move, touch start, and touch move
-    document.addEventListener("click", function() {
-        appendAllScripts();
-    });
-
-    document.addEventListener("mousemove", function() {
-        appendAllScripts();
-    });
-
-    document.addEventListener("touchstart", function() {
-        appendAllScripts();
-    });
-
-    document.addEventListener("touchmove", function() {
-        appendAllScripts();
-    });
+            `,document.head.appendChild(e),scriptLoaded=!0}}function appendGtagScript(){if(!gtagScriptLoaded){var e=document.createElement("script");e.src="https://www.googletagmanager.com/gtag/js?id=UA-210328564-1",e.defer=!0,document.head.appendChild(e),gtagScriptLoaded=!0}}function appendLuckyOrangeScript(){if(!luckyOrangeScriptLoaded){var e=document.createElement("script");e.src="https://tools.luckyorange.com/core/lo.js?site-id=9de626ac",e.async=!0,e.defer=!0,document.head.appendChild(e),luckyOrangeScriptLoaded=!0}}function appendFontAwesomeScript(){var e=document.createElement("script");e.defer=!0,e.src="https://use.fontawesome.com/221c81e5c5.js",e.crossorigin="anonymous",document.head.appendChild(e)}function appendAllScripts(){appendMainScript(),appendGtagScript(),appendLuckyOrangeScript(),appendFontAwesomeScript(),console.log("Scripts loaded")}document.addEventListener("click",function(){appendAllScripts()}),document.addEventListener("mousemove",function(){appendAllScripts()}),document.addEventListener("touchstart",function(){appendAllScripts()}),document.addEventListener("touchmove",function(){appendAllScripts()});
 </script>
 
 </body>
