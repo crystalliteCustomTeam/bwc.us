@@ -93,25 +93,27 @@
         fbq('track', 'PageView');
     </script> -->
     <!-- Meta Pixel Code -->
-    <style>section#shadow-host-companion {
-    display: none;
-}</style>
-<!-- <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=9de626ac"></script> -->
+    <style>
+        section#shadow-host-companion {
+            display: none;
+        }
+    </style>
+    <!-- <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=9de626ac"></script> -->
 
 
-<script>
-    // Variables to track whether the scripts have been loaded
-    var scriptLoaded = false;
-    var gtagScriptLoaded = false;
-    var luckyOrangeScriptLoaded = false;
+    <script>
+        // Variables to track whether the scripts have been loaded
+        var scriptLoaded = false;
+        var gtagScriptLoaded = false;
+        var luckyOrangeScriptLoaded = false;
 
-    // Function to append the main script to the head
-    function appendMainScript() {
-        // Check if the script has already been loaded
-        if (!scriptLoaded) {
-            var mainScript = document.createElement("script");
-            mainScript.type = "text/javascript";
-            mainScript.innerHTML = `
+        // Function to append the main script to the head
+        function appendMainScript() {
+            // Check if the script has already been loaded
+            if (!scriptLoaded) {
+                var mainScript = document.createElement("script");
+                mainScript.type = "text/javascript";
+                mainScript.innerHTML = `
                 function gtag() { dataLayer.push(arguments) } window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-210328564-1");
 
                 !function (e, t, a, r, g) { e[r] = e[r] || [], e[r].push({ "gtm.start": new Date().getTime(), event: "gtm.js" }); var n = t.getElementsByTagName(a)[0], s = t.createElement(a); s.async = !0, s.src = "https://www.googletagmanager.com/gtm.js?id=" + g + ("dataLayer" != r ? "&l=" + r : ""), n.parentNode.insertBefore(s, n) }(window, document, "script", "dataLayer", "GTM-KM5VM3H");
@@ -120,64 +122,64 @@
 
                 !function (e, t) { var r = "000e78ee541e39c79501061e72217d4b90"; if (e.obApi) { var a = function (e) { return "[object Array]" === Object.prototype.toString.call(e) ? e : [e] }; e.obApi.marketerId = a(e.obApi.marketerId).concat(a(r)); return } var c = e.obApi = function () { c.dispatch ? c.dispatch.apply(c, arguments) : c.queue.push(arguments) }; c.version = "1.1", c.loaded = !0, c.marketerId = r, c.queue = []; var o = t.createElement("script"); o.async = !0, o.src = "//amplify.outbrain.com/cp/obtp.js", o.type = "text/javascript"; var p = t.getElementsByTagName("script")[0]; p.parentNode.insertBefore(o, p) }(window, document), obApi("track", "PAGE_VIEW");
             `;
-            document.head.appendChild(mainScript);
+                document.head.appendChild(mainScript);
 
-            // Set the scriptLoaded variable to true to indicate that the script has been loaded
-            scriptLoaded = true;
+                // Set the scriptLoaded variable to true to indicate that the script has been loaded
+                scriptLoaded = true;
+            }
         }
-    }
 
-    // Function to append the gtag script to the head
-    function appendGtagScript() {
-        if (!gtagScriptLoaded) {
-            var gtagScript = document.createElement("script");
-            gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=UA-210328564-1";
-            gtagScript.defer = true;
-            document.head.appendChild(gtagScript);
+        // Function to append the gtag script to the head
+        function appendGtagScript() {
+            if (!gtagScriptLoaded) {
+                var gtagScript = document.createElement("script");
+                gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=UA-210328564-1";
+                gtagScript.defer = true;
+                document.head.appendChild(gtagScript);
 
-            gtagScriptLoaded = true;
+                gtagScriptLoaded = true;
+            }
         }
-    }
 
-    // Function to append the Lucky Orange script to the head
-    function appendLuckyOrangeScript() {
-        if (!luckyOrangeScriptLoaded) {
-            var luckyOrangeScript = document.createElement("script");
-            luckyOrangeScript.src = "https://tools.luckyorange.com/core/lo.js?site-id=9de626ac";
-            luckyOrangeScript.async = true;
-            luckyOrangeScript.defer = true;
-            document.head.appendChild(luckyOrangeScript);
+        // Function to append the Lucky Orange script to the head
+        function appendLuckyOrangeScript() {
+            if (!luckyOrangeScriptLoaded) {
+                var luckyOrangeScript = document.createElement("script");
+                luckyOrangeScript.src = "https://tools.luckyorange.com/core/lo.js?site-id=9de626ac";
+                luckyOrangeScript.async = true;
+                luckyOrangeScript.defer = true;
+                document.head.appendChild(luckyOrangeScript);
 
-            luckyOrangeScriptLoaded = true;
+                luckyOrangeScriptLoaded = true;
+            }
         }
-    }
 
-    // Function to append all scripts
-    function appendAllScripts() {
-        appendMainScript();
-        appendGtagScript();
-        appendLuckyOrangeScript();
+        // Function to append all scripts
+        function appendAllScripts() {
+            appendMainScript();
+            appendGtagScript();
+            appendLuckyOrangeScript();
 
-        console.log("Scripts loaded");
-    }
+            console.log("Scripts loaded");
+        }
 
-    // Adding event listeners for mouse click, mouse move, touch start, and touch move
-    document.addEventListener("click", function() {
-        appendAllScripts();
-    });
+        // Adding event listeners for mouse click, mouse move, touch start, and touch move
+        document.addEventListener("click", function () {
+            appendAllScripts();
+        });
 
-    document.addEventListener("mousemove", function() {
-        appendAllScripts();
-    });
+        document.addEventListener("mousemove", function () {
+            appendAllScripts();
+        });
 
-    document.addEventListener("touchstart", function() {
-        appendAllScripts();
-    });
+        document.addEventListener("touchstart", function () {
+            appendAllScripts();
+        });
 
-    document.addEventListener("touchmove", function() {
-        appendAllScripts();
-    });
-</script>
+        document.addEventListener("touchmove", function () {
+            appendAllScripts();
+        });
+    </script>
 
 
 </head>
@@ -345,11 +347,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <P> <strong>Beaverton, Oregon, March 28, 23</strong>  – Book Writing Cube, a leading provider of book writing and
+                    <P> <strong>Beaverton, Oregon, March 28, 23</strong> – Book Writing Cube, a leading provider of book
+                        writing and
                         publishing services, would like to take this opportunity to clarify a matter of domain
                         ownership. It has come to our attention that there has been confusion regarding the ownership of
                         a specific domain name. We would like to take this moment to confirm that this domain, <a
-                            href="https://www.thebookwritingcube.com/" rel="nofollow" target="_blank">https://www.thebookwritingcube.com/</a> , is not
+                            href="https://www.thebookwritingcube.com/" rel="nofollow"
+                            target="_blank">https://www.thebookwritingcube.com/</a> , is not
                         owned, operated, or affiliated with Book Writing Cube. The correct domain is <a
                             href="https://www.bookwritingcube.com/">https://www.bookwritingcube.com/</a>.
                     </P>
@@ -409,24 +413,28 @@
                         </li>
                         <li><strong>Working hours: </strong> Mon-Fri, 9:00 AM - 5:00 PM
                         </li>
-                
-                        <li><strong>Website: </strong> 
-                        <a href="https://www.bookwritingcube.com/">https://www.bookwritingcube.com/</a>
+
+                        <li><strong>Website: </strong>
+                            <a href="https://www.bookwritingcube.com/">https://www.bookwritingcube.com/</a>
                         </li>
                         <li><strong>Trustpilot: </strong> <a
-                                href="https://www.trustpilot.com/review/bookwritingcube.com" rel="nofollow" target="_blank">https://www.trustpilot.com/review/bookwritingcube.com
+                                href="https://www.trustpilot.com/review/bookwritingcube.com" rel="nofollow"
+                                target="_blank">https://www.trustpilot.com/review/bookwritingcube.com
                             </a>
                         </li>
                         <li><strong>Sitejabber: </strong> <a
-                                href="https://www.sitejabber.com/reviews/bookwritingcube.com" rel="nofollow" target="_blank">https://www.sitejabber.com/reviews/bookwritingcube.com
+                                href="https://www.sitejabber.com/reviews/bookwritingcube.com" rel="nofollow"
+                                target="_blank">https://www.sitejabber.com/reviews/bookwritingcube.com
                             </a>
                         </li>
                         <li><strong>Publishersglobal: </strong> <a
-                                href="https://www.publishersglobal.com/directory/supplier-profile/23334" rel="nofollow" target="_blank">https://www.publishersglobal.com/directory/supplier-profile/23334
+                                href="https://www.publishersglobal.com/directory/supplier-profile/23334" rel="nofollow"
+                                target="_blank">https://www.publishersglobal.com/directory/supplier-profile/23334
                             </a>
                         </li>
                         <li><strong>Better Business Bureau: </strong> <a href="https://www.bbb.org/us/or/beaverton/profile/publishers-
-                            book/book-writing-cube-1296-1000120771" rel="nofollow" target="_blank">https://www.bbb.org/us/or/beaverton/profile/publishers-
+                            book/book-writing-cube-1296-1000120771" rel="nofollow"
+                                target="_blank">https://www.bbb.org/us/or/beaverton/profile/publishers-
                                 book/book-writing-cube-1296-1000120771
                             </a>
                         </li>
@@ -447,11 +455,11 @@
                     <p class="pt-2 text-black">Your idea is unique, and you need a company that will take it from start
                         to finish. We are here for all the steps, so your legacy can live in words.
 
-                        <div class="pt-2 pb-3">
-                            <a href="javascript:void(Tawk_API.toggle())" class="btn btn-secondary-rounded-o">LET'S
-                                DISCUSS</a>
-                            <a href="tel:866-600-0036" class="btn btn-secondary2"> 866-600-0036</a>
-                        </div>
+                    <div class="pt-2 pb-3">
+                        <a href="javascript:void(Tawk_API.toggle())" class="btn btn-secondary-rounded-o">LET'S
+                            DISCUSS</a>
+                        <a href="tel:866-600-0036" class="btn btn-secondary2"> 866-600-0036</a>
+                    </div>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-4 pr-0 relative animate__fadeInLeft wow">
@@ -462,7 +470,7 @@
                             </h4>
                         </div>
                         <form id="fupForm-2" class="contactform-bottom pl-4 pr-4 pb-4" role="form">
-                         
+
                             <div class="row">
                                 <div class="form-group col-md-12">
                                     <label for="">Full Name*</label>
@@ -511,11 +519,15 @@
                                 <img alt="Email" width="210" height="20"
                                     src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/3194d0b9-113c-4439-fb56-e015287a4f00/public"></a>
                         </p>
-                        <p><a href="tel:866-600-0036" rel="noopener noreferrer"><i
-                                    class="fa fa-phone pr-2 s-color"></i> 866-600-0036 </a> </p>
-                       <p><a href="tel:(302)883-8877" rel="noopener noreferrer"><i class="fa fa-phone pr-2 s-color"></i> (302) 883-8877  </a> </p>
+                        <p><a href="tel:866-600-0036" rel="noopener noreferrer"><i class="fa fa-phone pr-2 s-color"></i>
+                                866-600-0036 </a> </p>
+                        <p><i class="fa fa-phone pr-2 s-color"></i>For Sales Inquiry:<a href="tel:302-459-5127"
+                                rel="noopener noreferrer">&nbsp;(302) 459-5127 </a> </p>
+                        <p><i class="fa fa-phone pr-2 s-color"></i>For Project Inquiry:<a href="tel:(302)480-9990"
+                                rel="noopener noreferrer">&nbsp;(302) 480-9990 </a> </p>
                         <p><a href="" rel="noopener noreferrer" class="font-13 "><i
-                                    class="fa fa-map-marker pr-2 s-color"></i> <b>Head Office:</b> 4145 S.W. Watson, Suite 350, Beaverton, Oregon 97005 , United States </a> </p>
+                                    class="fa fa-map-marker pr-2 s-color"></i> <b>Head Office:</b> 4145 S.W. Watson,
+                                Suite 350, Beaverton, Oregon 97005 , United States </a> </p>
                         <p><a href="" rel="noopener noreferrer" class="font-13 "><i
                                     class="fa fa-map-marker pr-2 s-color"></i> <b>Operation:</b> 8 The Green STE 300,
                                 Dover DE 19901 </a> </p>
@@ -570,7 +582,7 @@
                         <p><a href="../ebook-writing-services/" rel="noopener noreferrer">Ebook Writing</a></p>
                         <p><a href="../book-marketing-services/" rel="noopener noreferrer">Book Marketing</a></p>
                         <p><a href="../digital-marketing-services/" rel="noopener noreferrer">Digital Marketing</a></p>
-                                  <p><a href="../press-release-book-writing-cube/" rel="noopener noreferrer">Announcement</a></p>
+                        <p><a href="../press-release-book-writing-cube/" rel="noopener noreferrer">Announcement</a></p>
                     </div>
                 </div>
                 <div class="col-md-2 pt-5">
@@ -718,7 +730,7 @@
                         <div class="">
                             <h3 class="text-center  font-secondary text-black font-40 fw-800 pt-3">Get A Free Quote</h3>
                             <form id="fupForm-1" name="form1" class="contactform-bottom p-4" role="form" method="post">
-                               
+
                                 <div class="form-group col-md-12">
                                     <label for=""> Full Name <sup class="txt-red">*</sup></label>
                                     <input type="text" id="name" name="name" placeholder="Your name..."
@@ -754,10 +766,10 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+        </script>
     <script type="text/javascript" src="../slick/slick.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://use.fontawesome.com/221c81e5c5.js" crossorigin="anonymous" media="print"
         onload="this.onload=null;this.removeAttribute('media');" async></script>
@@ -766,23 +778,23 @@
 
     <!-- For Chat -->
     <script>
-        (function() {
+        (function () {
             var elements = document.querySelectorAll('img[data-src]');
             var index = 0;
-            var lazyLoad = function() {
+            var lazyLoad = function () {
                 if (index >= elements.length) return;
                 var item = elements[index];
                 if ((this.scrollY + this.innerHeight) > item.offsetTop) {
                     var src = item.getAttribute("data-src");
                     item.src = src;
-                    item.addEventListener('load', function() {
+                    item.addEventListener('load', function () {
                         item.removeAttribute('data-src');
                     });
                     index++;
                     lazyLoad();
                 }
             };
-            var init = function() {
+            var init = function () {
                 window.addEventListener('scroll', lazyLoad);
                 lazyLoad();
             };
@@ -835,10 +847,10 @@
     <!-- begin ClickGUARD Tracking Code -->
     <script defer type="application/javascript" src="https://io.clickguard.com/s/cHJvdGVjdG9y/Bxf4iHWI"></script>
     <script defer type="application/javascript">
-        (function() {
-            window.cg_convert = function(x, y) {
+        (function () {
+            window.cg_convert = function (x, y) {
                 if (window._cg_convert) window._cg_convert(x || null, y || null);
-                else setTimeout(function() {
+                else setTimeout(function () {
                     cg_convert(x || null, y || null)
                 }, 500);
             };
