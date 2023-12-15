@@ -710,8 +710,8 @@ button.slick-next.slick-arrow {
 }
 
 .btn-secondary3 {
-    border: 1px solid #fff;
-    padding: 8px 50px;
+    border: 1px solid;
+    padding: 8px 60px;
     border-radius: 0;
     font-weight: 800;
     background-color: transparent;
@@ -719,8 +719,6 @@ button.slick-next.slick-arrow {
 }
 
 .btn-secondary3:hover {
-    border: 1px solid #fff;
-    padding: 8px 50px;
     border-radius: 0;
     background-color: var(--primary-color);
     color: #fff
@@ -728,7 +726,7 @@ button.slick-next.slick-arrow {
 
 .btn-secondary4 {
     border: 1px solid;
-    padding: 8px 50px;
+    padding: 8px 60px;
     border-radius: 0;
     font-weight: 800;
     background-color: #fff;
@@ -736,15 +734,13 @@ button.slick-next.slick-arrow {
 }
 
 .btn-secondary4:hover {
-    border: 1px solid;
-    padding: 8px 50px;
     border-radius: 0;
     background-color: var(--primary-color);
     color: #fff
 }
 
 .btn-secondary5 {
-    border: 0;
+    border: 1px solid;
     padding: 8px 50px;
     border-radius: 0;
     font-weight: 800;
@@ -754,7 +750,6 @@ button.slick-next.slick-arrow {
 
 .btn-secondary5:hover {
     border: 0;
-    padding: 8px 50px;
     border-radius: 0;
     background-color: #fff;
     color: var(--primary-color)
