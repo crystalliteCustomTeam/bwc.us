@@ -396,6 +396,10 @@ a.btn.btn-primary {
     font-size: 25px
 }
 
+.navbar-light .navbar-toggler-icon {
+    filter: invert(1);
+}
+
 .header-bottom,
 a.btn.btn-primary {
     background-color: transparent;
@@ -2353,7 +2357,7 @@ section#shadow-host-companion {
         background-color: transparent;
         color: #fff
     }
-    
+
     .btn-secondary3:hover {
         border: 1px solid #fff;
         padding: 8px 30px;
@@ -2361,7 +2365,7 @@ section#shadow-host-companion {
         background-color: var(--primary-color);
         color: #fff
     }
-    
+
     .btn-secondary4 {
         border: 1px solid;
         padding: 8px 30px;
@@ -2370,7 +2374,7 @@ section#shadow-host-companion {
         background-color: #fff;
         color: var(--primary-color)
     }
-    
+
     .btn-secondary4:hover {
         border: 1px solid;
         padding: 8px 30px;
@@ -2378,7 +2382,7 @@ section#shadow-host-companion {
         background-color: var(--primary-color);
         color: #fff
     }
-    
+
     .btn-secondary5 {
         border: 0;
         padding: 8px 30px;
@@ -2387,7 +2391,7 @@ section#shadow-host-companion {
         background-color: var(--primary-color);
         color: #fff
     }
-    
+
     .btn-secondary5:hover {
         border: 0;
         padding: 8px 30px;
@@ -2395,7 +2399,8 @@ section#shadow-host-companion {
         background-color: #fff;
         color: var(--primary-color)
     }
-    .font-45{
+
+    .font-45 {
         font-size: 30px;
         font-weight: 800;
     }
