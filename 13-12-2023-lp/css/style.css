@@ -92,7 +92,7 @@ textarea {
 .__primaryBtn {
     font-size: 15px;
     line-height: 25px;
-    font-weight: 700;
+    font-weight: 500;
     display: block;
     width: max-content;
     background: var(--secondary-color);
@@ -101,19 +101,21 @@ textarea {
     padding: 6px 1.5rem;
     color: var(--black-color);
     border-radius: 10px;
+    text-align: center;
     transition: all 0.5s ease-in-out;
 }
 
 .__secondaryBtn {
     font-size: 15px;
     line-height: 25px;
-    font-weight: 700;
+    font-weight: 500;
     display: block;
     width: max-content;
     background: var(--primary-color);
     padding: 6px 1.5rem;
     color: var(--white-color);
     border-radius: 10px;
+    text-align: center;
     transition: all 0.3s ease-in-out;
 }
 
@@ -167,7 +169,7 @@ nav.navbar.navbar-light.navbar-expand-md.bg-faded.justify-content-center {
     gap: 30px;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid #707070;
+    border-bottom: 1px solid #5A5A5A;
     padding: 30px 0;
 }
 
@@ -254,7 +256,7 @@ button {
     background-color: rgba(175, 170, 170, 0.3);
     margin: 20px 0;
     padding: 10px;
-    border: 1px solid var(--gray-color);
+    border: 1px solid #5A5A5A;
     border-radius: 10px;
 }
 .__hero .__formSec form input::placeholder{
@@ -283,7 +285,7 @@ button {
 }
 
 .__hero .__formSec .__formBtn {
-    gap: 20px;
+    gap: 10px;
 }
 
 /* Hero Responsive Start */
@@ -329,6 +331,8 @@ button {
 
     .__hero {
         padding: 140px 0 80px;
+        background-image: inherit;
+        background-color: #222222;
     }
 
     .navbar-nav {
@@ -463,8 +467,8 @@ button {
     }
 
     .__letsShare .__content h2 {
-        font-size: 25px;
-        line-height: 35px;
+        font-size: 20px;
+        line-height: 30px;
     }
 
     .__letsShare .__content p {
@@ -495,7 +499,7 @@ button {
 .__whoKnows .__content h3 {
     font-size: 25px;
     line-height: 35px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 15px 0;
 }
 
@@ -537,8 +541,8 @@ button {
     }
 
     .__whoKnows .__content h2 {
-        font-size: 24px;
-        line-height: 34px;
+        font-size: 22px;
+        line-height: 32px;
     }
 
     .__whoKnows .__content h3 {
@@ -699,8 +703,8 @@ button {
     }
 
     .__featuresList .__content h2 {
-        font-size: 24px;
-        line-height: 34px;
+        font-size: 22px;
+        line-height: 32px;
     }
 
     .__featuresList .__content p {
@@ -776,7 +780,31 @@ button {
 .__publishingServices .__card:hover .__content p {
     color: var(--white-color);
 }
-
+@media screen and (max-width:991px) {
+    .__publishingServices {
+        padding: 60px 0;
+    }
+    .__publishingServices .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width:767px) {
+    .__publishingServices {
+        background-color: #F6F6F6;
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width:575px) {
+    .__publishingServices {
+        background-color: #F6F6F6;
+        padding: 30px 0;
+    }
+    .__publishingServices .__content h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
 .__portfolio {
     position: relative;
     padding: 80px 0;
@@ -849,6 +877,9 @@ button {
 }
 
 @media screen and (max-width:991px) {
+    .__portfolio {
+        padding: 60px 0;
+    }
     .__portfolio .__content {
         padding-bottom: 60px;
     }
@@ -864,24 +895,41 @@ button {
     .__portfolio .__pfImage2::before {
         display: none;
     }
+    .__portfolio .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }
 
 @media screen and (max-width:767px) {
+    .__portfolio {
+        padding: 40px 0;
+    }
     .__portfolio .__content {
         padding-bottom: 40px;
     }
     .__publishingServices .__card .__content p {
         min-height: 00;
     }
+    .__portfolio .__portfolioBtn .__primaryBtn {
+        margin: 40px auto 0;
+    }
 }
 
 @media screen and (max-width:575px) {
+    .__portfolio {
+        padding: 30px 0;
+    }
     .__portfolio .__content {
         padding-bottom: 30px;
     }
+    .__portfolio .__content h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
 
     .__portfolio .__portfolioBtn .__primaryBtn {
-        margin: 50px auto 0;
+        margin: 30px auto 0;
     }
 }
 
@@ -1004,6 +1052,7 @@ button {
 
 .__storyPublisher .__storyPublisherBtn2 .__secondaryBtn {
     background-color: transparent;
+    padding: 8px 10px;
 }
 @media screen and (max-width:1199px) {
     .__storyPublisher .__content h2 {
