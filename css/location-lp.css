@@ -75,149 +75,144 @@
 
 
 
-
-
-
-/* card animations */
-.featuredPropBox {}
-
-.featuredPropBox ul {
+/* .card-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: outside none none;
-    padding: 0;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
-.featuredPropBox ul li {
-    background-color: #eeeeee;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    display: block;
-    height: 250px;
-    margin: 5px;
-    width: 32%;
+.card {
     position: relative;
-    transition: all 0.3s;
-    cursor: pointer;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card h5{
+    text-align: center;
 }
 
-.featuredPropBox ul li:after {
-    position: absolute;
-    content: "";
+.card img {
     width: 100%;
-    height: 20%;
+    height: 250px;
+    transition: transform 0.5s;
+    background-size: cover;
+    transform-origin: center bottom;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: -100%;
     left: 0;
-    bottom: 0;
-    background-color: rgba(22, 22, 22, 0.603);
-    transition: all 0.3s;
-}
-
-.featuredPropBox ul li:nth-child(1) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/cb75945d-e264-4b9f-3ff3-07489c6f8800/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(2) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/207b7528-507e-48d3-ebef-a33c2a80a500/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(3) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/f324669f-e34d-48f6-2573-e6c4ad0f7300/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(4) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/45af11ea-1aea-49f9-559e-4caf84be4f00/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(5) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/56b5df22-700e-4c57-6fa6-19884094f000/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(6) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/55f60897-679a-4863-4527-112c90d6a800/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(7) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/ee008759-1700-4d02-4a63-ac1355648a00/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(8) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/f820d124-7435-4e2d-88c0-7d929322ba00/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(9) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/464a4b1c-c3f5-4dbc-36a3-b078cb803000/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(10) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/485a554e-121b-42d9-8cb8-9c58bdc5dc00/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(11) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/79061c8c-b3c7-4304-ffc9-a390aa646200/1920resizing');
-}
-
-.featuredPropBox ul li:nth-child(12) {
-    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/1c2c5b10-9658-4d37-e618-5e913dceba00/1920resizing');
-}
-
-.featuredPropBox ul li .fplogo {
-    left: 50%;
-    position: absolute;
-    top: 92%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-    z-index: 1;
-    transition: all 0.3s;
-    text-align: center;
-
-}
-
-.fplogo h3 {
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: 800;
-}
-
-.featuredPropBox ul li .fplogo img {
     width: 100%;
-}
-
-.featuredPropBox ul li .fptext {
-    display: none;
-    font-size: 16px;
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: all 0.3s ease 0s;
-    width: 65%;
-    z-index: 1;
-
-}
-
-.featuredPropBox ul li .fptext p {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.767);
     color: #fff;
-    margin: 0px;
+    transition: bottom 0.5s;
 }
 
-.featuredPropBox ul li:hover {
-    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2) inset;
+.card:hover img {
+    transform: translateY(0);
 }
 
-.featuredPropBox ul li:hover:after {
-    background-color: rgba(22, 22, 22, 0.3);
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 46, 46, 0.781);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.card:hover .card-overlay {
+    bottom: 0;
+}
+
+.image-overlay {
+    opacity: 0.8;
+} */
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card h5 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    transition: transform 0.5s;
+    background-size: cover;
+    transform-origin: center bottom;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.card .image-overlay,
+.card .card-overlay {
+    bottom: 0;
+    /* Set the initial state to be visible */
+}
+
+.card .card-overlay {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    transition: bottom 0.5s;
+}
+
+.card:hover .image-overlay {
+    opacity: 1;
+}
+
+.card-overlay {
+    bottom: 100%;
+}
+
+.card .image-overlay,
+.card .card-overlay {
+
+    bottom: 0;
+    transition: bottom ease-in-out 0.5s;
+
+}
+
+.card:hover .card-overlay {
+    bottom: 0;
+    background-color: #16467da6;
+    color: #f1f1f1;
 }
 
 .featuredPropBox ul li:hover .fplogo {
     display: none;
 }
 
-.featuredPropBox ul li:hover .fptext {
-    display: block;
-}
+
 
 @media (min-width:380px) and (max-width:767px) {
     .featuredPropBox ul li {
@@ -284,5 +279,13 @@
     .font-45 {
         font-size: 30px;
         font-weight: 800;
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        transition: transform 0.5s;
+        background-size: cover;
+        transform-origin: center bottom;
     }
 }
