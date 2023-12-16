@@ -28,7 +28,7 @@
 
 .btn-secondary3 {
     border: 1px solid;
-    padding: 8px 60px;
+    padding: 8px 25px;
     border-radius: 0;
     font-weight: 800;
     background-color: transparent;
@@ -58,7 +58,7 @@
 
 .btn-secondary5 {
     border: 1px solid;
-    padding: 8px 50px;
+    padding: 8px 20px !important;
     border-radius: 0;
     font-weight: 800;
     background-color: var(--primary-color);
