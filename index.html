@@ -1365,6 +1365,9 @@
         } function appendGtagScript() { if (!gtagScriptLoaded) { var e = document.createElement("script"); e.src = "https://www.googletagmanager.com/gtag/js?id=UA-210328564-1", e.defer = !0, document.head.appendChild(e), gtagScriptLoaded = !0 } } function appendLuckyOrangeScript() { if (!luckyOrangeScriptLoaded) { var e = document.createElement("script"); e.src = "https://tools.luckyorange.com/core/lo.js?site-id=9de626ac", e.async = !0, e.defer = !0, document.head.appendChild(e), luckyOrangeScriptLoaded = !0 } } function appendFontAwesomeScript() { var e = document.createElement("script"); e.defer = !0, e.src = "https://use.fontawesome.com/221c81e5c5.js", e.crossorigin = "anonymous", document.head.appendChild(e) } function appendAllScripts() { appendMainScript(), appendGtagScript(), appendLuckyOrangeScript(), appendFontAwesomeScript(), console.log("Scripts loaded") } document.addEventListener("click", function () { appendAllScripts() }), document.addEventListener("mousemove", function () { appendAllScripts() }), document.addEventListener("touchstart", function () { appendAllScripts() }), document.addEventListener("touchmove", function () { appendAllScripts() });
     </script>
 
+    <script defer type="application/ld+json" src="book-writing-cube-indexing-api.json">
+
+</script>
 </body>
 
 </html>
