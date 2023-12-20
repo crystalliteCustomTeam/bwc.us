@@ -224,8 +224,8 @@
         .blog__content h3 {
             /* font-size: 30px; */
             /* font-weight: 900; */
-            font-size: 25px;
-            font-weight: 700;
+            font-size: 22px;
+            font-weight: 600;
         }
 
         .list-bld li {
@@ -242,25 +242,30 @@
             margin-bottom: 0;
         }
 
-        table.custom-table td {
-            border: 1px solid #dee2e6;
-            /* Border color for cells */
-            padding: 8px;
-            /* Add padding for better spacing */
+        .blog__content .__tableDevAR {
+            width: 100%;
+            margin: 0 auto;
         }
 
-        table.custom-table th {
-            border: 1px solid #dee2e6;
-            background-color: #16467d;
-            color: #fff;
-            /* Border color for cells */
-            padding: 8px;
-            /* Add padding for better spacing */
+        .blog__content .__tableDevAR table {
+            margin-bottom: 0;
         }
 
-        table.custom-table td:nth-child(1) {
-            width: 200px;
-            /* Adjust the width as needed */
+        .blog__content .__tableDevAR table th,
+        td {
+            border: 2px solid #111;
+        }
+
+        .__tableDevAR table th.col1,
+        .__tableDevAR table td.col1 {
+            width: 30%;
+            border: 2px solid #111;
+        }
+
+        .__tableDevAR table th.col2,
+        .__tableDevAR table td.col2 {
+            width: 70%;
+            border: 2px solid #111;
         }
     </style>
 
@@ -304,15 +309,15 @@
                         <p class="font-18 text-black px-2">By BWC Team in 2023</p>
                     </div>
                     <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/8ee52aa2-a956-4ee1-0489-5f9d89712600/public"
-                        alt="https://www.bookwritingcube.com/book-proofreading-services/" class="img-fluid mb-3"
+                        alt="https://www.bookwritingcube.com/book-publishing-services/" class="img-fluid mb-3"
                         width="" height="" />
-                    <p>Have you ever read a book that had so many mistakes in it that you were unable to keep reading
+                    <p class="mt-5 ">Have you ever read a book that had so many mistakes in it that you were unable to keep reading
                         it?
                         You as an author most certainly do not want your book to experience that. A book proofreader can
                         help with that. A book proofreader is a professional who goes over your work to look for
                         mistakes in
                         syntax, grammar, spelling, and punctuation.</p>
-                    <p>Before your book is published online, book proofreaders make sure it is flawless and free of
+                    <p class="mb-5">Before your book is published online, book proofreaders make sure it is flawless and free of
                         errors.
                         They not only point out errors but also offer insightful criticism on the general direction and
                         organization of your work. Hiring a book proofreader is therefore a wise decision if you want to
@@ -330,37 +335,47 @@
                         </a>
                     </div>
                     <br />
-                    <h2 id="1" class="mb-3">3 Main Stages Of Proofreading?</h2>
+                    <h2 id="1" class="mt-3 mb-3">3 Main Stages Of Proofreading?</h2>
 
                     <p>Following table interprets the 3 main stages of proofreading:</p>
+                    <div class="__tableDevAR mt-3 mb-5">
+                        <colgroup>
+                            <col style="width: 40%;">
+                            <col style="width: 60%;">
+                        </colgroup>
+                        <table class="table align-middle">
+                            <thead>
+                                <tr>
+                                    <th class="col1 text-blue">Type of Proofreading</th>
+                                    <th class="col2 text-center text-blue">What It Involves</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Content Proofreading</td>
+                                    <td>Content proofreading involves revising an early draft of a text, often making
+                                        significant changes to content and moving, adding, or deleting entire sections.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Line Proofreading</td>
+                                    <td>The goal is to enhance the effectiveness of your story, ideas, or arguments by
+                                        revising the use of language. The text may be improved by altering words,
+                                        phrases,
+                                        sentences, and paragraphs to enhance the overall flow of the text.</td>
+                                </tr>
+                                <tr>
+                                    <td>Proofreading</td>
+                                    <td>Proofreaders in online publishing meticulously review text for errors like
+                                        misspelled words, punctuation misplacements, and stylistic inconsistencies, as
+                                        well
+                                        as formatting like page numbers and line spacing.</td>
+                                </tr>
+                            </tbody>
+                        </table>
 
-                    <table class="table custom-table">
-                        <thead>
-                            <tr>
-                                <th>Type of Proofreading</th>
-                                <th>What It Involves</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Content Proofreading</td>
-                                <td>Content proofreading involves revising an early draft of a text, often making
-                                    significant changes to content and moving, adding, or deleting entire sections.</td>
-                            </tr>
-                            <tr>
-                                <td>Line Proofreading</td>
-                                <td>The goal is to enhance the effectiveness of your story, ideas, or arguments by
-                                    revising the use of language. The text may be improved by altering words, phrases,
-                                    sentences, and paragraphs to enhance the overall flow of the text.</td>
-                            </tr>
-                            <tr>
-                                <td>Proofreading</td>
-                                <td>Proofreaders in online publishing meticulously review text for errors like
-                                    misspelled words, punctuation misplacements, and stylistic inconsistencies, as well
-                                    as formatting like page numbers and line spacing.</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    </div>
+
 
 
                     <h2 id="2" class="mb-3">The Limitations of Self-Editing In Writing</h2>
