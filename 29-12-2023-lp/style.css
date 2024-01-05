@@ -717,11 +717,10 @@ textarea {
 
 .__whyChoose .__services {
     position: sticky;
-    height: 60vh;
+    height: 55vh;
     overflow-y: scroll;
     overflow-x: hidden;
 }
-
 .__whyChoose .__services .__content h4 {
     font-size: 40px;
     line-height: 50px;
@@ -843,6 +842,11 @@ textarea {
     background-color: var(--black-color);
     padding:80px 20px;
     border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.__cards .__card:hover{
+    box-shadow: rgba(99,99,99,.2) 0 10px 8px 0;
+    transform: translateY(10px);
 }
 .__cards .__card h5 {
     font-size: 40px;
