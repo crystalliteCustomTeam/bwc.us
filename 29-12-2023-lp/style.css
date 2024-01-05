@@ -714,12 +714,13 @@ textarea {
     color: var(--black-color);
     font-weight: 500;
 }
-
-.__whyChoose .__services {
+.__whyChoose .__service{
     position: sticky;
-    height: 55vh;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--white-color);
+    z-index: 120;
 }
 .__whyChoose .__services .__content h4 {
     font-size: 40px;
@@ -774,9 +775,6 @@ textarea {
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 10px;
-    }
-    .__whyChoose .__services {
-        height: 55vh;
     }
 }
 .__hereToHelp {
