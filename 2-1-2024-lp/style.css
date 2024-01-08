@@ -118,15 +118,25 @@ section {
 
 .__publishingPortfolio .tab-content .__card {
     gap: 20px;
+    padding: 0 0 100px;
+    transition: all 0.5s ease-in-out;
 }
-
+.__publishingPortfolio .tab-content .__bookImages img{
+    box-shadow: -21px 12px 30px rgba(0, 0, 0, 0.3);
+}
 .__publishingPortfolio .tab-content .__content {
     width: 100%;
+}
+.__publishingPortfolio .tab-content .__content a{
+    color: #F79B34;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    display: none;
 }
 
 .__publishingPortfolio .tab-content .__content h3 {
     font-size: 32px;
-    padding: 20px 0 0 0;
     line-height: 39px;
     font-weight: 500;
     margin: 0;
@@ -145,7 +155,9 @@ section {
     font-weight: 500;
     color: var(--black-color);
 }
-
+.__publishingPortfolio .tab-content .__content p {
+    display: none;
+}
 .__publishingPortfolio .tab-content .__publisher {
     border-top: 1px solid #A6A6A6;
     border-bottom: 1px solid #A6A6A6;
@@ -158,23 +170,44 @@ section {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 25px;
+    padding-right: 35px;
     text-transform: uppercase;
     color: var(--black-color);
     border-right: 1px solid #A6A6A6;
 }
 
-.__publishingPortfolio .tab-content .__publisher a,
-.tab-content .__publisher h5 {
+.__publishingPortfolio .tab-content .__publisher h5 {
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
     margin: 0;
-    padding-left: 10px;
+    padding-left: 25px;
     color: var(--black-color);
     text-transform: uppercase;
 }
-
+.__publishingPortfolio .tab-content .__card:hover{
+    background-color: var(--white-color);
+    box-shadow: 0 0 50px rgba(0,0,0 ,0.2);
+    padding: 40px 20px;
+}
+.__publishingPortfolio .tab-content .__card:hover .__bookImages img{
+    box-shadow: inherit;
+}
+.__publishingPortfolio .tab-content .__card:hover p {
+    display: block;
+}
+.__publishingPortfolio .tab-content .__card:hover .__content a{
+    display: block;
+}
+.__publishingPortfolio .tab-content .__card:hover .__publisher {
+    border: inherit;
+}
+.__publishingPortfolio .tab-content .__card:hover .__publisher h6{
+    display: none;
+}
+.__publishingPortfolio .tab-content .__card:hover .__publisher h5{
+    display: none;
+}
 @media screen and (max-width:991px) {
     .__publishingPortfolio {
         padding: 60px 0;
@@ -183,6 +216,9 @@ section {
     .__publishingPortfolio .__content h1 {
         font-size: 40px;
         line-height: 50px;
+    }
+    .__publishingPortfolio .tab-content .__card {
+        padding: 0 0 80px;
     }
 }
 
@@ -198,6 +234,9 @@ section {
 
     .__publishingPortfolio .nav {
         gap: 20px;
+    }
+    .__publishingPortfolio .tab-content .__card {
+        padding: 0 0 40px;
     }
 }
 
