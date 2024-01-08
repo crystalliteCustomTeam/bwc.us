@@ -30,6 +30,7 @@ ul {
 a {
     text-decoration: inherit;
 }
+
 :focus-visible {
     outline: inherit;
 }
@@ -714,7 +715,8 @@ textarea {
     color: var(--black-color);
     font-weight: 500;
 }
-.__whyChoose .__service{
+
+.__whyChoose .__service {
     position: sticky;
     top: 0;
     left: 0;
@@ -722,6 +724,7 @@ textarea {
     background-color: var(--white-color);
     z-index: 120;
 }
+
 .__whyChoose .__services .__content h4 {
     font-size: 40px;
     line-height: 50px;
@@ -735,48 +738,59 @@ textarea {
     font-weight: 500;
     margin-bottom: 20px;
 }
+
 @media screen and (max-width:1199px) {
     .__whyChoose .__content {
         padding-bottom: 80px;
     }
 }
+
 @media screen and (max-width:991px) {
     .__whyChoose {
         padding: 60px 0;
     }
+
     .__whyChoose .__content {
         padding-bottom: 60px;
     }
+
     .__whyChoose .__content h2 {
         font-size: 40px;
         line-height: 50px;
     }
+
     .__whyChoose .__services .__content h4 {
         font-size: 30px;
         line-height: 40px;
     }
 }
+
 @media screen and (max-width:767px) {
     .__whyChoose {
         padding: 40px 0;
     }
+
     .__whyChoose .__content {
         padding-bottom: 40px;
     }
+
     .__whyChoose .__content h2 {
         font-size: 30px;
         line-height: 40px;
     }
+
     .__whyChoose .__services .__content h4 {
         font-size: 20px;
         line-height: 30px;
     }
+
     .__whyChoose .__services .__content p {
         font-size: 14px;
         line-height: 24px;
         margin-bottom: 10px;
     }
 }
+
 .__hereToHelp {
     background-color: #F5F5F5;
     padding: 80px 0;
@@ -808,44 +822,53 @@ textarea {
     font-weight: 700;
     color: var(--black-color);
 }
+
 @media screen and (max-width:991px) {
     .__hereToHelp {
         padding: 60px 0;
     }
+
     .__hereToHelp .__content h2 {
         font-size: 40px;
         line-height: 50px;
         padding: 0 0 10px;
     }
 }
+
 @media screen and (max-width:767px) {
     .__hereToHelp {
         padding: 40px 0;
     }
+
     .__hereToHelp .__content h2 {
         font-size: 30px;
         line-height: 40px;
         padding: 0 0 10px;
     }
+
     .__hereToHelp h5 a {
         font-size: 14px;
         line-height: 24px;
         margin: 20px 0 0;
     }
 }
+
 .__cards {
-    padding:80px 0;
+    padding: 80px 0;
 }
+
 .__cards .__card {
     background-color: var(--black-color);
-    padding:80px 20px;
+    padding: 80px 20px;
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
 }
-.__cards .__card:hover{
-    box-shadow: rgba(99,99,99,.2) 0 10px 8px 0;
+
+.__cards .__card:hover {
+    box-shadow: rgba(99, 99, 99, .2) 0 10px 8px 0;
     transform: translateY(10px);
 }
+
 .__cards .__card h5 {
     font-size: 40px;
     line-height: 50px;
@@ -854,183 +877,226 @@ textarea {
     min-height: 150px;
     color: var(--white-color);
 }
+
 @media screen and (max-width:991px) {
     .__cards {
-        padding:60px 0;
+        padding: 60px 0;
     }
+
     .__cards .__card {
         padding: 60px 20px;
     }
 }
+
 @media screen and (max-width:767px) {
     .__cards {
-        padding:40px 0;
+        padding: 40px 0;
     }
+
     .__cards .__card {
         padding: 40px 30px;
     }
 }
-.__weOffer{
+
+.__weOffer {
     padding: 80px 0;
 }
-.__weOffer .__content{
+
+.__weOffer .__content {
     padding: 0 0 50px;
 }
-.__weOffer .__content h2{
+
+.__weOffer .__content h2 {
     font-size: 50px;
     line-height: 60px;
     font-weight: 900;
     color: var(--black-color);
 }
-.__weOffer .__content p{
+
+.__weOffer .__content p {
     font-size: 15px;
     line-height: 25px;
     font-weight: 500;
     color: var(--black-color);
 }
-.__weOffer .serviceCard{
+
+.__weOffer .serviceCard {
     background-color: #F5F5F5;
     padding: 40px;
     border-radius: 10px;
 }
-.__weOffer .serviceCard h4{
+
+.__weOffer .serviceCard h4 {
     font-size: 30px;
     line-height: 40px;
     margin: 20px 0;
     font-weight: 700;
     color: var(--black-color);
 }
-.__weOffer .serviceCard p{
+
+.__weOffer .serviceCard p {
     font-size: 17px;
     line-height: 27px;
     font-weight: 500;
     color: var(--black-color);
     min-height: 130px;
 }
+
 @media screen and (max-width:991px) {
-    .__weOffer{
+    .__weOffer {
         padding: 60px 0;
     }
-    .__weOffer .__content h2{
+
+    .__weOffer .__content h2 {
         font-size: 40px;
         line-height: 50px;
     }
-    .__weOffer .serviceCard{
+
+    .__weOffer .serviceCard {
         background-color: #F5F5F5;
         padding: 30px;
         border-radius: 10px;
     }
-    .__weOffer .serviceCard p{
+
+    .__weOffer .serviceCard p {
         font-size: 16px;
         line-height: 26px;
     }
 }
+
 @media screen and (max-width:767px) {
-    .__weOffer{
+    .__weOffer {
         padding: 40px 0;
     }
-    .__weOffer .__content{
+
+    .__weOffer .__content {
         padding: 0 0 30px;
     }
-    .__weOffer .__content h2{
+
+    .__weOffer .__content h2 {
         font-size: 25px;
         line-height: 35px;
     }
-    .__weOffer .serviceCard{
+
+    .__weOffer .serviceCard {
         padding: 20px;
     }
-    .__weOffer .serviceCard h4{
+
+    .__weOffer .serviceCard h4 {
         font-size: 20px;
         line-height: 30px;
         margin: 10px 0;
     }
-    .__weOffer .serviceCard p{
+
+    .__weOffer .serviceCard p {
         font-size: 14px;
         line-height: 24px;
     }
-    .__weOffer .__content p{
+
+    .__weOffer .__content p {
         font-size: 14px;
         line-height: 24px;
     }
 }
-.__publishingProcess{
+
+.__publishingProcess {
     background-color: var(--blue-color);
     padding: 80px 0;
-    color:var(--white-color);
+    color: var(--white-color);
 }
-.__publishingProcess .__content{
+
+.__publishingProcess .__content {
     padding-bottom: 80px;
 }
-.__publishingProcess .__content h2{
+
+.__publishingProcess .__content h2 {
     font-size: 50px;
     line-height: 60px;
     font-weight: 900;
     margin: 0;
     padding: 0 0 10px;
 }
-.__publishingProcess .__content p{
+
+.__publishingProcess .__content p {
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
     margin: 0;
 }
-.__publishingProcess .__processBox .__content{
+
+.__publishingProcess .__processBox .__content {
     padding: 0;
     margin: 0;
 }
-.__publishingProcess .__processBox{
+
+.__publishingProcess .__processBox {
     display: flex;
     gap: 20px;
     align-items: start;
 }
-.__publishingProcess .__bookImage{
+
+.__publishingProcess .__bookImage {
     margin-top: -150px;
 }
+
 @media screen and (max-width:991px) {
-    .__publishingProcess{
+    .__publishingProcess {
         padding: 60px 0;
     }
-    .border-bottom{
+
+    .border-bottom {
         border: inherit !important;
     }
-    .__publishingProcess .__content{
+
+    .__publishingProcess .__content {
         padding-bottom: 60px;
     }
-    .__publishingProcess .__content h2{
+
+    .__publishingProcess .__content h2 {
         font-size: 40px;
         line-height: 50px;
     }
-    .__publishingProcess .__content p{
+
+    .__publishingProcess .__content p {
         font-size: 15px;
         line-height: 25px;
     }
 }
+
 @media screen and (max-width:767px) {
-    .__publishingProcess{
+    .__publishingProcess {
         padding: 40px 0;
     }
-    .__publishingProcess .__content{
+
+    .__publishingProcess .__content {
         padding-bottom: 40px;
     }
-    .__publishingProcess .__content h2{
+
+    .__publishingProcess .__content h2 {
         font-size: 30px;
         line-height: 40px;
     }
-    .__publishingProcess .__content p{
+
+    .__publishingProcess .__content p {
         font-size: 14px;
         line-height: 24px;
     }
-    .__publishingProcess .__processBox{
+
+    .__publishingProcess .__processBox {
         align-items: center;
     }
 }
-.__contectUs{
+
+.__contectUs {
     padding: 80px 0;
 }
+
 .__contectUs .__form {
     padding: 30px;
 }
-.__contectUs .__form input,.__contectUs .__form  textarea{
+
+.__contectUs .__form input,
+.__contectUs .__form textarea {
     background-color: transparent;
     border: inherit;
     border-bottom: 2px solid var(--white-color);
@@ -1038,54 +1104,67 @@ textarea {
     color: var(--white-color);
     padding: 15px 0;
 }
-.__contectUs .__form input::placeholder,.__contectUs .__form  textarea::placeholder{
+
+.__contectUs .__form input::placeholder,
+.__contectUs .__form textarea::placeholder {
     color: #6A88AC;
 }
-.__contectUs .__form label{
+
+.__contectUs .__form label {
     color: var(--white-color);
     font-size: 16px;
     line-height: 26px;
     font-weight: 500;
 }
-.__contectUs .__form button{
+
+.__contectUs .__form button {
     background-color: var(--white-color);
     color: var(--blue-color);
     font-weight: 500;
 }
+
 @media screen and (max-width:991px) {
-    .__contectUs{
+    .__contectUs {
         padding: 60px 0;
     }
-    .__contectUs h2{
+
+    .__contectUs h2 {
         font-size: 40px;
         line-height: 50px;
     }
-    .__contectUs p{
+
+    .__contectUs p {
         font-size: 15px;
         line-height: 26px;
     }
 }
+
 @media screen and (max-width:767px) {
-    .__contectUs h2{
+    .__contectUs h2 {
         font-size: 25px;
         line-height: 35px;
     }
-    .__contectUs p{
+
+    .__contectUs p {
         font-size: 14px;
         line-height: 24px;
     }
-    .__contectUs{
+
+    .__contectUs {
         padding: 40px 0;
     }
 }
-.__footerBottom{
+
+.__footerBottom {
     background-color: var(--black-color);
     padding: 10px 0;
 }
-.__footerBottom .__bottomPages{
+
+.__footerBottom .__bottomPages {
     gap: 10px;
 }
-.__footerBottom p{
+
+.__footerBottom p {
     margin: 0;
     padding: 0;
 }
