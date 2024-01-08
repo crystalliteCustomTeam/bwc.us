@@ -435,10 +435,11 @@ textarea {
 }
 
 .__novemberPublishing .__reviewsCard p {
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 15px;
+    line-height: 26px;
     font-weight: 500;
     margin: 0 0 20px;
+    text-align: justify;
 }
 
 .__novemberPublishing .__reviewsCard .__content p {
@@ -628,6 +629,7 @@ textarea {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #F3F3F3;
     color: var(--black-color);
 }
 
