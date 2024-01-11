@@ -72,8 +72,8 @@ section {
 
 .__form h2 {
     padding: 0 0 20px;
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 30px;
+    line-height: 40px;
     color: var(--white-color);
     margin: 0;
 }
@@ -120,8 +120,8 @@ textarea {
 @media screen and (max-width:991px) {
     .__form h2 {
         padding: 0 0 20px;
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 27px;
+        line-height: 37px;
         color: var(--white-color);
         margin: 0;
     }
@@ -130,8 +130,8 @@ textarea {
 @media screen and (max-width:767px) {
     .__form h2 {
         padding: 0 0 20px;
-        font-size: 28px;
-        line-height: 38px;
+        font-size: 25px;
+        line-height: 35px;
         color: var(--white-color);
         margin: 0;
     }
@@ -887,6 +887,12 @@ textarea {
     color: var(--white-color);
 }
 
+@media screen and (max-width:1199px) {
+    .__cards .__card h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
 @media screen and (max-width:991px) {
     .__cards {
         padding: 60px 0;
