@@ -49,10 +49,6 @@ section {
     width: 5px;
 }
 
-.__whyChoose .__services::-webkit-scrollbar {
-    width: 0;
-}
-
 /* Track */
 ::-webkit-scrollbar-track {
     background: var(--white-color);
@@ -63,10 +59,35 @@ section {
     background: var(--blue-color);
 }
 
-.__form {
+.book-publish {
+    background-image: url(../images/ar-lp/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    .book-publish {
+        background-image: url(../images/ar-lp/hero.png) !important;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white-color) !important;
+}
+
+.__hero .btn-secondary-rounded-o {
+    background-color: var(--white-color);
+}
+
+.__hero .btn-secondary-rounded-o:hover {
     background-color: var(--blue-color);
+}
+
+.__form {
+    background-color: #3D5E85;
     color: var(--white-color);
-    padding: 50px 15px;
+    padding: 40px 15px;
     border-radius: 15px;
 }
 
@@ -83,7 +104,7 @@ textarea {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 5px;
-    border: 2px solid var(--black-color);
+    border: inherit;
     color: var(--black-color);
     font-weight: 600;
 }
@@ -104,17 +125,18 @@ textarea {
     width: 100%;
     background-color: var(--white-color);
     color: var(--black-color);
-    border: 2px solid var(--black-color);
+    border: inherit;
     font-weight: 700;
     padding: 15px 0;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
-.__form button:hover{
+
+.__form button:hover {
     background-color: var(--black-color);
     color: var(--white-color);
-    border: 2px solid var(--white-color);
+    border: inherit;
 }
 
 @media screen and (max-width:991px) {
@@ -893,6 +915,7 @@ textarea {
         line-height: 30px;
     }
 }
+
 @media screen and (max-width:991px) {
     .__cards {
         padding: 60px 0;
