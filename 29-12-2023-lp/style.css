@@ -58,15 +58,24 @@ section {
 ::-webkit-scrollbar-thumb {
     background: var(--blue-color);
 }
-
 .book-publish {
     background-image: url(../images/ar-lp/hero.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+.font-50{
+    font-size: 42px !important;
+    line-height: 52px !important;
+}
 
 @media (max-width: 767px) {
+    .__mainHeading .font-50{
+        font-size: 25px;
+    }
+    .font-50{
+        font-size: 25px;
+    }
     .book-publish {
         background-image: url(../images/ar-lp/hero.png) !important;
     }
