@@ -1,0 +1,356 @@
+@import url('https://fonts.cdnfonts.com/css/evogria');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/impact');
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --blue-color: #16467D;
+    --gredient-color8: linear-gradient(300deg, #0B233F 0%, #16467D 100%);
+}
+
+html,
+body {
+    font-family: var(--primary-fonts);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-fonts);
+    font-weight: 700;
+}
+
+
+.font55 {
+    font-size: 55px;
+}
+
+
+.font22 {
+    font-size: 20px;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+:focus-visible {
+    outline: inherit;
+}
+
+button:focus {
+    outline: inherit !important;
+    outline: inherit !important;
+}
+
+section {
+    padding: 0 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--blue-color);
+}
+
+/* Nav bar Start */
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+
+/* navbar end  */
+
+/* hero section start */
+
+.book-publish {
+    background-image: url(../images/ar-lp/hero-bg.png) !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.__hero .d-flex {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.whiteBtn a {
+    background: white;
+    display: block;
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 8px;
+    text-align: center;
+    color: #1E6AB3;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.blueBtn a {
+    background-image: linear-gradient(#243678, #1E66AF);
+    display: block;
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* hero section end */
+
+/* authors section start */
+.authors-sec {
+    padding: 80px 0 !important;
+}
+
+.authors-sec h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    background: #16467D;
+    color: white;
+    border-radius: 7px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    line-height: 50px;
+    width: max-content;
+    padding: 0 20px;
+}
+
+.authors-sec p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    color: black;
+    opacity: 0.8;
+    padding-top: 15px;
+
+}
+
+/* authors section end */
+
+
+/* road-map start */
+
+.road-map {
+    padding: 80px 0 !important;
+}
+
+.road-map h2 {
+    text-transform: uppercase;
+}
+
+.road-map p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.road-map .card {
+    width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+    margin: 0 20px;
+}
+
+/* road-map end */
+
+
+/* content-sec start */
+
+.content-sec {
+    padding: 100px 0 !important;
+    background: #F6F6F6;
+}
+
+.content-sec h2 {
+    text-transform: uppercase;
+}
+
+
+.content-sec p {
+    opacity: 0.8;
+    font-weight: 300;
+}
+
+.__form {
+    background-color: #16467D;
+    color: var(--white-color);
+    padding: 40px 24px 25px;
+}
+
+.__form h2 {
+    padding: 0 0 20px;
+    font-size: 28px;
+    line-height: 40px;
+    color: var(--white-color);
+    margin: 0;
+}
+
+.__form label {
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.__form input,
+textarea {
+    width: 100%;
+    margin-bottom: 18px;
+    border-top: inherit;
+    border-left: inherit;
+    border-right: inherit;
+    color: var(--black-color);
+    font-weight: 600;
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.266);
+    border-width: 2px;
+    color: white;
+}
+
+.__form input {
+    padding: 5px 0 4px 0px;
+}
+
+.__form textarea {
+    padding: 5px 0 4px 0px;
+    resize: none;
+}
+
+.__form ::placeholder {
+    color: var(--white-color);
+    opacity: 0.7;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.__form button {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+    background-color: #588fd2;
+    color: var(--white-color);
+    border: inherit;
+    font-weight: 500;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.__form button:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    border: inherit;
+}
+
+/* content-sec end */
+
+
+/* media Query Start */
+
+@media only screen and (max-width: 991px) {
+
+    .font55 {
+        font-size: 40px;
+    }
+
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link,
+    .navbar-light .navbar-nav>.nav-link {
+        padding: 11px 0 13px 17px;
+        font-size: 11px;
+    }
+
+    .btn-secondary {
+        font-size: 13px !important;
+        padding: 12px 12px;
+    }
+
+    .authors-sec img {
+        max-height: 550px;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .authors-sec {
+        padding: 80px 0 0px !important;
+    }
+
+    .__form {
+        margin: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .font55 {
+        font-size: 30px;
+    }
+
+    .authors-sec {
+        padding: 40px 0 0px !important;
+    }
+
+    .authors-sec img {
+        max-height: 550px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .authors-sec h2 {
+        font-size: 25px;
+    }
+
+    .authors-sec p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .road-map .card {
+        width: auto;
+    }
+
+    .content-sec {
+        padding: 50px 0 !important;
+    }
+
+
+}
+
+/* media Query End */
