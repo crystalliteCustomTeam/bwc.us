@@ -22,7 +22,7 @@ h4,
 h5,
 h6 {
     font-family: var(--primary-fonts);
-    font-weight: 700;
+    font-weight: 800;
 }
 
 p {
@@ -119,7 +119,8 @@ section {
 
 .card_sec .card h2 {
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 800;
+    padding: 10px 40px;
     text-align: center;
     background: #16467D;
     color: white;
