@@ -1433,31 +1433,31 @@ gtag('config', 'UA-210328564-5');
 
     <!-- For Chat -->
     <script>
-        (function () {
-            var elements = document.querySelectorAll('img[data-src]');
-            var index = 0;
-            var lazyLoad = function () {
-                if (index >= elements.length) return;
-                var item = elements[index];
-                if ((this.scrollY + this.innerHeight) > item.offsetTop) {
-                    var src = item.getAttribute("data-src");
-                    item.src = src;
-                    item.addEventListener('load', function () {
-                        item.removeAttribute('data-src');
-                    });
-                    index++;
+        setTimeout(function () {
+            (function () {
+                var elements = document.querySelectorAll('img[data-src]');
+                var index = 0;
+                var lazyLoad = function () {
+                    if (index >= elements.length) return;
+                    var item = elements[index];
+                    if ((this.scrollY + this.innerHeight) > item.offsetTop) {
+                        var src = item.getAttribute("data-src");
+                        item.src = src;
+                        item.addEventListener('load', function () {
+                            item.removeAttribute('data-src');
+                        });
+                        index++;
+                        lazyLoad();
+                    }
+                };
+                var init = function () {
+                    window.addEventListener('scroll', lazyLoad);
                     lazyLoad();
-                }
-            };
-            var init = function () {
-                window.addEventListener('scroll', lazyLoad);
-                lazyLoad();
-            };
-            return init();
-        })();
+                };
+                init(); 
+            })();
+        }, 5000); 
     </script>
-
-
 
     <!-- begin ClickGUARD Tracking Code -->
     <script defer type="application/javascript" src="https://io.clickguard.com/s/cHJvdGVjdG9y/Bxf4iHWI"></script>
@@ -1549,7 +1549,7 @@ gtag('config', 'UA-210328564-5');
         });
     </script>
 
-<script defer type="application/ld+json" src="book-writing-cube-indexing-api.json"></script>
+    <script defer type="application/ld+json" src="book-writing-cube-indexing-api.json"></script>
 
 </body>
 
