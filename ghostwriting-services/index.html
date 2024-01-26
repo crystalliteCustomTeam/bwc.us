@@ -1270,36 +1270,7 @@ fbq('track', 'PageView');
     <script type="text/javascript" src="../slick/slick.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://use.fontawesome.com/221c81e5c5.js" crossorigin="anonymous" media="print"
         onload="this.onload=null;this.removeAttribute('media');" async></script>
-    <script type="text/javascript" src="../js/custom.js" crossorigin="anonymous" async></script>
-    <script type="text/javascript" src="../js/chat.js" crossorigin="anonymous" async></script>
 
-    <!-- For Chat -->
-    <script>
-        setTimeout(function () {
-            (function () {
-                var elements = document.querySelectorAll('img[data-src]');
-                var index = 0;
-                var lazyLoad = function () {
-                    if (index >= elements.length) return;
-                    var item = elements[index];
-                    if ((this.scrollY + this.innerHeight) > item.offsetTop) {
-                        var src = item.getAttribute("data-src");
-                        item.src = src;
-                        item.addEventListener('load', function () {
-                            item.removeAttribute('data-src');
-                        });
-                        index++;
-                        lazyLoad();
-                    }
-                };
-                var init = function () {
-                    window.addEventListener('scroll', lazyLoad);
-                    lazyLoad();
-                };
-                init();
-            })();
-        }, 5000); 
-    </script>
 
     <script>
         // jQuery("#fupForm-1").submit(function() {
@@ -1432,6 +1403,33 @@ fbq('track', 'PageView');
         document.addEventListener("touchmove", function () {
             appendAllScripts();
         });
+    </script>
+    
+    <script>
+        function appendScript(src, async = false) {
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = async;
+            document.head.appendChild(script);
+        }
+
+        // Function to append chat.js
+        function appendChatScript() {
+            appendScript('../js/chat.js', true);
+            document.body.removeEventListener('mousemove', appendChatScript);
+            console.log("Chat Script loaded");
+        }
+
+        // Function to append custom.js
+        function appendCustomScript() {
+            appendScript('../js/custom.js', true);
+            document.body.removeEventListener('mousemove', appendCustomScript);
+            console.log("custom Script loaded");
+        }
+
+         // Add mousemove event listeners to the body for all scripts
+        document.body.addEventListener('mousemove', appendChatScript);
+        document.body.addEventListener('mousemove', appendCustomScript);
     </script>
 
     <script defer type="application/ld+json" src="book-writing-cube-indexing-api.json"></script>
