@@ -259,9 +259,9 @@ header {
 }
 
 .__kickStart .__content span {
-    font-size: 25px;
-    line-height: 35px;
-    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 500;
 }
 
 .__kickStart .__content h2 {
@@ -283,7 +283,7 @@ header {
     line-height: 26px;
     font-weight: 400;
     color: var(--black-color);
-    padding: 0 0 15px;
+    padding: 0 0 10px;
 }
 
 .__kickStart .__listen {
