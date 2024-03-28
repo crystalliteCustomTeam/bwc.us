@@ -2141,7 +2141,7 @@ section#shadow-host-companion {
   width: 100%;
   height: 100vh;
   z-index: 99999;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   flex-direction: column;
