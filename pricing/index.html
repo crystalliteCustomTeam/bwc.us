@@ -14,7 +14,8 @@
     <meta property="og:title" content="Book Writing Services Company - Book Writing Cube" />
     <meta property="og:description"
         content="Book Writing Services Company to help you pen down your thoughts effortlessly onto paper. Connect to get started." />
-    <meta property="og:url" content="https://www.bookwritingcube.com/" />
+    <meta property="og:url" content="https://www.bookwritingcube.com/pricing/" />
+    <meta property="og:image" content="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/df7c785a-cce4-41eb-0eb6-00666d56a800/public"/>
     <meta property="og:site_name" content="Book Writing Services Company - Book Writing Cube" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:label1" content="Est. reading time" />
@@ -585,10 +586,10 @@ fbq('track', 'PageView');
                                 rel="noopener noreferrer">&nbsp;(302) 459-5127 </a> </p>
                         <p><i class="fa fa-phone pr-2 s-color"></i>For Project Inquiry:<a href="tel:(302)480-9990"
                                 rel="noopener noreferrer">&nbsp;(302) 480-9990 </a> </p>
-                        <p><a href="" rel="noopener noreferrer" class="font-13 "><i
+                        <p><a  rel="noopener noreferrer" class="font-13 "><i
                                     class="fa fa-map-marker pr-2 s-color"></i> <b>Head Office:</b> 4145 S.W. Watson,
                                 Suite 350, Beaverton, Oregon 97005 , United States </a> </p>
-                        <p><a href="" rel="noopener noreferrer" class="font-13 "><i
+                        <p><a  rel="noopener noreferrer" class="font-13 "><i
                                     class="fa fa-map-marker pr-2 s-color"></i> <b>Operation:</b> 8 The Green STE 300,
                                 Dover DE 19901 </a> </p>
 
@@ -990,7 +991,7 @@ fbq('track', 'PageView');
         // Variables to track whether the scripts have been loaded
         var scriptLoaded = false;
         var gtagScriptLoaded = false;
-        var luckyOrangeScriptLoaded = false;
+      
 
         // Function to append the main script to the head
         function appendMainScript() {
@@ -1027,25 +1028,15 @@ fbq('track', 'PageView');
         }
 
         // Function to append the Lucky Orange script to the head
-        function appendLuckyOrangeScript() {
-            if (!luckyOrangeScriptLoaded) {
-                var luckyOrangeScript = document.createElement("script");
-                luckyOrangeScript.src = "https://tools.luckyorange.com/core/lo.js?site-id=9de626ac";
-                luckyOrangeScript.async = true;
-                luckyOrangeScript.defer = true;
-                document.head.appendChild(luckyOrangeScript);
-
-                luckyOrangeScriptLoaded = true;
-            }
-        }
+       
 
         // Function to append all scripts
         function appendAllScripts() {
             appendMainScript();
             appendGtagScript();
-            appendLuckyOrangeScript();
+           
 
-            console.log("Scripts loaded");
+            
         }
 
         // Adding event listeners for mouse click, mouse move, touch start, and touch move
