@@ -363,7 +363,7 @@ header {
     width: 100%;
 }
 
-ul.slick-dots {
+.__ourPortfolio ul.slick-dots {
     position: absolute;
     display: flex;
     gap: 10px;
@@ -372,50 +372,50 @@ ul.slick-dots {
     left: 40px;
 }
 
-ul.slick-dots li {
+.__ourPortfolio ul.slick-dots li {
     background-color: #D3D5D8;
     width: 12px;
     height: 12px;
     border-radius: 12px;
 }
 
-ul.slick-dots li.slick-active {
+.__ourPortfolio ul.slick-dots li.slick-active {
     background-color: #24303E;
     width: 15px;
     height: 15px;
 }
 
-ul.slick-dots li button {
+.__ourPortfolio ul.slick-dots li button {
     display: none;
 }
 
-button.slick-prev.slick-arrow {
+.__ourPortfolio button.slick-prev.slick-arrow {
     position: absolute;
     left: 92%;
     top: inherit !important;
     bottom: -80px;
 }
 
-button.slick-next.slick-arrow {
+.__ourPortfolio button.slick-next.slick-arrow {
     top: inherit !important;
     bottom: -80px;
 }
 
-.slick-next,
-.slick-prev {
+.__ourPortfolio .slick-next,
+.__ourPortfolio .slick-prev {
     background: inherit;
     cursor: pointer;
 }
 
-.slick-prev:after {
+.__ourPortfolio .slick-prev:after {
     content: url('../images/leftArrow.png')
 }
 
-.slick-next:after {
+.__ourPortfolio .slick-next:after {
     content: url('../images/rightArrow.png')
 }
 
-.progress {
+.__ourPortfolio .progress {
     position: absolute;
     display: block;
     width: 75%;
