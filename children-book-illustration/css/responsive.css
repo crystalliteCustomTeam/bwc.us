@@ -1,0 +1,356 @@
+@media screen and (min-width:1499px),
+(max-width:1350px) {
+    .__heroBanner h1 {
+        font-size: 70px;
+    }
+
+    .__illustrationServices .__content p {
+        width: 89%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1349px),
+(max-width:1200px) {
+    .__heroBanner h1 {
+        font-size: 60px;
+    }
+
+    .__illustrationServices .__content p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .__heroBanner h1 {
+        font-size: 50px;
+    }
+
+    .__heroBanner .__form h2 {
+        font-size: 30px;
+    }
+
+    .__heroBanner .__ctaHero {
+        gap: 10px;
+    }
+
+    .__heroBanner .__primaryBtn {
+        padding: 6px 1rem;
+    }
+
+    .navbar-nav .nav-item .__primaryBtn {
+        padding: 6px 1rem;
+    }
+
+    .navbar-nav .nav-item .__secondaryBtn {
+        padding: 6px 1rem;
+    }
+
+    .__illustrationServices {
+        padding: 80px 0;
+    }
+
+    .__illustrationServices .__content h2,
+    .__talkUs .__content h2,
+    .__ourBestBooks .__content h2,
+    .__illustrationProcess .__content h2,
+    .__talkUsSecond .__content h2,
+    .__ourBestIllustrations .__content h2,
+    .__ourServices .__content h2,
+    .__letsTalk .__content h2 {
+        font-size: 40px;
+    }
+
+    .__illustrationServices .__content p,
+    .__talkUs .__content p,
+    .__ourBestBooks .__content p,
+    .__ourBestIllustrations .__content p,
+    .__illustrationProcess .__content p,
+    .__ourServices .__content p,
+    .__talkUsSecond .__content p,
+    .__letsTalk .__content p {
+        font-size: 15px;
+    }
+
+    .__talkUs {
+        padding: 80px 0;
+    }
+
+    .__talkUs .__sideImage img {
+        position: relative;
+        width: 100%;
+        display: block;
+        top: 0px;
+        left: 0;
+        right: 0;
+    }
+
+    .__ourBestBooks {
+        padding: 80px 0 0;
+    }
+    .__ourBestIllustrations{
+        padding: 80px 0;
+    }
+    .__illustrationProcess{
+        padding: 80px 0;
+    }
+    .__ourServices {
+        padding: 80px 0;
+    }
+    .__testiomialSlider button.slick-prev.slick-arrow {
+        left: 90%;
+    }
+    .__letsTalk{
+        padding: 80px 0;
+    }
+    .__letsTalk .__social img{
+        position: relative;
+        left: 00px;
+        top: 00px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .__heroBanner .__hero {
+        padding: 60px 0 40px;
+    }
+
+    .__heroBanner h1 {
+        font-size: 35px;
+    }
+
+    .__heroBanner .__form h2 {
+        font-size: 25px;
+    }
+
+    .__heroBanner .__form {
+        margin: 100px 0 0;
+    }
+
+    .__illustrationServices {
+        padding: 60px 0;
+    }
+
+    .__illustrationServices .__content h2,
+    .__talkUs .__content h2,
+    .__ourBestBooks .__content h2,
+    .__illustrationProcess .__content h2,
+    .__talkUsSecond .__content h2,
+    .__ourBestIllustrations .__content h2,
+    .__ourServices .__content h2,
+    .__letsTalk .__content h2 {
+        font-size: 35px;
+    }
+
+    .__talkUs {
+        padding: 60px 0;
+    }
+
+    .__ourBestBooks {
+        padding: 60px 0 0;
+    }
+    .__ourBestIllustrations{
+        padding: 60px 0;
+    }
+    .__illustrationProcess{
+        padding: 60px 0;
+    }
+    .__ourServices {
+        padding: 60px 0;
+    }
+    .__testiomialSlider button.slick-prev.slick-arrow {
+        left: 85%;
+    }
+    .__talkUsSecond{
+        padding: 60px;
+    }
+    .__letsTalk{
+        padding: 60px 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .__heroBanner .__hero {
+        padding: 40px 0;
+    }
+
+    .__heroBanner h1 {
+        font-size: 30px;
+    }
+
+    .__heroBanner p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .__heroBanner .__form h2 {
+        font-size: 25px;
+    }
+
+    .__heroBanner .__form {
+        margin: 60px 0 0;
+    }
+
+    .__illustrationServices {
+        padding: 40px 0;
+    }
+
+    .__illustrationServices .__content h2,
+    .__talkUs .__content h2,
+    .__ourBestBooks .__content h2,
+    .__illustrationProcess .__content h2,
+    .__talkUsSecond .__content h2,
+    .__ourBestIllustrations .__content h2,
+    .__ourServices .__content h2,
+    .__letsTalk .__content h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .__illustrationServices .__content p,
+    .__talkUs .__content p,
+    .__ourBestBooks .__content p,
+    .__ourBestIllustrations .__content p,
+    .__illustrationProcess .__content p,
+    .__ourServices .__content p,
+    .__talkUsSecond .__content p,
+    .__letsTalk .__content p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .__ourBestBooks {
+        padding: 40px 0 0;
+    }
+
+    .__ourBestBooks .__garden {
+        padding: 40px 0;
+    }
+    .__ourBestIllustrations{
+        padding: 40px 0;
+    }
+    .__ourBestBooks .__content,
+    .__ourBestIllustrations .__content,
+    .__illustrationProcess .__content {
+        padding: 0 0 40px;
+    }
+    .__illustrationProcess{
+        padding: 40px 0;
+    }
+    .__illustrationProcess::after{
+        content: inherit;
+    }
+    .__illustrationProcess .__card{
+        padding: 50px 40px;
+        margin: 20px 0 0;
+        border-radius: 10px;
+    }
+    .__illustrationProcess .__card .__content h3{
+        font-size: 35px;
+    }
+    .__illustrationProcess .__card .__content h4{
+        font-size: 25px;
+    }
+    .__ourServices {
+        padding: 40px 0;
+    }
+    .__talkUsSecond{
+        padding: 40px 0;
+    }
+    .__letsTalk{
+        padding: 40px 0;
+    }
+    .__letsTalk .__content {
+        padding: 30px 30px;
+    }
+    .__letsTalk .__emailUs h4 {
+        font-size: 25px;
+    }
+    .__letsTalk .__emailUs span {
+        font-size: 20px;
+    }
+    .__letsTalk .__emailUs a {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .__heroBanner h1 {
+        font-size: 25px;
+    }
+
+    .__heroBanner .__form {
+        margin: 40px 0 0;
+        padding: 50px 1.5rem;
+    }
+
+    .__heroBanner .__ctaHero {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .__heroBanner .__ctaHero a {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .__illustrationServices .__content h2,
+    .__talkUs .__content h2,
+    .__ourBestBooks .__content h2,
+    .__illustrationProcess .__content h2,
+    .__talkUsSecond .__content h2,
+    .__ourBestIllustrations .__content h2,
+    .__ourServices .__content h2,
+    .__letsTalk .__content h2 {
+        font-size: 25px;
+    }
+    .__talkUs .__ctaTalkUs {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .__talkUs .__ctaTalkUs a {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .__talkUsSecond .__ctaTalkUs {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .__talkUsSecond .__ctaTalkUs a {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .__ourBestBooks .__content,
+    .__ourBestIllustrations .__content,
+    .__illustrationProcess .__content {
+        padding: 0 0 20px;
+    }
+    .__illustrationProcess .__card{
+        padding: 30px;
+    }
+    .__illustrationProcess .__card .__content h3{
+        font-size: 25px;
+    }
+    .__illustrationProcess .__card .__content h4{
+        font-size: 18px;
+    }
+    ul.slick-dots {
+        left: 80px;
+        bottom: -10px;
+    }
+    .__letsTalk .__content {
+        padding: 20px 20px 40px;
+    }
+    .__letsTalk .__emailUs h4 {
+        font-size: 20px;
+    }
+    .__letsTalk .__emailUs span {
+        font-size: 18px;
+    }
+    .__letsTalk .__emailUs a {
+        font-size: 14px;
+    }
+}

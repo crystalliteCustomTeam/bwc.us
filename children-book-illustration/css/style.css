@@ -1,0 +1,591 @@
+:root {
+    --secondary-color: linear-gradient(150deg, rgba(4, 83, 128, 1) 70%, rgba(2, 33, 52, 1) 100%);
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --primary-color: #196DAB;
+    --gray-color: #B5B5B5;
+}
+
+html,
+body {
+    font-family: var(--primary-fonts);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-fonts);
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+:focus-visible {
+    outline: inherit;
+}
+
+button:focus {
+    outline: inherit !important;
+    outline: inherit !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--secondary-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--white-color);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+section {
+    padding: 0;
+    display: block;
+}
+
+button {
+    border: inherit !important;
+}
+
+input,
+textarea {
+    color: var(--white-color);
+    width: 100%;
+}
+
+.__primaryBtn {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    display: block;
+    width: max-content;
+    background-color: var(--white-color);
+    border: 1px solid transparent;
+    padding: 6px 2.5rem;
+    color: var(--black-color);
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.__secondaryBtn {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    display: block;
+    width: max-content;
+    background: var(--primary-color);
+    padding: 6px 2.5rem;
+    color: var(--white-color);
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.__secondaryBtn:hover {
+    background: var(--black-color);
+    color: var(--white-color);
+}
+
+.__primaryBtn:hover {
+    background: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+}
+
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 200;
+}
+
+.__ctaNav {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav>.nav-link {
+    color: var(--white-color);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--black-color);
+}
+
+.__heroBanner .__hero {
+    padding: 80px 0 40px;
+}
+
+.__heroBanner {
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.__heroBanner h1 {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.__heroBanner p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.__heroBanner .__ctaHero {
+    display: flex;
+    gap: 25px;
+    margin: 30px 0;
+}
+
+.__heroBanner .__form {
+    position: relative;
+    background-color: rgb(11, 35, 63);
+    background-image: url(../images/formBg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 50px 2.5rem;
+    margin: 120px 0 0;
+    border-radius: 15px;
+}
+
+.__heroBanner .__form::after {
+    content: "";
+    background-image: url(../images/ribbon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin: 0 auto;
+    height: 47px;
+    display: block;
+}
+
+.__heroBanner .__form label,
+.__heroBanner .__form input,
+.__heroBanner .__form textarea {
+    background-color: transparent;
+    border: inherit;
+    width: 100%;
+    border-radius: inherit;
+    padding: 0 0;
+    color: var(--white-color);
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    resize: none;
+    height: 40px;
+    display: block;
+}
+
+.__heroBanner .__form input,
+.__heroBanner .__form textarea {
+    border-bottom: 2px solid var(--white-color);
+}
+
+.__heroBanner .__form input::placeholder,
+.__heroBanner .__form textarea::placeholder {
+    color: var(--white-color);
+}
+
+.__heroBanner .__form button {
+    margin: 25px 0 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.__heroBanner .__form .__primaryBtn {
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+.__heroBanner .__form .__primaryBtn:hover {
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+
+.__heroBanner .__form h2 {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 500;
+    padding: 0 0 40px;
+}
+
+.__illustrationServices {
+    padding: 100px 0 150px;
+}
+
+.__illustrationServices .__content {
+    padding: 0 0 20px;
+}
+.__illustrationServices .__serviceSlider h4 {
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: var(--black-color);
+}
+
+.__illustrationServices .__content h2,
+.__talkUs .__content h2,
+.__ourBestBooks .__content h2,
+.__illustrationProcess .__content h2 ,
+.__talkUsSecond .__content h2{
+    font-size: 50px;
+    line-height: 1.5;
+    font-weight: 700;
+    padding: 0 0 10px;
+}
+
+.__illustrationServices .__content p,
+.__talkUs .__content p,
+.__ourBestBooks .__content p,
+.__ourBestIllustrations .__content p,
+.__illustrationProcess .__content p,
+.__ourServices .__content p,
+.__talkUsSecond .__content p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.__talkUs {
+    padding: 100px 0;
+    background-image: url(../images/talkUs.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.__talkUs .__sideImage {
+    position: relative;
+}
+
+.__talkUs .__sideImage img {
+    position: absolute;
+    width: 100%;
+    display: block;
+    top: -320px;
+    left: 0;
+    right: 0;
+}
+
+.__talkUs .__ctaTalkUs {
+    gap: 10px;
+}
+
+.__ourBestBooks {
+    padding: 150px 0 0;
+}
+
+.__ourBestBooks .__content,
+.__ourBestIllustrations .__content,
+.__illustrationProcess .__content{
+    padding: 0 0 60px;
+}
+
+.__ourBestBooks .__garden {
+    padding: 60px 0;
+    background-image: url(../images/garden.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.__ourBestIllustrations{
+    padding: 100px 0;
+}
+.__ourBestIllustrations .__content h2,
+.__ourServices .__content h2{
+    font-size: 45px;
+    line-height: 1.5;
+    font-weight: 700;
+    padding: 0 0 10px;
+}
+.__illustrationProcess{
+    background-color: #16467D;
+    position: relative;
+    padding: 100px 0;
+}
+.__illustrationProcess::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url(../images/illustration4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    height: 990px;
+    left: 0;
+    right: 0;
+    bottom: -4px;
+}
+.__illustrationProcess .__card{
+    background-color: #019FEC;
+    padding: 50px 40px 450px;
+    border-radius: 40px;
+    background-image: url(../images/Mask.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.__illustrationProcess .__card .border-bottom {
+    border-color: #16467D !important;
+    border-width: 2px !important;
+}
+.__illustrationProcess .__card .__content{
+    padding: 0;
+}
+.__illustrationProcess .__card .__content h3{
+    font-size: 45px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #16467D;
+    margin: 0;
+    padding: 0;
+}
+.__illustrationProcess .__card .__content h4{
+    font-size: 35px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.__illustrationProcess .__card .__content p{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.__ourServices {
+    padding: 100px 0;
+}
+.__ourServices .__testiCard {
+    background-color: #F8F8F8;
+    padding: 20px;
+    border-radius: 20px;
+    width: 95% !important;
+}
+.__ourServices .__testiCard .__content:not(.__identity .__content){
+    border-bottom: 1px solid #707070;
+    padding: 20px 0;
+}
+.__ourServices .__testiCard .__identity{
+    padding: 10px 0;
+    gap: 10px;
+}
+.__ourServices .__testiCard .__identity .__content h4{
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.__ourServices .__testiCard .__identity .__content p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;    
+}
+.__testiomialSlider{
+    padding: 0 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 10px;
+}
+ul.slick-dots {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    bottom: -25px;
+    left: 40px;
+}
+
+ul.slick-dots li {
+    background-color: #D3D5D8;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+ul.slick-dots li.slick-active {
+    background-color: #24303E;
+    width: 15px;
+    height: 15px;
+}
+
+ul.slick-dots li button {
+    display: none;
+}
+
+.__testiomialSlider button.slick-prev.slick-arrow {
+    position: absolute;
+    left: 92%;
+    top: inherit !important;
+    bottom: -40px;
+}
+
+.__testiomialSlider button.slick-next.slick-arrow {
+    top: inherit !important;
+    bottom: -40px;
+}
+
+.__testiomialSlider .slick-next,
+.__testiomialSlider .slick-prev {
+    background: inherit;
+    cursor: pointer;
+}
+
+.__testiomialSlider .slick-prev:after {
+    content: url('../images/leftArrow.png')
+}
+
+.__testiomialSlider .slick-next:after {
+    content: url('../images/rightArrow.png')
+}
+.__talkUsSecond{
+    background-color: #16467D;
+}
+.__talkUsSecond .__sideImage{
+    position: relative;
+}
+.__talkUsSecond .__sideImage img{
+    position: relative;
+    left: -50px;
+}
+.__talkUsSecond .__ctaTalkUs{
+    gap: 10px;
+}
+.__letsTalk {
+    padding: 100px 0;
+}
+
+.__letsTalk .__content {
+    background-color: #F3F3F3;
+    padding: 40px 40px;
+    border-radius: 10px;
+}
+
+.__letsTalk .__content h2 {
+    font-size: 45px;
+    line-height: 55px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.__letsTalk .__content p {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.__letsTalk .__content form {
+    padding: 30px 0 0;
+}
+.__letsTalk .__social img{
+    position: relative;
+    left: -60px;
+    top: -30px;
+}
+
+.__letsTalk .__content form input,
+.__letsTalk .__content form textarea {
+    background-color: transparent;
+    border: inherit;
+    border-bottom: 1px solid #707070;
+    resize: none;
+    padding: 0 0 10px;
+    margin: 20px 0;
+    color: var(--black-color);
+}
+
+.__letsTalk .__content form input::placeholder,
+.__letsTalk .__content form textarea::placeholder {
+    color: #B4B7BC;
+}
+
+.__letsTalk .__content form button {
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    margin: 20px 0 0;
+}
+.__letsTalk .__emailUs {
+    background: var(--secondary-color);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.__letsTalk .__emailUs h4 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.__letsTalk .__emailUs span {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    padding: 0 0 8px;
+}
+
+.__letsTalk .__emailUs a {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: var(--white-color);
+}
+footer p {
+    padding-bottom: 10px;
+}
