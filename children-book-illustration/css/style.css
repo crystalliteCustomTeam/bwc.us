@@ -589,3 +589,16 @@ ul.slick-dots li button {
 footer p {
     padding-bottom: 10px;
 }
+.__footerBottom {
+    background-color: var(--black-color);
+    padding: 10px 0;
+}
+
+.__footerBottom .__bottomPages {
+    gap: 10px;
+}
+
+.__footerBottom p {
+    margin: 0;
+    padding: 0;
+}
