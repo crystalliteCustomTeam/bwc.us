@@ -1,4 +1,4 @@
-$('.__bookSlider').slick({
+$('.__bookSliderAudio').slick({
     dots: true,
     arrows: true,
     infinite: true,

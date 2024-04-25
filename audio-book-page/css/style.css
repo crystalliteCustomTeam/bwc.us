@@ -355,7 +355,7 @@ header {
     margin-bottom: 40px;
 }
 
-.__ourPortfolio .__bookSlider {
+.__ourPortfolio .__bookSliderAudio {
     margin-bottom: 30px;
 }
 
@@ -531,6 +531,57 @@ header {
     color: var(--white-color);
 }
 
+.__testiomials .__testiomialSlider ul.slick-dots {
+    position: absolute;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    bottom: -65px;
+    left: 40px;
+}
+
+.__testiomials .__testiomialSlider ul.slick-dots li {
+    background-color: #D3D5D8;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+}
+
+.__testiomials .__testiomialSlider ul.slick-dots li.slick-active {
+    background-color: #24303E;
+    width: 15px;
+    height: 15px;
+}
+
+.__testiomials .__testiomialSlider ul.slick-dots li button {
+    display: none;
+}
+
+.__testiomials .__testiomialSlider button.slick-prev.slick-arrow {
+    position: absolute;
+    left: 92%;
+    top: inherit !important;
+    bottom: -80px;
+}
+
+.__testiomials .__testiomialSlider button.slick-next.slick-arrow {
+    top: inherit !important;
+    bottom: -80px;
+}
+
+.__testiomials .__testiomialSlider .slick-next,
+.__testiomials .__testiomialSlider .slick-prev {
+    background: inherit;
+    cursor: pointer;
+}
+
+.__testiomials .__testiomialSlider .slick-prev:after {
+    content: url('../images/leftArrow.png')
+}
+
+.__testiomials .__testiomialSlider .slick-next:after {
+    content: url('../images/rightArrow.png')
+}
 .__testiomials .progress {
     position: absolute;
     display: block;
