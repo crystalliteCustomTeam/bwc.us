@@ -157,7 +157,7 @@ header {
 }
 
 .__heroBanner {
-    background-image: url('../images/banner.png');
+    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/c61adfdf-1915-4a30-4535-261d50067200/public');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,7 @@ header {
 .__heroBanner .__form {
     position: relative;
     background-color: rgb(11, 35, 63);
-    background-image: url(../images/formBg.png);
+    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/1a64275c-943b-4e8a-87ac-253ef62a4800/public');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -270,6 +270,7 @@ header {
 .__illustrationServices .__content {
     padding: 0 0 20px;
 }
+
 .__illustrationServices .__serviceSlider h4 {
     font-size: 25px;
     line-height: 1.5;
@@ -280,8 +281,8 @@ header {
 .__illustrationServices .__content h2,
 .__talkUs .__content h2,
 .__ourBestBooks .__content h2,
-.__illustrationProcess .__content h2 ,
-.__talkUsSecond .__content h2{
+.__illustrationProcess .__content h2,
+.__talkUsSecond .__content h2 {
     font-size: 50px;
     line-height: 1.5;
     font-weight: 700;
@@ -331,37 +332,41 @@ header {
 
 .__ourBestBooks .__content,
 .__ourBestIllustrations .__content,
-.__illustrationProcess .__content{
+.__illustrationProcess .__content {
     padding: 0 0 60px;
 }
 
 .__ourBestBooks .__garden {
     padding: 60px 0;
-    background-image: url(../images/garden.png);
-    background-position: center;
+    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/72ace807-8f97-402e-926b-d7823a4e7800/public');
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.__ourBestIllustrations{
+
+.__ourBestIllustrations {
     padding: 100px 0;
 }
+
 .__ourBestIllustrations .__content h2,
-.__ourServices .__content h2{
+.__ourServices .__content h2 {
     font-size: 45px;
     line-height: 1.5;
     font-weight: 700;
     padding: 0 0 10px;
 }
-.__illustrationProcess{
+
+.__illustrationProcess {
     background-color: #16467D;
     position: relative;
     padding: 100px 0;
 }
-.__illustrationProcess::after{
+
+.__illustrationProcess::after {
     content: "";
     position: absolute;
     display: block;
-    background-image: url(../images/illustration4.png);
+    background-image: url('https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/15763898-8c26-45a0-d520-c19305e74d00/public');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -371,7 +376,8 @@ header {
     right: 0;
     bottom: -4px;
 }
-.__illustrationProcess .__card{
+
+.__illustrationProcess .__card {
     background-color: #019FEC;
     padding: 50px 40px 450px;
     border-radius: 40px;
@@ -380,14 +386,17 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .__illustrationProcess .__card .border-bottom {
     border-color: #16467D !important;
     border-width: 2px !important;
 }
-.__illustrationProcess .__card .__content{
+
+.__illustrationProcess .__card .__content {
     padding: 0;
 }
-.__illustrationProcess .__card .__content h3{
+
+.__illustrationProcess .__card .__content h3 {
     font-size: 45px;
     line-height: 1.5;
     font-weight: 500;
@@ -395,46 +404,55 @@ header {
     margin: 0;
     padding: 0;
 }
-.__illustrationProcess .__card .__content h4{
+
+.__illustrationProcess .__card .__content h4 {
     font-size: 35px;
     line-height: 1.5;
     font-weight: 600;
     margin: 0;
     padding: 0;
 }
-.__illustrationProcess .__card .__content p{
+
+.__illustrationProcess .__card .__content p {
     font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
 }
+
 .__ourServices {
     padding: 100px 0;
 }
+
 .__ourServices .__testiCard {
     background-color: #F8F8F8;
     padding: 20px;
     border-radius: 20px;
     width: 95% !important;
 }
-.__ourServices .__testiCard .__content:not(.__identity .__content){
+
+.__ourServices .__testiCard .__content:not(.__identity .__content) {
     border-bottom: 1px solid #707070;
     padding: 20px 0;
 }
-.__ourServices .__testiCard .__identity{
+
+.__ourServices .__testiCard .__identity {
     padding: 10px 0;
     gap: 10px;
 }
-.__ourServices .__testiCard .__identity .__content h4{
+
+.__ourServices .__testiCard .__identity .__content h4 {
     font-size: 28px;
     line-height: 1.5;
     font-weight: 700;
 }
-.__ourServices .__testiCard .__identity .__content p{
+
+.__ourServices .__testiCard .__identity .__content p {
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 400;    
+    font-weight: 400;
 }
-.__testiomialSlider{
+
+.__testiomialSlider {
     padding: 0 0 50px;
     display: flex;
     justify-content: center;
@@ -442,6 +460,7 @@ header {
     gap: 10px;
     margin: 0 10px;
 }
+
 ul.slick-dots {
     position: absolute;
     display: flex;
@@ -494,19 +513,24 @@ ul.slick-dots li button {
 .__testiomialSlider .slick-next:after {
     content: url('../images/rightArrow.png')
 }
-.__talkUsSecond{
+
+.__talkUsSecond {
     background-color: #16467D;
 }
-.__talkUsSecond .__sideImage{
+
+.__talkUsSecond .__sideImage {
     position: relative;
 }
-.__talkUsSecond .__sideImage img{
+
+.__talkUsSecond .__sideImage img {
     position: relative;
     left: -50px;
 }
-.__talkUsSecond .__ctaTalkUs{
+
+.__talkUsSecond .__ctaTalkUs {
     gap: 10px;
 }
+
 .__letsTalk {
     padding: 100px 0;
 }
@@ -533,7 +557,8 @@ ul.slick-dots li button {
 .__letsTalk .__content form {
     padding: 30px 0 0;
 }
-.__letsTalk .__social img{
+
+.__letsTalk .__social img {
     position: relative;
     left: -60px;
     top: -30px;
@@ -561,6 +586,7 @@ ul.slick-dots li button {
     cursor: pointer;
     margin: 20px 0 0;
 }
+
 .__letsTalk .__emailUs {
     background: var(--secondary-color);
     padding: 20px 30px;
@@ -586,9 +612,11 @@ ul.slick-dots li button {
     font-weight: 400;
     color: var(--white-color);
 }
+
 footer p {
     padding-bottom: 10px;
 }
+
 .__footerBottom {
     background-color: var(--black-color);
     padding: 10px 0;
