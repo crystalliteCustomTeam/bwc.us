@@ -11,7 +11,7 @@ $('.topbarnav').before(` <nav class="navbar navbar-light navbar-expand-md bg-fad
                             <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../about-us/">About us</a>
+                            <a class="nav-link" href="/about-us/">About us</a>
                         </li> 
                         <li class="nav-item dropdown position-static show">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown"
@@ -21,40 +21,40 @@ $('.topbarnav').before(` <nav class="navbar navbar-light navbar-expand-md bg-fad
                                     <li class="col-md-3 ">
                                         <ul>
                                             <li>
-                                                <a href="../book-writing-services/">Book Writing</a>
+                                                <a href="/book-writing-services/">Book Writing</a>
                                             </li>
                                             <li>
-                                                <a href="../book-editing-services/">Book Editing</a>
+                                                <a href="/book-editing-services/">Book Editing</a>
                                             </li>
                                             <li>
-                                                <a href="../ebook-writing-services/">Ebook Writing
+                                                <a href="/ebook-writing-services/">Ebook Writing
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="../book-marketing-services/">Book Marketing</a>
+                                                <a href="/book-marketing-services/">Book Marketing</a>
                                             </li>
                                             <li>
-                                                <a href="../ghostwriting-services/">Ghostwriting</a>
+                                                <a href="/ghostwriting-services/">Ghostwriting</a>
                                             </li>
                                         </ul>
                                     </li>
                                     <li class="col-md-5 border-left">
                                         <ul>
                                             <li>
-                                                <a href="../book-publishing-services/">Book Publishing</a>
+                                                <a href="/book-publishing-services/">Book Publishing</a>
                                             </li>
 
                                             <li>
-                                                <a href="../digital-marketing-services/">Digital Marketing
+                                                <a href="/digital-marketing-services/">Digital Marketing
                                                 </a>
                                             </li>
                                            
                                             <li>
-                                                <a href="../publication-services/">Children Book Publication
+                                                <a href="/publication-services/">Children Book Publication
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="../book-illustration-services/">Children's Book
+                                                <a href="/book-illustration-services/">Children's Book
                                                     Illustrations
                                                 </a>
                                             </li>
@@ -71,16 +71,16 @@ $('.topbarnav').before(` <nav class="navbar navbar-light navbar-expand-md bg-fad
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../pricing/">Pricing</a>
+                            <a class="nav-link" href="/pricing/">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../faqs/">Faqs</a>
+                            <a class="nav-link" href="/faqs/">Faqs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../blogs/">Blogs</a>
+                            <a class="nav-link" href="/blogs/">Blogs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../contact/">Contact us</a>
+                            <a class="nav-link" href="/contact/">Contact us</a>
                         </li>
                         <li class="nav-item pl-4 ">
                             <a href="#" data-toggle="modal" data-target="#mypopupdiscuss" rel="noopener noreferrer"

@@ -13,7 +13,7 @@ let blogHeader = `<div class="container-fluid">
                 <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../about-us/">About Us</a>
+                <a class="nav-link" href="/about-us/">About Us</a>
             </li>
             <li class="nav-item dropdown position-static show">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button" aria-expanded="true">Services</a>
@@ -22,82 +22,82 @@ let blogHeader = `<div class="container-fluid">
                             <li class="col-lg-4 col-md-4 ">
                                 <ul>
                                     <li>
-                                        <a href="../book-publishing-services/">Book Publishing</a>
+                                        <a href="/book-publishing-services/">Book Publishing</a>
                                     </li>
                                     <li>
-                                        <a href="../book-promotion-services/">Book Promotion
+                                        <a href="/book-promotion-services/">Book Promotion
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="../book-writing-services/">Book Writing</a>
+                                        <a href="/book-writing-services/">Book Writing</a>
                                     </li>
                                     <li>
-                                        <a href="../book-editing-services/">Book Editing</a>
+                                        <a href="/book-editing-services/">Book Editing</a>
                                     </li>
                                     <li>
-                                        <a href="../book-marketing-services/">Book Marketing</a>
+                                        <a href="/book-marketing-services/">Book Marketing</a>
                                     </li>
                                     <li>
-                                        <a href="../book-proofreading-services/">Proofreading Services</a>
+                                        <a href="/book-proofreading-services/">Proofreading Services</a>
                                     </li>
                                     <li>
-                                     <a href="../ghostwriting-services/">Ghostwriting</a>
+                                     <a href="/ghostwriting-services/">Ghostwriting</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="col-lg-4 col-md-4 border-left">
                                 <ul>
                                     <li>
-                                        <a href="../article-writing-services/">Article Writing</a>
+                                        <a href="/article-writing-services/">Article Writing</a>
                                     </li>
                                     <li>
-                                        <a href="../blog-writing-services/">Blog Writing
+                                        <a href="/blog-writing-services/">Blog Writing
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="../book-cover-design-services/">Book Cover Design
+                                        <a href="/book-cover-design-services/">Book Cover Design
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="../book-trailer-services/">Book Trailer</a>
+                                        <a href="/book-trailer-services/">Book Trailer</a>
                                     </li>
                                     <li>
-                                     <a href="../business-plan-writing-services/">Business Plan Writing</a>
+                                     <a href="/business-plan-writing-services/">Business Plan Writing</a>
                                     </li>
                                     <li>
-                                        <a href="../children-book-publication-services/">Children Book Publication
+                                        <a href="/children-book-publication-services/">Children Book Publication
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="../author-marketing-promotion-services/">Author Marketing</a>
+                                        <a href="/author-marketing-promotion-services/">Author Marketing</a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="col-lg-4 col-md-4 d-lg-block d-md-block border-left">
                                 <ul>
                                     <li>
-                                        <a href="../children-book-illustrations-services/">Children's Book
+                                        <a href="/children-book-illustrator/">Children's Book
                                             Illustrations
                                         </a>
                                     </li>
                                      <li>
-                                        <a href="../digital-marketing-services/">Digital Marketing
+                                        <a href="/digital-marketing-services/">Digital Marketing
                                         </a>
                                     </li>
                                      <li>
-                                        <a href="../ebook-writing-services/">Ebook Writing</a>
+                                        <a href="/ebook-writing-services/">Ebook Writing</a>
                                     </li>
                                      <li>
-                                        <a href="../book-formatting-services/">Formatting Services</a>
+                                        <a href="/book-formatting-services/">Formatting Services</a>
                                     </li>
                                     <li>
-                                        <a href="../audiobook-recording-services/">Audio Book Recording</a>
+                                        <a href="/audiobook-recording-services/">Audio Book Recording</a>
                                     </li>
                                      <li>
-                                        <a href="../web-content-writing-services/">Web Content Writing</a>
+                                        <a href="/web-content-writing-services/">Web Content Writing</a>
                                     </li>
                                     <li>
-                                        <a href="../author-website-design-services/">Author Website Design</a>
+                                        <a href="/author-website-design-services/">Author Website Design</a>
                                     </li>
                                 </ul>
                             </li>
@@ -105,16 +105,16 @@ let blogHeader = `<div class="container-fluid">
                    </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../pricing/">Pricing</a>
+                <a class="nav-link" href="/pricing/">Pricing</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../faqs/">Faqs</a>
+                <a class="nav-link" href="/faqs/">Faqs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../blogs/">Blogs</a>
+                <a class="nav-link" href="/blogs/">Blogs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../contact/">Contact us</a>
+                <a class="nav-link" href="/contact/">Contact us</a>
             </li>
             <div class="d-flex justify-content-start pl-4 ">
                 <li class="nav-item pl-md-0 pl-3">
