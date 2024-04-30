@@ -3,8 +3,9 @@ $('.__testiomialSlider').slick({
     arrows: true,
     infinite: true,
     speed: 300,
+    adaptiveHeight: true,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 2,
     responsive: [
         {
             breakpoint: 992,

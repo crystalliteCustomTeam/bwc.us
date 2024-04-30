@@ -447,15 +447,18 @@ header {
 }
 
 .__ourServices .__testiCard .__identity .__content h4 {
-    font-size: 28px;
+    font-size: 25px;
     line-height: 1.5;
     font-weight: 700;
 }
 
-.__ourServices .__testiCard .__identity .__content p {
-    font-size: 16px;
+.__ourServices .__testiCard .__content p{
+    font-size: 14px;
     line-height: 1.5;
     font-weight: 400;
+}
+.__ourServices .__testiCard .__content p:not(.__identity .__content p) {
+    min-height: 270px;
 }
 
 .__testiomialSlider {

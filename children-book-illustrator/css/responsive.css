@@ -19,6 +19,18 @@
     .__illustrationServices .__content p {
         width: 100%;
     }
+    .__ourServices .__testiCard .__identity .__content h4 {
+        font-size: 20px;
+    }
+    
+    .__ourServices .__testiCard .__content p{
+        font-size: 13px;
+        line-height: 1.5;
+        font-weight: 400;
+    }
+    .__ourServices .__testiCard .__content p:not(.__identity .__content p) {
+        min-height: 270px;
+    }
 }
 
 @media screen and (max-width:1199px) {
@@ -97,6 +109,12 @@
     .__ourServices {
         padding: 80px 0;
     }
+    .__ourServices .__testiCard .__identity .__content h4 {
+        font-size: 18px;
+    }
+    .__ourServices .__testiCard .__content p:not(.__identity .__content p) {
+        min-height: 340px;
+    }
     .__testiomialSlider button.slick-prev.slick-arrow {
         left: 90%;
     }
@@ -157,6 +175,9 @@
     }
     .__ourServices {
         padding: 60px 0;
+    }
+    .__ourServices .__testiCard .__content p:not(.__identity .__content p) {
+        min-height: 350px;
     }
     .__testiomialSlider button.slick-prev.slick-arrow {
         left: 85%;
@@ -328,6 +349,9 @@
     .__illustrationProcess .__content {
         padding: 0 0 20px;
     }
+    .__ourServices .__testiCard .__content p:not(.__identity .__content p) {
+        min-height: auto;
+    }
     .__illustrationProcess .__card{
         padding: 30px;
     }
@@ -339,6 +363,10 @@
     }
     ul.slick-dots {
         left: 80px;
+    }
+    .__testiomialSlider ul.slick-dots {
+        left: 90px;
+        bottom: 0;
     }
     .__bestBookIllusSlider ul.slick-dots {
         left: 130px;
