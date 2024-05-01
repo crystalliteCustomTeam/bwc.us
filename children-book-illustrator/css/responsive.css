@@ -1,10 +1,6 @@
-@media screen and (min-width:1499px),
-(max-width:1350px) {
-    .__heroBanner h1 {
-        font-size: 70px;
-    }
-
-    .__illustrationServices .__content p {
+@media screen and (min-width:1350px),
+(max-width:1499px) {
+ .__illustrationServices .__content p {
         width: 89%;
         margin: 0 auto;
     }
@@ -13,7 +9,7 @@
 @media screen and (min-width:1349px),
 (max-width:1200px) {
     .__heroBanner h1 {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .__illustrationServices .__content p {
@@ -35,7 +31,7 @@
 
 @media screen and (max-width:1199px) {
     .__heroBanner h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .__heroBanner .__form h2 {

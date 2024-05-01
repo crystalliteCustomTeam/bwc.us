@@ -165,7 +165,7 @@ header {
 }
 
 .__heroBanner h1 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1.2;
     font-weight: 700;
     padding-bottom: 15px;
@@ -533,7 +533,7 @@ ul.slick-dots li button {
 
 .__talkUsSecond .__sideImage img {
     position: relative;
-    left: -50px;
+    left: -150px;
 }
 
 .__talkUsSecond .__ctaTalkUs {
