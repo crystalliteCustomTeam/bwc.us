@@ -30,13 +30,16 @@
     <link rel="stylesheet prerender" href="/slick/slick.css" media="all">
     <link rel="stylesheet prerender" href="./css/style.css" media="all">
     <link rel="stylesheet prerender" href="./css/responsive.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" media="print"
         onload="this.onload=null;this.removeAttribute('media');">
     <link rel="preconnect" href="https://fonts.gstatic.com" media="print"
         onload="this.onload=null;this.removeAttribute('media');" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');">
-    <link rel="icon" href="images/favicon.png" sizes="32x32" title="logo" alt="favicon" />
+    <link rel="icon" href="/images/favicon.png" sizes="32x32" title="logo" alt="favicon" />
     <meta name='dmca-site-verification' content='T0xhUXhKNE41TFpUTGRqU1lTSFRQWGhLTi8ra2JnLzN1TmoyU0JrTDZjOD01' />
     <link rel="canonical" href="audio-book-production-services" />
 </head>
@@ -254,8 +257,32 @@
                                     <p>Make the most of our audible book services created to bring your storytelling to life. </p>
                                 </div>
                                 <div class="__listen">
-                                    <img src="./images/audioPlay.png" alt="audioPlay" class="img-fluid">
-                                    <img src="./images/audioPause.png" alt="audioPause" class="img-fluid">
+                                    <div class="__mainAudio" data-src="./images/Opening_Credits.mp3">
+                                        <button class="__playBtn" disabled>
+                                            <span class="__playIcon"><i class="fa-solid fa-play"></i></span>
+                                        </button>
+                                        <div class="__range">
+                                            <span class="__underRanger"></span>
+                                            <input class="__rangeMovement" type="range" min="0" value="0" step="1" disabled><span
+                                                class="__changeRange"></span>
+                                        </div>
+                                        <div class="__rangeLimit">
+                                            <span class="__rangeLimitNow"></span> / <span class="__rangeLimitTime"></span>
+                                        </div>
+                                    </div>
+                                    <div class="__mainAudio" data-src="./images/Your_Spur_ Credits.mp3">
+                                        <button class="__playBtn" disabled>
+                                            <span class="__playIcon"><i class="fa-solid fa-play"></i></span>
+                                        </button>
+                                        <div class="__range">
+                                            <span class="__underRanger"></span>
+                                            <input class="__rangeMovement" type="range" min="0" value="0" step="1" disabled><span
+                                                class="__changeRange"></span>
+                                        </div>
+                                        <div class="__rangeLimit">
+                                            <span class="__rangeLimitNow"></span> / <span class="__rangeLimitTime"></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -870,11 +897,11 @@
     <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         crossorigin="anonymous"></script>
     <script src="/slick/slick.js" crossorigin="anonymous"></script>
-    <!-- <script defer src="https://use.fontawesome.com/221c81e5c5.js" crossorigin="anonymous"></script> -->
+    <script defer src="https://use.fontawesome.com/221c81e5c5.js" crossorigin="anonymous"></script>
     <script id="clickguard"></script>
     <script src="/js/custom.js"></script>
     <script id="chatform"></script>
-    <script src="/js/loader.js"></script>
+    <script src="/js/audioTrack.js"></script>
     <script src="./js/bookSlider.js"></script>
     <script src="./js/testimonialSlider.js"></script>
     <!-- For Chat -->
@@ -903,7 +930,7 @@
                 !function (e, t) { var r = "000e78ee541e39c79501061e72217d4b90"; if (e.obApi) { var a = function (e) { return "[object Array]" === Object.prototype.toString.call(e) ? e : [e] }; e.obApi.marketerId = a(e.obApi.marketerId).concat(a(r)); return } var c = e.obApi = function () { c.dispatch ? c.dispatch.apply(c, arguments) : c.queue.push(arguments) }; c.version = "1.1", c.loaded = !0, c.marketerId = r, c.queue = []; var o = t.createElement("script"); o.async = !0, o.src = "//amplify.outbrain.com/cp/obtp.js", o.type = "text/javascript"; var p = t.getElementsByTagName("script")[0]; p.parentNode.insertBefore(o, p) }(window, document), obApi("track", "PAGE_VIEW");
             `, document.head.appendChild(e), scriptLoaded = !0
             }
-        } function appendGtagScript() { if (!gtagScriptLoaded) { var e = document.createElement("script"); e.src = "https://www.googletagmanager.com/gtag/js?id=UA-210328564-1", e.defer = !0, document.head.appendChild(e), gtagScriptLoaded = !0 } } function appendLuckyOrangeScript() { if (!luckyOrangeScriptLoaded) { var e = document.createElement("script"); e.src = "https://tools.luckyorange.com/core/lo.js?site-id=9de626ac", e.async = !0, e.defer = !0, document.head.appendChild(e), luckyOrangeScriptLoaded = !0 } } function appendFontAwesomeScript() { var e = document.createElement("script"); e.defer = !0, e.src = "https://use.fontawesome.com/221c81e5c5.js", e.crossorigin = "anonymous", document.head.appendChild(e) } function appendAllScripts() { appendMainScript(), appendGtagScript(), appendLuckyOrangeScript(), appendFontAwesomeScript(), console.log("Scripts loaded") } document.addEventListener("click", function () { appendAllScripts() }), document.addEventListener("mousemove", function () { appendAllScripts() }), document.addEventListener("touchstart", function () { appendAllScripts() }), document.addEventListener("touchmove", function () { appendAllScripts() });
+        } function appendGtagScript() { if (!gtagScriptLoaded) { var e = document.createElement("script"); e.src = "https://www.googletagmanager.com/gtag/js?id=UA-210328564-1", e.defer = !0, document.head.appendChild(e), gtagScriptLoaded = !0 } } function appendLuckyOrangeScript() { if (!luckyOrangeScriptLoaded) { var e = document.createElement("script"); e.src = "https://tools.luckyorange.com/core/lo.js?site-id=9de626ac", e.async = !0, e.defer = !0, document.head.appendChild(e), luckyOrangeScriptLoaded = !0 } } function appendFontAwesomeScript() { var e = document.createElement("script"); e.defer = !0, e.src = "https://use.fontawesome.com/221c81e5c5.js", e.crossorigin = "anonymous", document.head.appendChild(e) } function appendAllScripts() { appendMainScript(), appendGtagScript(), appendLuckyOrangeScript(), appendFontAwesomeScript()} document.addEventListener("click", function () { appendAllScripts() }), document.addEventListener("mousemove", function () { appendAllScripts() }), document.addEventListener("touchstart", function () { appendAllScripts() }), document.addEventListener("touchmove", function () { appendAllScripts() });
     </script>
 </body>
 
