@@ -63,7 +63,8 @@
     <main>
         <!-- Header -->
         <div class="__heroBanner cover pt-0">
-            <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/c61adfdf-1915-4a30-4535-261d50067200/public" class="__bg" id="highPriorityImage" />
+            <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/c61adfdf-1915-4a30-4535-261d50067200/public"
+                class="__bg" id="highPriorityImage" />
             <div class="container-fluid">
                 <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center main">
                     <a href="/" class="navbar-brand d-flex mr-auto" rel="noopener noreferrer">
@@ -351,18 +352,22 @@
                     <div class="container">
                         <div class="__bestBookIllusSlider">
                             <div class="col-12">
-                                <img src="./images/Michelle sullivan BWC.png" alt="book"
-                                    class="d-block mx-auto img-fluid" />
+                                <img src="./images/Book 01.png" alt="book" width="250" height="350" class="d-block mx-auto img-fluid" />
                             </div>
                             <div class="col-12">
-                                <img src="./images/Tom Timmons BWC.png" alt="book" class="d-block mx-auto img-fluid" />
+                                <img src="./images/Book 02.png" alt="book" width="250" height="350" class="d-block mx-auto img-fluid" />
                             </div>
                             <div class="col-12">
-                                <img src="./images/William Strickler BWC.png" alt="book"
-                                    class="d-block mx-auto img-fluid" />
+                                <img src="./images/Book 03.png" alt="book" width="250" height="350" class="d-block mx-auto img-fluid" />
                             </div>
                             <div class="col-12">
-                                <img src="./images/Carey Trahan BWC.png" alt="book" class="d-block mx-auto img-fluid" />
+                                <img src="./images/Book 04.png" alt="book" width="250" height="350" class="d-block mx-auto img-fluid" />
+                            </div>
+                            <div class="col-12">
+                                <img src="./images/Book 05.png" alt="book" width="250" height="350" class="d-block mx-auto img-fluid" />
+                            </div>
+                            <div class="col-12">
+                                <img src="./images/Book 06.png" alt="book" width="250" height="350" class="d-block mx-auto img-fluid" />
                             </div>
                         </div>
                     </div>
@@ -989,7 +994,7 @@
             bookSlider: false,
             testimonialSlider: false
         };
-        
+
         function appendScripts() {
             if (!scriptsLoaded.main) {
                 var mainScript = document.createElement("script");
@@ -1006,7 +1011,7 @@
                 document.head.appendChild(mainScript);
                 scriptsLoaded.main = true;
             }
-        
+
             if (!scriptsLoaded.gtag) {
                 var gtagScript = document.createElement("script");
                 gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=UA-210328564-1";
@@ -1014,7 +1019,7 @@
                 document.head.appendChild(gtagScript);
                 scriptsLoaded.gtag = true;
             }
-        
+
             if (!scriptsLoaded.fontAwesome) {
                 var fontAwesomeScript = document.createElement("script");
                 fontAwesomeScript.src = "https://use.fontawesome.com/221c81e5c5.js";
@@ -1023,7 +1028,7 @@
                 document.head.appendChild(fontAwesomeScript);
                 scriptsLoaded.fontAwesome = true;
             }
-        
+
             if (!scriptsLoaded.chat) {
                 var chatScript = document.createElement("script");
                 chatScript.src = "/js/chat.js";
@@ -1032,7 +1037,7 @@
                 document.head.appendChild(chatScript);
                 scriptsLoaded.chat = true;
             }
-        
+
             if (!scriptsLoaded.clickguard) {
                 var clickguardScript = document.createElement("script");
                 clickguardScript.src = "https://io.clickguard.com/s/cHJvdGVjdG9y/Bxf4iHWI";
@@ -1041,7 +1046,7 @@
                 document.head.appendChild(clickguardScript);
                 scriptsLoaded.clickguard = true;
             }
-        
+
             // Add keys and append additional script tags
             if (!scriptsLoaded.popper) {
                 var popperScript = document.createElement("script");
@@ -1049,7 +1054,7 @@
                 document.head.appendChild(popperScript);
                 scriptsLoaded.popper = true;
             }
-        
+
             if (!scriptsLoaded.bootstrap) {
                 var bootstrapScript = document.createElement("script");
                 bootstrapScript.src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js";
@@ -1057,7 +1062,7 @@
                 document.head.appendChild(bootstrapScript);
                 scriptsLoaded.bootstrap = true;
             }
-        
+
             if (!scriptsLoaded.slick) {
                 var slickScript = document.createElement("script");
                 slickScript.src = "/slick/slick.js";
@@ -1065,35 +1070,35 @@
                 document.head.appendChild(slickScript);
                 scriptsLoaded.slick = true;
             }
-        
+
             if (!scriptsLoaded.custom) {
                 var customScript = document.createElement("script");
                 customScript.src = "/js/custom.js";
                 document.head.appendChild(customScript);
                 scriptsLoaded.custom = true;
             }
-        
+
             if (!scriptsLoaded.servicesSlider) {
                 var servicesSliderScript = document.createElement("script");
                 servicesSliderScript.src = "./js/servicesSlider.js";
                 document.head.appendChild(servicesSliderScript);
                 scriptsLoaded.servicesSlider = true;
             }
-        
+
             if (!scriptsLoaded.bestBookIllusSlider) {
                 var bestBookIllusSliderScript = document.createElement("script");
                 bestBookIllusSliderScript.src = "./js/bestBookIllusSlider.js";
                 document.head.appendChild(bestBookIllusSliderScript);
                 scriptsLoaded.bestBookIllusSlider = true;
             }
-        
+
             if (!scriptsLoaded.bookSlider) {
                 var bookSliderScript = document.createElement("script");
                 bookSliderScript.src = "./js/bookSlider.js";
                 document.head.appendChild(bookSliderScript);
                 scriptsLoaded.bookSlider = true;
             }
-        
+
             if (!scriptsLoaded.testimonialSlider) {
                 var testimonialSliderScript = document.createElement("script");
                 testimonialSliderScript.src = "./js/testimonialSlider.js";
@@ -1101,11 +1106,11 @@
                 scriptsLoaded.testimonialSlider = true;
             }
         }
-        
+
         function handleEvents() {
             appendScripts();
         }
-        
+
         document.addEventListener("click", handleEvents);
         document.addEventListener("mousemove", handleEvents);
         document.addEventListener("touchstart", handleEvents);
