@@ -1066,40 +1066,42 @@
                 scriptsLoaded.slick = true;
             }
         
-            if (!scriptsLoaded.custom) {
-                var customScript = document.createElement("script");
-                customScript.src = "/js/custom.js";
-                document.head.appendChild(customScript);
-                scriptsLoaded.custom = true;
-            }
-        
-            if (!scriptsLoaded.servicesSlider) {
-                var servicesSliderScript = document.createElement("script");
-                servicesSliderScript.src = "./js/servicesSlider.js";
-                document.head.appendChild(servicesSliderScript);
-                scriptsLoaded.servicesSlider = true;
-            }
-        
-            if (!scriptsLoaded.bestBookIllusSlider) {
-                var bestBookIllusSliderScript = document.createElement("script");
-                bestBookIllusSliderScript.src = "./js/bestBookIllusSlider.js";
-                document.head.appendChild(bestBookIllusSliderScript);
-                scriptsLoaded.bestBookIllusSlider = true;
-            }
-        
-            if (!scriptsLoaded.bookSlider) {
-                var bookSliderScript = document.createElement("script");
-                bookSliderScript.src = "./js/bookSlider.js";
-                document.head.appendChild(bookSliderScript);
-                scriptsLoaded.bookSlider = true;
-            }
-        
-            if (!scriptsLoaded.testimonialSlider) {
-                var testimonialSliderScript = document.createElement("script");
-                testimonialSliderScript.src = "./js/testimonialSlider.js";
-                document.head.appendChild(testimonialSliderScript);
-                scriptsLoaded.testimonialSlider = true;
-            }
+            setTimeout(() => {
+                if (!scriptsLoaded.custom) {
+                    var customScript = document.createElement("script");
+                    customScript.src = "/js/custom.js";
+                    document.head.appendChild(customScript);
+                    scriptsLoaded.custom = true;
+                }
+            
+                if (!scriptsLoaded.servicesSlider) {
+                    var servicesSliderScript = document.createElement("script");
+                    servicesSliderScript.src = "./js/servicesSlider.js";
+                    document.head.appendChild(servicesSliderScript);
+                    scriptsLoaded.servicesSlider = true;
+                }
+            
+                if (!scriptsLoaded.bestBookIllusSlider) {
+                    var bestBookIllusSliderScript = document.createElement("script");
+                    bestBookIllusSliderScript.src = "./js/bestBookIllusSlider.js";
+                    document.head.appendChild(bestBookIllusSliderScript);
+                    scriptsLoaded.bestBookIllusSlider = true;
+                }
+            
+                if (!scriptsLoaded.bookSlider) {
+                    var bookSliderScript = document.createElement("script");
+                    bookSliderScript.src = "./js/bookSlider.js";
+                    document.head.appendChild(bookSliderScript);
+                    scriptsLoaded.bookSlider = true;
+                }
+            
+                if (!scriptsLoaded.testimonialSlider) {
+                    var testimonialSliderScript = document.createElement("script");
+                    testimonialSliderScript.src = "./js/testimonialSlider.js";
+                    document.head.appendChild(testimonialSliderScript);
+                    scriptsLoaded.testimonialSlider = true;
+                }
+            }, 2000)
         }
         
         function handleEvents() {
