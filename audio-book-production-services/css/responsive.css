@@ -25,20 +25,6 @@
         gap: 25px;
         margin: 30px 0;
     }
-
-    .__testiomials .__testiomialSlider .__testiCard {
-        height: 100%;
-    }
-
-    .__testiomials .__testiomialSlider .__testiCard .__content:not(.active) .__playIcon {
-        transform: translateY(300px);
-        transition: all 0.5s ease-in-out;
-    }
-
-    .__testiomials .__testiomialSlider .__testiCard:hover .__content .__playIcon {
-        transform: translateY(0px);
-    }
-
     .__letsTalk .__content {
         padding: 65px 40px;
     }
@@ -135,20 +121,6 @@
         font-size: 50px;
         line-height: 60px;
     }
-
-    .__testiomials .__testiomialSlider .__testiCard .__content:not(.active) .__playIcon {
-        transform: translateY(300px);
-        transition: all 0.5s ease-in-out;
-    }
-
-    .__testiomials .__testiomialSlider .__testiCard:hover .__content .__playIcon {
-        transform: translateY(0px);
-    }
-
-    .__testiomials .__testiomialSlider .__testiCard {
-        height: 100%;
-    }
-
     .__testiomials .__content h2 {
         font-size: 45px;
         line-height: 55px;
@@ -216,22 +188,9 @@
     .__testiomials {
         padding: 80px 0;
     }
-
-    .__testiomials .__testiomialSlider .__testiCard {
-        height: 100%;
-    }
-
     .__testiomials .__content h2 {
         font-size: 35px;
         line-height: 50px;
-    }
-
-    .__testiomials .__testiomialSlider .__testiCard .__content:not(.active) .__playIcon {
-        transform: inherit !important;
-    }
-
-    .__testiomials .__testiomialSlider .__testiCard:hover .__content .__playIcon {
-        transform: inherit !important;
     }
 
     .__letsTalk .__content h2 {
@@ -468,12 +427,25 @@
     .__testiomials .__content {
         margin-bottom: 30px;
     }
-
+    .__testiomialSlider {
+        padding: 0;
+    }
+    .__ourPortfolio .progress {
+        display: none;
+    }
+    .__testiCard .__content p:not(.__identity .__content p){min-height:auto}
     .__letsTalk .__content p {
         font-size: 14px;
         line-height: 24px;
     }
-
+    .__ourPortfolio ul.slick-dots {
+        position: absolute;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        bottom: -45px;
+        left: 50px;
+    }
     .__letsTalk .__content form {
         padding: 20px 0 0;
     }

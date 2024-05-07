@@ -5,6 +5,7 @@ $('.__testiomialSlider').slick({
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 3,
+    adaptiveHeight:true,
     responsive: [
         {
             breakpoint: 992,
