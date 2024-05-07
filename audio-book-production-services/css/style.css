@@ -153,13 +153,23 @@ header {
 }
 
 .__heroBanner {
-    background-image: url('../images/banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
+    z-index: 10;
+    background-color: #16467D;
     padding: 150px 0 0px;
 }
-
+.__heroBanner .__bannerImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
 .__heroBanner span {
     font-size: 27px;
     line-height: 37px;
