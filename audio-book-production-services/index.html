@@ -43,13 +43,21 @@
     <link rel="icon" href="/images/favicon.png" sizes="32x32" title="logo" alt="favicon" />
     <meta name='dmca-site-verification' content='T0xhUXhKNE41TFpUTGRqU1lTSFRQWGhLTi8ra2JnLzN1TmoyU0JrTDZjOD01' />
     <link rel="canonical" href="audio-book-production-services" />
+    <script>
+        // Function to preload images with different priorities
+        function preloadImages() {
+            // High priority image
+            let highPriorityImg = new Image();
+            highPriorityImg.src = "https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/bd3991be-8d2c-40b4-a099-d1a91c1a1300/1920resizing";
+        }
+    </script>
 </head>
 
 <body>
     <main>
         <!-- Header -->
         <div class="__heroBanner cover pt-0">
-            <img src="./images/banner.png" alt="heroBanner" class="d-block __bannerImg" />
+            <img src="https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/bd3991be-8d2c-40b4-a099-d1a91c1a1300/1920resizing" alt="heroBanner" class="d-block __bannerImg" id="highPriorityImage" />
             <div class="container-fluid">
                 <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center main">
                     <a href="/" class="navbar-brand d-flex mr-auto" rel="noopener noreferrer">
@@ -935,6 +943,8 @@
                 !function (e, t, n, a, c, o, s) { e.fbq || (c = e.fbq = function () { c.callMethod ? c.callMethod.apply(c, arguments) : c.queue.push(arguments) }, e._fbq || (e._fbq = c), c.push = c, c.loaded = !0, c.version = "2.0", c.queue = [], (o = t.createElement(n)).async = !0, o.src = a, (s = t.getElementsByTagName(n)[0]).parentNode.insertBefore(o, s)) }(window, document, "script", "https://connect.facebook.net/en_US/fbevents.js"), fbq("init", "446782904018039"), fbq("track", "PageView");
 
                 !function (e, t) { var r = "000e78ee541e39c79501061e72217d4b90"; if (e.obApi) { var a = function (e) { return "[object Array]" === Object.prototype.toString.call(e) ? e : [e] }; e.obApi.marketerId = a(e.obApi.marketerId).concat(a(r)); return } var c = e.obApi = function () { c.dispatch ? c.dispatch.apply(c, arguments) : c.queue.push(arguments) }; c.version = "1.1", c.loaded = !0, c.marketerId = r, c.queue = []; var o = t.createElement("script"); o.async = !0, o.src = "//amplify.outbrain.com/cp/obtp.js", o.type = "text/javascript"; var p = t.getElementsByTagName("script")[0]; p.parentNode.insertBefore(o, p) }(window, document), obApi("track", "PAGE_VIEW");
+                // Call the function to preload images with different priorities
+                preloadImages();
                 `;
                 document.head.appendChild(mainScript);
                 scriptsLoaded.main = true;
