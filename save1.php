@@ -47,7 +47,6 @@
         	$mail->Password="10@Kskwoks";
         	$mail->SetFrom("signups@bookwritingcube.com");
         	$mail->addAddress("signups@bookwritingcube.com");
-        	$mail->addAddress("ppc@infinityanimations.com");
         	$mail->IsHTML(true);
         	$mail->Subject="Lead Form - BWC - Book Writing";
         	$mail->Body=$html;
