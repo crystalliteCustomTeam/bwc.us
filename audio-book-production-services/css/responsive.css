@@ -1,0 +1,466 @@
+@media screen and (min-width:1499px),
+(max-width:1350px) {
+    .__heroBanner span {
+        font-size: 27px;
+        line-height: 37px;
+    }
+
+    .__heroBanner h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .__heroBanner h1 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+
+    .__heroBanner p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .__heroBanner .__ctaHero {
+        display: flex;
+        gap: 25px;
+        margin: 30px 0;
+    }
+    .__letsTalk .__content {
+        padding: 65px 40px;
+    }
+
+    .__letsTalk .__contentImage {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .navbar-nav .nav-item .__primaryBtn {
+        padding: 6px 1rem;
+    }
+
+    .navbar-nav .nav-item .__secondaryBtn {
+        padding: 6px 1rem;
+    }
+
+    .__heroBanner span {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__heroBanner h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .__heroBanner h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+
+    .__heroBanner p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .__kickStart .__content span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .__kickStart .__content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .__kickStart .__content h2 span {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .__kickStart .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .__kickStart .__audio .__listen h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .__itWorks h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .__voiceTale .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .__voiceTale .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .progress {
+        width: 65%;
+        left: 40px;
+    }
+
+    .__testiomials .progress {
+        width: 65%;
+        left: 40px;
+    }
+
+    button.slick-prev.slick-arrow {
+        left: 90%;
+    }
+
+    .__freeQuotes .__content h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .__testiomials .__content h2 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .__letsTalk .__content {
+        padding: 40px 40px;
+    }
+
+    .__letsTalk .__contentImage {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .__heroBanner span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .__heroBanner h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .__heroBanner h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .__itWorks h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .progress {
+        display: none;
+    }
+
+    .__testiomials .progress {
+        display: none;
+    }
+
+    button.slick-prev.slick-arrow {
+        left: 88%;
+    }
+
+    .__ourPortfolio .__content h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    .__freeQuotes .__content h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .__freeQuotes .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .__testiomials {
+        padding: 80px 0;
+    }
+    .__testiomials .__content h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .__letsTalk .__content h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .__letsTalk .__contentImage {
+        width: 65%;
+    }
+
+    .__letsTalk {
+        padding: 60px 0;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .__heroBanner span {
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 5px;
+    }
+
+    .__heroBanner h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .__heroBanner h1 {
+        font-size: 60px;
+        line-height: 70px;
+        padding-bottom: 5px;
+    }
+
+    .__kickStart {
+        padding: 60px 0;
+    }
+
+    .__kickStart .__content span {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .__kickStart .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .__kickStart .__content h2 span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .__itWorks h2 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .__voiceTale .__content {
+        padding: 60px 0;
+    }
+
+    .__voiceTale .__content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .slick-next,
+    .slick-prev {
+        display: none !important;
+    }
+
+    ul.slick-dots {
+        left: 40%;
+    }
+
+    .__ourPortfolio {
+        padding: 60px 0;
+    }
+
+    .__ourPortfolio .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .__freeQuotes {
+        padding: 60px 0;
+    }
+
+    .__freeQuotes .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .__freeQuotes .__content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .__testiomials {
+        padding: 60px 0;
+    }
+
+    .__testiomials .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .__testiomials .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .__letsTalk .__contentImage {
+        width: 85%;
+    }
+
+    .__letsTalk {
+        padding: 40px 0;
+    }
+
+    .__letsTalk .__content p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .__heroBanner h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .__heroBanner .__ctaHero {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+
+    .__kickStart .__form h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__kickStart .__content span {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .__kickStart .__content h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__kickStart .__content h2 span {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__kickStart .__content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .__kickStart .__audio .__listen h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .__kickStart .__audio .__listen {
+        flex-wrap: wrap;
+    }
+
+    .__kickStart {
+        padding: 40px 0;
+    }
+
+    .__voiceTale .__content {
+        padding: 40px 0;
+    }
+
+    .__voiceTale .__content h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .__ctaVoiceTale {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    ul.slick-dots {
+        bottom: -40px;
+        left: 15%;
+    }
+
+    .__ourPortfolio {
+        padding: 40px 0;
+    }
+
+    .__ourPortfolio .__content h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__freeQuotes {
+        padding: 40px 0;
+    }
+
+    .__freeQuotes form {
+        margin: 30px 0 0;
+    }
+
+    .__testiomials {
+        padding: 40px 0;
+    }
+
+    .__testiomials .__content h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .__testiomials .__content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .__testiomials .__content {
+        margin-bottom: 30px;
+    }
+    .__testiomialSlider {
+        padding: 0;
+    }
+    .__ourPortfolio .progress {
+        display: none;
+    }
+    .__testiCard .__content p:not(.__identity .__content p){min-height:auto}
+    .__letsTalk .__content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .__ourPortfolio ul.slick-dots {
+        position: absolute;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        bottom: -45px;
+        left: 50px;
+    }
+    .__letsTalk .__content form {
+        padding: 20px 0 0;
+    }
+
+    .__letsTalk .__content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .__letsTalk .__content {
+        padding: 30px 20px;
+    }
+
+    .__letsTalk .__contentImage {
+        flex-wrap: wrap;
+        transform: translateY(-80px);
+    }
+}

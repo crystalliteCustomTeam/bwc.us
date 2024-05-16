@@ -1,0 +1,1 @@
+$(".__testiomialSlider").slick({dots:!0,arrows:!0,infinite:!0,speed:300,adaptiveHeight:!0,slidesToShow:3,slidesToScroll:2,responsive:[{breakpoint:992,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:576,settings:{slidesToShow:1,slidesToScroll:1,arrows:!1,autoplay:!0}},]});

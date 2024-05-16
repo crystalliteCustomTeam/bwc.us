@@ -1,0 +1,1 @@
+768>$(window).width()&&$(".__serviceSlider").slick({dots:!0,arrows:!1,infinite:!0,speed:300,slidesToShow:2,slidesToScroll:1,responsive:[{breakpoint:576,settings:{slidesToShow:1}}]});

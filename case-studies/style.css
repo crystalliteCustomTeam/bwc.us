@@ -1,0 +1,191 @@
+/* @import url('https://fonts.cdnfonts.com/css/evogria');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/impact'); */
+
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --blue-color: #16467D;
+    --gredient-color8: linear-gradient(300deg, #0B233F 0%, #16467D 100%);
+}
+
+html,
+body {
+    font-family: var(--primary-fonts);
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-fonts);
+    font-weight: 800;
+}
+
+p {
+    color: var(--white-color);
+    opacity: 0.5;
+}
+
+.font75 {
+    font-size: 75px;
+}
+
+
+.font22 {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+:focus-visible {
+    outline: inherit;
+}
+
+button:focus {
+    outline: inherit !important;
+    outline: inherit !important;
+}
+
+section {
+    padding: 0 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--blue-color);
+}
+
+.book-publish {
+    background: #16467D;
+}
+
+.font-50 {
+    font-size: 42px !important;
+    line-height: 52px !important;
+}
+
+/* Nav bar Start */
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+
+/* navbar end  */
+
+/* Hero Sec Start */
+
+.__hero p {
+    font-weight: 300;
+}
+
+/* Hero Sec Start */
+
+/* card-sec start */
+
+.card_sec {
+    padding: 80px 0 !important;
+}
+
+
+
+.card_sec .card {
+    /* border: 1px solid #707070; */
+    border-radius: 0px;
+    padding: 10px;
+    min-height: 350px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card_sec .card h4 {
+    font-weight: 800;
+    padding: 20px;
+    background: #16467D;
+    color: white;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    width: 300px;
+}
+
+.card_sec .card{
+    width: 100%;
+    height: 100%;
+}
+/* card-sec end */
+
+@media only screen and (max-width: 1199px) {
+
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .show>.nav-link {
+        padding: 11px 0 13px 23px;
+        font-size: 13px;
+    }
+
+    .btn-secondary {
+        font-size: 13px;
+        padding: 12px 14px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .font22 {
+        font-size: 16px;
+    }
+
+    .btn-secondary {
+        font-size: 13px;
+        padding: 12px 10px !important;
+    }
+
+    .navbar-light .navbar-nav .nav-link,
+    .navbar-light .navbar-nav .show>.nav-link {
+        padding: 11px 0 13px 13px;
+        font-size: 13px;
+    }
+
+    .book-publish {
+        background: #16467D !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 567px) {
+    .card_sec .card h2 {
+        font-size: 30px;
+        min-width: 270px;
+    }
+
+    .font75 {
+        font-size: 50px;
+    }
+}
