@@ -34,7 +34,7 @@ $('.topbarnav').before(` <nav class="navbar navbar-light navbar-expand-md bg-fad
                                                 <a href="/book-marketing-services/">Book Marketing</a>
                                             </li>
                                             <li>
-                                                <a href="/ghostwriting-services/">Ghostwriting</a>
+                                                
                                             </li>
                                         </ul>
                                     </li>

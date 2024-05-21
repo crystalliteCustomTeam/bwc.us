@@ -41,7 +41,7 @@ let blogHeader = `<div class="container-fluid">
                                         <a href="/book-proofreading-services/">Proofreading Services</a>
                                     </li>
                                     <li>
-                                     <a href="/ghostwriting-services/">Ghostwriting</a>
+                                     
                                     </li>
                                 </ul>
                             </li>
