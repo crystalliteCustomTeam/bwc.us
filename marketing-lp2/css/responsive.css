@@ -348,6 +348,11 @@
         padding: 50px 0 105px;
     }
 
+    .bookMarket-sec h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
     .bookMarket-sec .leftArrow {
         position: absolute;
         left: 58%;

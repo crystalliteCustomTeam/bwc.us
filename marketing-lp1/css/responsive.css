@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 1399px) {
     .banner-sec {
         margin-top: -120px;
@@ -233,6 +232,7 @@
         font-size: 22px;
     }
 
+
     .market-sec a {
         width: 100%;
     }
@@ -252,6 +252,11 @@
 
     .bookMarket-sec {
         padding: 50px 0 105px;
+    }
+
+    .bookMarket-sec h2 {
+        font-size: 30px;
+        line-height: 35px;
     }
 
     .bookMarket-sec .leftArrow {
