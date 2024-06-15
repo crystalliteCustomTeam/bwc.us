@@ -1,0 +1,518 @@
+@media only screen and (max-width: 1399px) {
+    .banner-sec {
+        margin-top: -120px;
+    }
+
+    .market-sec .counterMain {
+        gap: 0 40px;
+    }
+
+    .market-sec .counterMain h6 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .ready-sec .secBg {
+        height: 375px;
+    }
+
+    .ready-sec .txt {
+        margin-top: 49px;
+    }
+
+    .ready-sec .secImg {
+        margin-top: -22px;
+    }
+
+    .streamed-sec .left-arrow {
+        width: 66%;
+        left: -3px;
+        bottom: 37px;
+    }
+
+    .streamed-sec .right-arrow {
+        right: -5px;
+        top: -7%;
+        width: 66%;
+    }
+
+    .streamed-sec .card h4 {
+        font-size: 42px;
+    }
+
+    .choose-sec .card p {
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1299px) {
+    .lpHeader .navbar-nav {
+        margin-right: 55px;
+        gap: 55px;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .lpHeader .navbar-light .navbar-nav .nav-link {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .lpHeader .navbar-nav {
+        margin-right: 31px;
+        gap: 40px;
+    }
+
+    .caseSec .bookImage img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ready-sec .txt {
+        margin-top: 25px;
+    }
+
+    .ready-sec .secBg {
+        height: 327px;
+    }
+
+    .ready-sec h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin: 10px 0 10px;
+    }
+
+    .ready-sec .secImg {
+        margin-top: -5px;
+    }
+
+    .smallBanner-sec p {
+        width: 70%;
+    }
+
+    .smallBanner-sec .txt::after {
+        display: none;
+    }
+
+    .smallBanner-sec .txt::before {
+        display: none;
+    }
+
+    .workingCards {
+        gap: 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .lpHeader .navbar-nav {
+        margin-right: 0px;
+        gap: 35px;
+        margin-top: 25px;
+    }
+
+    .lpHeader .navbar-collapse {
+        background: black;
+        padding: 10px 18px 28px;
+        margin-top: 12px;
+        border-radius: 11px;
+    }
+
+    .lpHeader .navbar-toggler {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .lpHeader .navbar-toggler-icon {
+        filter: brightness(0.5) invert(1);
+    }
+
+    .lpHeader {
+        position: relative;
+        z-index: 999;
+        background: #134778;
+    }
+
+    .banner-sec .image {
+        width: 73%;
+        margin: 36px auto 0;
+    }
+
+    .market-sec .counterMain {
+        gap: 0 40px;
+        margin-bottom: 40px;
+    }
+
+    .bookMarket-sec .slick-next {
+        left: 45%;
+    }
+
+    .bookMarket-sec .rightArrow {
+        left: 45%;
+    }
+
+    .caseSec .borderImage {
+        display: none;
+    }
+
+    .caseSec .backImage {
+        padding: 55px 40px 115px;
+    }
+
+    .caseSec .slick-prev {
+        left: 42%;
+    }
+
+    .caseSec .rightArrow {
+        left: 44%;
+    }
+
+    .ready-sec .txt {
+        margin-top: 60px;
+    }
+
+    .streamed-sec .rightArrow {
+        bottom: 114px;
+    }
+
+    .choose-sec .secBtns {
+        justify-content: center;
+        margin-top: 65px;
+    }
+
+    .choose-sec .secImg img {
+        width: 100%;
+    }
+
+    .smallBanner-sec p {
+        width: 100%;
+    }
+
+    .bookSeller-sec .form {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 45px;
+    }
+
+    .bookSeller-sec {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .banner-sec {
+        height: 100%;
+        margin-top: -152px;
+        padding: 195px 0 50px;
+    }
+
+    .banner-sec h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .banner-sec .image {
+        margin: 60px auto 0;
+    }
+
+    .market-sec {
+        padding: 50px 0;
+    }
+
+    .market-sec .counterMain {
+        gap: 50px 40px;
+        flex-wrap: wrap;
+    }
+
+    .market-sec .counter::after {
+        display: none;
+    }
+
+    .market-sec h2 {
+        font-size: 22px;
+    }
+
+    .market-sec a {
+        width: 100%;
+    }
+
+    .market-sec .form {
+        padding: 30px 27px;
+    }
+
+    .market-sec .form h4 {
+        font-size: 20px;
+    }
+
+    .market-sec .form form button {
+        width: 100%;
+        margin: 13px auto 0px;
+    }
+
+    .bookMarket-sec {
+        padding: 50px 0 105px;
+    }
+
+    .bookMarket-sec .leftArrow {
+        position: absolute;
+        left: 58%;
+        bottom: 31px;
+    }
+
+    .bookMarket-sec .rightArrow {
+        bottom: 32px;
+    }
+
+    .bookMarket-sec .slick-prev {
+        left: 37%;
+        bottom: -66px;
+    }
+
+    .bookMarket-sec .slick-next {
+        left: 59%;
+        bottom: -68px;
+    }
+
+
+    .caseSec .backImage {
+        padding: 50px 20px 115px;
+    }
+
+    .caseSec h2 {
+        font-size: 30px;
+    }
+
+    .caseSec p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .caseSec .slideTxt p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+
+    .caseSec .slideTxt h3 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .caseSec .slick-prev {
+        left: 34%;
+        bottom: -80px;
+    }
+
+    .caseSec .rightArrow {
+        left: 35%;
+        bottom: 33px;
+    }
+
+    .caseSec .slick-next {
+        left: 60.3%;
+        bottom: -81px;
+    }
+
+    .caseSec .leftArrow {
+        left: 60%;
+        bottom: 33px;
+    }
+
+    .portfolio-sec {
+        padding: 50px 0;
+    }
+
+    .portfolio-sec h2,
+    .ready-sec h2,
+    .streamed-sec h2,
+    .choose-sec h2,
+    .smallBanner-sec h2,
+    .woking-sec h2,
+    .testimonials-sec h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 10px 0 7px;
+    }
+
+    .portfolio-sec p,
+    .ready-sec p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .ready-sec {
+        padding: 50px 0;
+    }
+
+    .ready-sec .secBg {
+        height: 100%;
+        padding: 30px 24px;
+    }
+
+    .ready-sec .txt {
+        margin-top: 0px;
+    }
+
+    .ready-sec p {
+        padding-right: 0;
+    }
+
+    .streamed-sec {
+        padding: 50px 0 40px;
+    }
+
+    .streamed-sec p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .streamed-sec .slick-prev {
+        left: 29%;
+    }
+
+    .streamed-sec .rightArrow {
+        bottom: 38px;
+        left: 38%;
+    }
+
+    .streamed-sec .leftArrow {
+        left: 54%;
+        bottom: 37px;
+    }
+
+
+    .streamed-sec .card {
+        width: 98%;
+    }
+
+    .streamed-sec .left-arrow {
+        left: -9px;
+    }
+
+    .streamed-sec .card p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .streamed-sec .right-arrow {
+        right: -12px;
+        top: -9%;
+    }
+
+    .choose-sec {
+        padding: 50px 0;
+    }
+
+    .choose-sec p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    .smallBanner-sec,
+    .woking-sec,
+    .bookSeller-sec {
+        padding: 50px 0;
+    }
+
+    .woking-sec h2 {
+        margin: 0;
+    }
+
+    .smallBanner-sec p,
+    .woking-sec p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .testimonials-sec {
+        padding: 50px 0 90px;
+    }
+
+    .testimonials-sec p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 35px;
+        margin-top: 12px;
+    }
+
+    .testimonials-sec .card .clientDetails p {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .testimonials-sec .slick-prev {
+        left: 33.2%;
+        bottom: -68px;
+    }
+
+    .testimonials-sec .rightArrow {
+        left: 40%;
+        bottom: 20px;
+    }
+
+    .testimonials-sec .slick-next {
+        bottom: -68px;
+        left: 53.2%;
+    }
+
+    .testimonials-sec .leftArrow {
+        left: 54%;
+        bottom: 20px;
+    }
+
+    .bookSeller-sec h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 10px 0 7px;
+    }
+
+    .bookSeller-sec p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .bookSeller-sec .secBtns {
+        margin-top: 25px;
+    }
+
+    .bookSeller-sec .form {
+        padding: 30px 27px;
+        border-radius: 15px;
+    }
+
+    .bookSeller-sec .form h4 {
+        font-size: 20px;
+    }
+
+    .bookSeller-sec .form form button {
+        width: 100%;
+        margin: 13px auto 0px;
+    }
+
+    .faqs-sec {
+        padding: 50px 0;
+    }
+
+    .faqs-sec h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0px 0 35px;
+    }
+
+    .faqs-sec h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .faqs-sec .accordion-body {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .faqs .headingBglight,
+    .faqs .headingBglight span {
+        color: #000 !important;
+    }
+}
