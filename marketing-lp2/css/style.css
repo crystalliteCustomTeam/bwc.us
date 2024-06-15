@@ -133,8 +133,12 @@ p {
 
 .banner-sec h1 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 55px;
+}
+
+.banner-sec h1 span {
+    font-weight: 500;
 }
 
 .banner-sec .form {
@@ -147,6 +151,7 @@ p {
 .banner-sec .form h3 {
     font-size: 32px;
     line-height: 47px;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
@@ -271,6 +276,16 @@ p {
     background-repeat: no-repeat;
 }
 
+.market-sec h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.market-sec h2 span {
+    font-weight: 500;
+}
+
 .market-sec a {
     background: #1768BA;
     color: white;
@@ -303,9 +318,9 @@ p {
 }
 
 .market-sec .counterMain h6 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 22px;
 }
 
 .market-sec .counter {
@@ -418,6 +433,16 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.bookMarket-sec h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.bookMarket-sec h2 span {
+    font-weight: 500;
 }
 
 .bookMarket-sec .sliderMain .card {
@@ -535,8 +560,12 @@ p {
 
 .caseSec h2 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 55px;
+}
+
+.caseSec h2 span {
+    font-weight: 500;
 }
 
 .caseSec p {
@@ -561,7 +590,7 @@ p {
 
 .caseSec .slideTxt h3 {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 40px;
 }
 
@@ -641,7 +670,12 @@ p {
 .portfolio-sec h2 {
     font-size: 40px;
     line-height: 55px;
+    font-weight: 600;
     margin: 10px 0 20px;
+}
+
+.portfolio-sec h2 span {
+    font-weight: 500;
 }
 
 /* porfolio End */
@@ -649,7 +683,7 @@ p {
 /* Ready Start */
 
 .ready-sec {
-    padding: 80px 0;
+    padding: 140px 0;
 }
 
 .ready-sec .secBg {
@@ -674,7 +708,12 @@ p {
 .ready-sec h2 {
     font-size: 40px;
     line-height: 55px;
+    font-weight: 600;
     margin: 10px 0 20px;
+}
+
+.ready-sec h2 span {
+    font-weight: 500;
 }
 
 .ready-sec .secImg {
@@ -739,6 +778,11 @@ p {
     font-size: 40px;
     line-height: 55px;
     margin: 0px 0 10px;
+    font-weight: 600;
+}
+
+.streamed-sec h2 span {
+    font-weight: 500;
 }
 
 .streamed-sec p {
@@ -771,7 +815,7 @@ p {
 }
 
 .streamed-sec .card h4 {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: bold;
     line-height: 40px;
     color: #F5C400;
@@ -839,7 +883,12 @@ p {
 .choose-sec h2 {
     font-size: 40px;
     line-height: 55px;
+    font-weight: 600;
     margin: 0px 0 10px;
+}
+
+.choose-sec h2 span {
+    font-weight: 500;
 }
 
 .choose-sec p {
@@ -857,6 +906,7 @@ p {
 .choose-sec .card h3 {
     font-size: 20px;
     line-height: 30px;
+    font-weight: 600;
     margin: 10px 0 30px;
     position: relative;
 }
@@ -966,7 +1016,12 @@ p {
 .smallBanner-sec h2 {
     font-size: 40px;
     line-height: 55px;
+    font-weight: 600;
     margin: 0px 0 15px;
+}
+
+.smallBanner-sec h2 span {
+    font-weight: 500;
 }
 
 .smallBanner-sec p {
@@ -1010,13 +1065,20 @@ p {
 .woking-sec h2 {
     font-size: 40px;
     line-height: 50px;
+    font-weight: 600;
     margin: 0px 0 5px;
+    color: black;
+}
+
+.woking-sec h2 span {
+    font-weight: 500;
 }
 
 .woking-sec p {
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 15px;
+    color: black;
 }
 
 .workingCards {
@@ -1039,8 +1101,13 @@ p {
 
 .testimonials-sec h2 {
     font-size: 40px;
+    font-weight: 600;
     line-height: 50px;
     margin: 0px 0 20px;
+}
+
+.testimonials-sec h2 span {
+    font-weight: 500;
 }
 
 .testimonials-sec p {
@@ -1159,7 +1226,12 @@ p {
 .bookSeller-sec h2 {
     font-size: 40px;
     line-height: 50px;
+    font-weight: 600;
     margin: 0px 0 20px;
+}
+
+.bookSeller-sec h2 span {
+    font-weight: 500;
 }
 
 .bookSeller-sec p {
@@ -1220,7 +1292,7 @@ p {
 .bookSeller-sec .form h4 {
     font-size: 25px;
     line-height: 33px;
-    font-weight: 500;
+    font-weight: 600;
     background: #1768BA;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -1290,8 +1362,13 @@ p {
 
 .faqs-sec h2 {
     font-size: 40px;
+    font-weight: 600;
     line-height: 50px;
     margin: 0px 0 60px;
+}
+
+.faqs-sec h2 span {
+    font-weight: 500;
 }
 
 .faqs-sec .accordion-button {
@@ -1312,8 +1389,12 @@ p {
 
 .faqs-sec h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 24px;
+}
+
+.faqs-sec h3 span {
+    font-weight: 600;
 }
 
 .faqs-sec .accordion-button:focus {
