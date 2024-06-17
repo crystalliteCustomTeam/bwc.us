@@ -1,4 +1,14 @@
 @media only screen and (max-width: 1399px) {
+    .lpHeader .navbar-nav {
+        margin-right: 70px;
+        gap: 40px;
+    }
+
+    .banner-sec h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
     .banner-sec .form .formInputs input {
         width: 155px;
     }
@@ -23,8 +33,20 @@
         width: 100%;
     }
 
+    .banner-sec .slideImage {
+        width: 100%; 
+    }
+
+    .banner-sec .slideTxt { 
+        left: 5%;
+    }
+
     .market-sec .counterMain {
-        gap: 0 40px;
+        gap: 0 25px;
+    }
+
+    .market-sec .counter::after {
+        right: -17px;
     }
 
     .market-sec .counterMain h6 {
@@ -79,7 +101,7 @@
     }
 
     .banner-sec .form {
-        padding: 24px 25px;
+        padding: 14px 25px;
     }
 
     .banner-sec .form h3 {
@@ -129,7 +151,18 @@
 
     .lpHeader .navbar-nav {
         margin-right: 31px;
-        gap: 40px;
+        gap: 20px;
+    }
+
+    .banner-sec h1 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 40px;
+    }
+
+    .market-sec h2 {
+        font-size: 25px;
+        line-height: 34px;
     }
 
     .caseSec .bookImage img {
@@ -173,6 +206,11 @@
 }
 
 @media only screen and (max-width: 991px) {
+    h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
     .lpHeader .navbar-nav {
         margin-right: 0px;
         gap: 35px;
@@ -224,6 +262,10 @@
         margin-bottom: 40px;
     }
 
+    .market-sec .counter::after {
+        right: -50%;
+    }
+
     .bookMarket-sec .slick-next {
         left: 45%;
     }
@@ -250,6 +292,11 @@
 
     .ready-sec .txt {
         margin-top: 60px;
+    }
+
+    .ready-sec h2 {
+        font-size: 30px;
+        line-height: 40px;
     }
 
     .streamed-sec .rightArrow {
@@ -281,6 +328,11 @@
 }
 
 @media only screen and (max-width: 567px) {
+    h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
     .banner-sec {
         height: 100%;
         margin-top: -152px;
@@ -315,8 +367,9 @@
     }
 
     .market-sec .counterMain {
-        gap: 20px 40px;
+        gap: 0px 36px;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .market-sec .counter::after {
@@ -393,8 +446,8 @@
     }
 
     .caseSec .slideTxt h3 {
-        font-size: 25px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 25px;
     }
 
     .caseSec .slick-prev {
@@ -604,6 +657,11 @@
     .faqs-sec h3 {
         font-size: 16px;
         line-height: 22px;
+    }
+
+    .faqs-sec h3 span {
+        font-weight: 600;
+        font-size: 12px;
     }
 
     .faqs-sec .accordion-body {

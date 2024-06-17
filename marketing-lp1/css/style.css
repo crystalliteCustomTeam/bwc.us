@@ -70,6 +70,7 @@ a:hover {
 p {
     font-size: 16px;
     line-height: 25px;
+    /* font-weight: 500; */
 }
 
 /* Header Start */
@@ -93,6 +94,7 @@ p {
 .btnOne {
     background: #F5C400;
     padding: 0 60px;
+    font-weight: 500;
     height: 45px;
     border-radius: 5px;
     font-size: 16px;
@@ -109,6 +111,7 @@ p {
     background: #1768BA;
     padding: 0 60px;
     height: 45px;
+    font-weight: 500;
     border-radius: 5px;
     font-size: 16px;
     line-height: 21px;
@@ -138,7 +141,7 @@ p {
 }
 
 .banner-sec h1 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner-sec .image {
@@ -157,13 +160,18 @@ p {
 }
 
 .market-sec h2 {
-    font-size: 40px;
+    font-size: 38px;
     font-weight: 600;
-    line-height: 55px;
+    line-height: 52px;
 }
 
 .market-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
+}
+
+.market-sec p {
+    font-size: 15px;
+    line-height: 24px;
 }
 
 .market-sec a {
@@ -185,8 +193,8 @@ p {
 .market-sec .counterMain {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0 50px;
+    justify-content: space-between;
+    gap: 0 40px;
     margin-top: 50px;
 }
 
@@ -199,7 +207,7 @@ p {
 
 .market-sec .counterMain h6 {
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 22px;
 }
 
@@ -244,6 +252,7 @@ p {
 .market-sec .form form input {
     background-color: white;
     color: #B4B4B4;
+    font-weight: 500;
     padding: 0 20px;
     height: 50px;
     width: 100%;
@@ -267,6 +276,7 @@ p {
 .market-sec .form form textarea {
     background-color: white;
     color: #B4B4B4;
+    font-weight: 500;
     padding: 15px 20px;
     height: 106px;
     width: 100%;
@@ -292,6 +302,7 @@ p {
     height: 45px;
     border-radius: 5px;
     width: 181px;
+    font-weight: 500;
     margin: 25px auto 5px;
     display: flex;
     align-items: center;
@@ -305,7 +316,7 @@ p {
 /* Book Marketing Start */
 
 .bookMarket-sec {
-    padding: 90px 0 120px;
+    padding: 90px 0 160px;
     overflow-x: hidden;
     background: #F3F3F3;
     background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/d9115052-205d-4cc1-9f65-738269530c00/public);
@@ -322,7 +333,7 @@ p {
 }
 
 .bookMarket-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .bookMarket-sec .sliderMain .card {
@@ -371,8 +382,8 @@ p {
 }
 
 .bookMarket-sec .sliderMain .card p {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 15px;
+    line-height: 24px;
     margin-bottom: 25px;
 }
 
@@ -380,8 +391,10 @@ p {
     background: #1768BA;
     border-radius: 5px;
     height: 45px;
+    font-weight: 500;
     width: 190px;
     color: white;
+    box-shadow: 5px 5px 11px #00000052;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -411,13 +424,13 @@ p {
 .bookMarket-sec .leftArrow {
     position: absolute;
     left: 52%;
-    bottom: 35px;
+    bottom: 74px;
 }
 
 .bookMarket-sec .rightArrow {
     position: absolute;
     left: 48%;
-    bottom: 35px;
+    bottom: 74px;
 }
 
 /* Book Marketing End */
@@ -445,7 +458,7 @@ p {
 }
 
 .caseSec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .caseSec p {
@@ -460,6 +473,10 @@ p {
 
 .caseSec .content {
     position: relative;
+}
+
+.caseSec .content p:first-of-type {
+    padding-right: 12px;
 }
 
 .caseSec .borderImage {
@@ -545,6 +562,7 @@ p {
 .portfolio-sec p {
     font-size: 16px;
     line-height: 25px;
+    margin-bottom: 65px;
 }
 
 .portfolio-sec h2 {
@@ -555,7 +573,7 @@ p {
 }
 
 .portfolio-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* porfolio End */
@@ -593,7 +611,7 @@ p {
 }
 
 .ready-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .ready-sec .secImg {
@@ -640,7 +658,7 @@ p {
 /* Streamed Start  */
 
 .streamed-sec {
-    padding: 90px 0 120px;
+    padding: 90px 0 80px;
     overflow-x: hidden;
     background: #F3F3F3;
     background-image: url(https://imagedelivery.net/nJwaBs__P2JfMUeYJ4vmjQ/d9115052-205d-4cc1-9f65-738269530c00/public);
@@ -662,7 +680,7 @@ p {
 }
 
 .streamed-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .streamed-sec p {
@@ -726,13 +744,13 @@ p {
 .streamed-sec .leftArrow {
     position: absolute;
     left: 53%;
-    bottom: 114px;
+    bottom: 20%;
 }
 
 .streamed-sec .rightArrow {
     position: absolute;
     left: 47%;
-    bottom: 110px;
+    bottom: 20%;
 }
 
 .streamed-sec .slick-next {
@@ -749,6 +767,48 @@ p {
     left: 45%;
     z-index: 99999;
     opacity: 0;
+}
+
+.streamed-sec .secBtns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 20px;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    padding: 0px 0 20px 20px;
+}
+
+.streamed-sec .secBtns .btn1 a {
+    background: #F5C400;
+    color: black;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    width: 141px;
+    height: 45px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 11px #00000052;
+}
+
+.streamed-sec .secBtns .btn2 a {
+    background: #1768BA;
+    color: white;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 500;
+    width: 165px;
+    height: 45px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 11px #00000052;
 }
 
 /* Streamed End  */
@@ -768,7 +828,7 @@ p {
 }
 
 .choose-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .choose-sec p {
@@ -780,7 +840,7 @@ p {
 
 .choose-sec .card {
     border: 0;
-    padding: 30px 20px 4px;
+    padding: 30px 9px 4px 20px;
 }
 
 .choose-sec .card h3 {
@@ -808,7 +868,6 @@ p {
 .choose-sec .card p {
     font-size: 15px;
     line-height: 23px;
-    padding-right: 19px;
     margin-bottom: 0;
 }
 
@@ -901,7 +960,7 @@ p {
 }
 
 .smallBanner-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .smallBanner-sec p {
@@ -951,7 +1010,7 @@ p {
 }
 
 .woking-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .woking-sec p {
@@ -975,7 +1034,7 @@ p {
 /* Testimonials Start */
 
 .testimonials-sec {
-    padding: 50px 0 120px;
+    padding: 50px 0 160px;
     position: relative;
 }
 
@@ -987,7 +1046,7 @@ p {
 }
 
 .testimonials-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .testimonials-sec p {
@@ -1065,13 +1124,13 @@ p {
 .testimonials-sec .leftArrow {
     position: absolute;
     left: 53%;
-    bottom: 30px;
+    bottom: 81px;
 }
 
 .testimonials-sec .rightArrow {
     position: absolute;
     left: 47%;
-    bottom: 30px;
+    bottom: 81px;
 }
 
 .testimonials-sec .slick-prev {
@@ -1111,12 +1170,16 @@ p {
 }
 
 .bookSeller-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .bookSeller-sec p {
     font-size: 15px;
     line-height: 24px;
+}
+
+.bookSeller-sec .txt p {
+    padding-right: 10px;
 }
 
 .bookSeller-sec .secBtns {
@@ -1224,6 +1287,7 @@ p {
     height: 45px;
     border-radius: 5px;
     width: 181px;
+    font-weight: 500;
     margin: 25px auto 5px;
     display: flex;
     align-items: center;
@@ -1248,7 +1312,7 @@ p {
 }
 
 .faqs-sec h2 span {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .faqs-sec .accordion-button {
@@ -1275,6 +1339,7 @@ p {
 
 .faqs-sec h3 span {
     font-weight: 600;
+    font-size: 17px;
 }
 
 .faqs-sec .accordion-button:focus {

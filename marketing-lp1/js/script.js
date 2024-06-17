@@ -103,7 +103,7 @@ $('.posrtfolioSlider').slick({
 });
 $('.streamedSlider').slick({
     dots: false,
-    infinite: true,
+    infinite: false,
     arrows: true,
     centerMode: false,
     centerPadding: '0',
