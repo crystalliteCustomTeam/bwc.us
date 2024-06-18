@@ -2,7 +2,9 @@ $('.banner-slider').slick({
     dots: true,
     infinite: true,
     arrows: false,
-    speed: 300,
+    fade: true,
+    cssEase: 'linear',
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
 });
