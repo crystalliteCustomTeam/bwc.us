@@ -38,6 +38,18 @@
     src: url(../fonts/Poppins-Thin.ttf) format('ttf')
 }
 
+.blue {
+    --pulseSize: 5px;
+    --pink: #1768BA;
+    --transparentPink: #1768ba3e;
+}
+
+.yellow {
+    --pulseSize: 5px;
+    --yellow: #F5C400;
+    --transparentYellow: #f5c4004a;
+}
+
 
 * {
     margin: 0;
@@ -73,6 +85,47 @@ p {
     /* font-weight: 500; */
 }
 
+/* Buttons Animation  */
+.blue {
+    animation: pulsing 2s infinite;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+@keyframes pulsing {
+    from {
+        box-shadow: 0 0 0 0 var(--pink);
+    }
+
+    70% {
+        box-shadow: 0 0 0 var(--pulseSize) var(--transparentPink);
+    }
+
+    to {
+        box-shadow: 0 0 0 0 var(--transparentPink);
+    }
+}
+
+.yellow {
+    animation: pulsingYellow 2s infinite;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+@keyframes pulsingYellow {
+    from {
+        box-shadow: 0 0 0 0 var(--yellow);
+    }
+
+    70% {
+        box-shadow: 0 0 0 var(--pulseSize) var(--transparentYellow);
+    }
+
+    to {
+        box-shadow: 0 0 0 0 var(--transparentYellow);
+    }
+}
+
 /* Header Start */
 
 .lpHeader .btn-secondary:hover {
@@ -95,6 +148,7 @@ p {
     background: #F5C400;
     padding: 0 60px;
     font-weight: 500;
+    text-transform: capitalize;
     height: 45px;
     border-radius: 5px;
     font-size: 16px;
@@ -105,6 +159,11 @@ p {
     align-items: center;
     justify-content: center;
     transition: ease-in-out all 0.4s;
+}
+
+.btnOne:hover {
+    background: #F5C400;
+    color: black;
 }
 
 .btnTwo {
@@ -121,6 +180,11 @@ p {
     align-items: center;
     justify-content: center;
     transition: ease-in-out all 0.4s;
+}
+
+.scrolled {
+    background-color: #124878;
+    transition: background-color 0.3s ease-in-out;
 }
 
 /* Banner Start */
@@ -144,9 +208,77 @@ p {
     font-weight: 400;
 }
 
-.banner-sec .image {
-    width: 95%;
-    margin: 0 auto;
+.banner-sec .bannerImage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner-sec .bannerImage .banImage {
+    width: 36%;
+}
+
+.banner-sec .imageOne {
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    transition: ease-in-out all 0.4s;
+}
+
+.banner-sec .imageTwo {
+    position: absolute;
+    bottom: -152px;
+    right: 0;
+    transition: ease-in-out all 0.4s;
+}
+
+.banner-sec .imageThree {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: ease-in-out all 0.4s;
+}
+
+.banner-sec .imageFour {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -335px;
+    transition: ease-in-out all 0.4s;
+}
+
+.banner-sec .bannerImage:hover .imageOne {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    transition: ease-in-out all 0.4s;
+}
+
+.banner-sec .bannerImage:hover .imageThree {
+    position: absolute;
+    bottom: -165px;
+    left: inherit;
+    transform: translateX(0%);
+    right: 0;
+    transition: ease-in-out all 0.4s;
+}
+
+.banner-sec .bannerImage:hover .imageTwo {
+    position: absolute;
+    bottom: -331px;
+    transform: translateX(-50%);
+    right: 13%;
+    transition: ease-in-out all 0.4s;
+}
+
+.banner-sec .bannerImage:hover .imageFour {
+    position: absolute;
+    left: 0%;
+    transform: translateX(0%);
+    bottom: -150px;
+    transition: ease-in-out all 0.4s;
 }
 
 /* market start */
@@ -1363,7 +1495,7 @@ p {
 }
 
 .faqs-sec .accordion-button:not(.collapsed)::after {
-    background-image: url(../images/arrow-faq-blue.svg);
+    background-image: url(../images/arrow-faq-pink.svg);
     transform: rotate(-0deg);
 }
 

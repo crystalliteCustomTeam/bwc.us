@@ -38,6 +38,18 @@
     src: url(../fonts/Poppins-Thin.ttf) format('ttf')
 }
 
+.blue {
+    --pulseSize: 5px;
+    --pink: #1768BA;
+    --transparentPink: #1768ba3e;
+}
+
+.yellow {
+    --pulseSize: 5px;
+    --yellow: #F5C400;
+    --transparentYellow: #f5c4004a;
+}
+
 
 * {
     margin: 0;
@@ -72,6 +84,47 @@ p {
     line-height: 25px;
 }
 
+/* Buttons Animation  */
+.blue {
+    animation: pulsing 2s infinite;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+@keyframes pulsing {
+    from {
+        box-shadow: 0 0 0 0 var(--pink);
+    }
+
+    70% {
+        box-shadow: 0 0 0 var(--pulseSize) var(--transparentPink);
+    }
+
+    to {
+        box-shadow: 0 0 0 0 var(--transparentPink);
+    }
+}
+
+.yellow {
+    animation: pulsingYellow 2s infinite;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+@keyframes pulsingYellow {
+    from {
+        box-shadow: 0 0 0 0 var(--yellow);
+    }
+
+    70% {
+        box-shadow: 0 0 0 var(--pulseSize) var(--transparentYellow);
+    }
+
+    to {
+        box-shadow: 0 0 0 0 var(--transparentYellow);
+    }
+}
+
 /* Header Start */
 
 .lpHeader .btn-secondary:hover {
@@ -93,6 +146,8 @@ p {
 .btnOne {
     background: #F5C400;
     padding: 0 60px;
+    font-weight: 500;
+    text-transform: capitalize;
     height: 45px;
     border-radius: 5px;
     font-size: 16px;
@@ -105,10 +160,16 @@ p {
     transition: ease-in-out all 0.4s;
 }
 
+.btnOne:hover {
+    background: #F5C400;
+    color: black;
+}
+
 .btnTwo {
     background: #1768BA;
     padding: 0 60px;
     height: 45px;
+    font-weight: 500;
     border-radius: 5px;
     font-size: 16px;
     line-height: 21px;
@@ -118,6 +179,11 @@ p {
     align-items: center;
     justify-content: center;
     transition: ease-in-out all 0.4s;
+}
+
+.scrolled {
+    background-color: #124878;
+    transition: background-color 0.3s ease-in-out;
 }
 
 /* Banner Start */
@@ -216,6 +282,12 @@ p {
 .banner-sec .slideImage {
     width: 98%;
     margin: 0 auto;
+    max-height: 622px;
+}
+
+.banner-sec .slideImage img {
+    max-height: 628px;
+    width: 100%;
 }
 
 .banner-sec .slideTxt {

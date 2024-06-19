@@ -1,7 +1,27 @@
+@media only screen and (max-width: 1499px) {
+    .bookMarket-sec .sliderMain .card h3 {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 22px;
+    }
+
+    .bookMarket-sec .sliderMain .card h3::after {
+        bottom: -14px;
+    }
+
+    .bookMarket-sec .sliderMain .card p {
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width: 1399px) {
     .lpHeader .navbar-nav {
         margin-right: 70px;
         gap: 40px;
+    }
+
+    .banner-sec {
+        padding: 120px 0 110px;
     }
 
     .banner-sec h1 {
@@ -35,6 +55,12 @@
 
     .banner-sec .slideImage {
         width: 100%;
+        padding-top: 31px;
+        max-height: 100%;
+    }
+
+    .banner-sec .slideImage img {
+        min-height: 607px;
     }
 
     .banner-sec .slideTxt {
@@ -95,6 +121,14 @@
 }
 
 @media only screen and (max-width: 1099px) {
+    .banner-sec .slideImage {
+        max-height: 100%;
+    }
+
+    .banner-sec .slideImage img {
+        min-height: 100%;
+    }
+
     .banner-sec h1 {
         font-size: 30px;
         line-height: 40px;
@@ -528,13 +562,13 @@
     }
 
     .streamed-sec .rightArrow {
-        bottom: 38px;
+        bottom: 173px;
         left: 38%;
     }
 
     .streamed-sec .leftArrow {
         left: 54%;
-        bottom: 37px;
+        bottom: 173px;
     }
 
 
@@ -581,6 +615,15 @@
     .woking-sec p {
         font-size: 14px;
         line-height: 23px;
+    }
+
+    .workingCards {
+        gap: 45px 11px;
+        justify-content: space-around;
+    }
+
+    .imgBox {
+        width: 45%;
     }
 
     .testimonials-sec {

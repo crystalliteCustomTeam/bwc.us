@@ -1,3 +1,19 @@
+@media only screen and (max-width: 1499px) {
+    .bookMarket-sec .sliderMain .card h3 {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 22px;
+    }
+
+    .bookMarket-sec .sliderMain .card h3::after {
+        bottom: -14px;
+    }
+
+    .bookMarket-sec .sliderMain .card p {
+        font-size: 14px;
+    }
+}
+
 @media only screen and (max-width: 1399px) {
     .lpHeader .navbar-nav {
         margin-right: 70px;
@@ -93,7 +109,7 @@
     }
 
     .ready-sec .secBg {
-        height: 327px;
+        height: 345px;
     }
 
     .ready-sec h2 {
@@ -103,7 +119,43 @@
     }
 
     .ready-sec .secImg {
-        margin-top: -5px;
+        margin-top: 0px;
+    }
+
+    .streamed-sec .card p {
+        font-size: 14px;
+        line-height: 24px;
+        padding-right: 0px;
+    }
+
+    .choose-sec .card {
+        padding: 30px 0px 4px 0px;
+    }
+
+    .choose-sec .card p {
+        font-size: 14px;
+    }
+
+    .choose-sec .card h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .choose-sec .secBtns {
+        padding: 0px 0 0 0px;
+    }
+
+    .testimonials-sec .card .cardTop {
+        padding-bottom: 12px;
+    }
+
+    .testimonials-sec .card .txt {
+        padding: 30px 17px 0;
+    }
+
+    .testimonials-sec .card .clientDetails h5 {
+        font-size: 16px;
+        line-height: 18px;
     }
 
     .smallBanner-sec p {
@@ -124,10 +176,10 @@
 }
 
 @media only screen and (max-width: 991px) {
-        h2 {
-            font-size: 30px !important;
-            line-height: 40px !important;
-        }
+    h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
 
     .lpHeader .navbar-nav {
         margin-right: 0px;
@@ -161,6 +213,19 @@
     .banner-sec .image {
         width: 73%;
         margin: 36px auto 0;
+    }
+
+    .banner-sec {
+        height: 150vh;
+    }
+
+    .banner-sec .row {
+        justify-content: space-between;
+        height: 100vh;
+    }
+
+    .banner-sec .bannerImage {
+        margin-top: 380px;
     }
 
     .market-sec .counterMain {
@@ -239,6 +304,10 @@
         height: 100%;
         margin-top: -152px;
         padding: 195px 0 50px;
+    }
+
+    .banner-sec .row {
+        height: 100%;
     }
 
     .banner-sec h1 {
@@ -465,6 +534,15 @@
     .woking-sec p {
         font-size: 14px;
         line-height: 23px;
+    }
+
+    .workingCards {
+        gap: 45px 11px;
+        justify-content: space-around;
+    }
+
+    .imgBox {
+        width: 45%;
     }
 
     .testimonials-sec {

@@ -1,3 +1,15 @@
+// Header Scroll Start
+document.addEventListener('DOMContentLoaded', function () {
+    const header = document.querySelector('.lpHeader');
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 200) {
+            header.classList.add('scrolled')
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+});
+
 $('.banner-slider').slick({
     dots: true,
     infinite: true,
