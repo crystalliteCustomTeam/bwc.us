@@ -128,6 +128,15 @@ p {
 
 /* Header Start */
 
+.lpHeader {
+    height: 95px;
+}
+
+.lpHeader .navbar-brand {
+    max-height: 80px;
+    object-fit: contain;
+}
+
 .lpHeader .btn-secondary:hover {
     text-decoration: none;
     transition: ease-in-out all 0.4s;

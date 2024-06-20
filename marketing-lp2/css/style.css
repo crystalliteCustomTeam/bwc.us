@@ -127,6 +127,15 @@ p {
 
 /* Header Start */
 
+.lpHeader {
+    height: 95px;
+}
+
+.lpHeader .navbar-brand {
+    max-height: 80px;
+    object-fit: contain;
+}
+
 .lpHeader .btn-secondary:hover {
     text-decoration: none;
     transition: ease-in-out all 0.4s;
@@ -293,11 +302,11 @@ p {
 .banner-sec .slideTxt {
     position: absolute;
     bottom: 90px;
-    left: 13%;
-    transform: translateX(-0%);
+    left: 9%;
+    transform: translateX(-5%);
     width: max-content;
     backdrop-filter: blur(8px);
-    padding: 5px 60px;
+    padding: 5px 100px;
     border-radius: 10px;
 }
 

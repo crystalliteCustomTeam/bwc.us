@@ -64,7 +64,9 @@
     }
 
     .banner-sec .slideTxt {
-        left: 5%;
+        left: 9%;
+        transform: translateX(-5%);
+        padding: 5px 60px;
     }
 
     .market-sec .counterMain {
