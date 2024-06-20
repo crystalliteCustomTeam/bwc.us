@@ -324,23 +324,23 @@ p {
 }
 
 .banner-sec .slick-dots button {
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     border-radius: 50px;
     border: 0;
     background: white;
     color: white;
-    font-size: 12px;
+    font-size: 3px;
 }
 
 .banner-sec .slick-dots .slick-active button {
-    width: 14px;
-    height: 14px;
+    width: 15px;
+    height: 15px;
     border-radius: 50px;
     border: 0;
     background: #F5C400;
     color: #F5C400;
-    font-size: 12px;
+    font-size: 3px;
 }
 
 /* market start */
@@ -596,9 +596,10 @@ p {
 }
 
 .bookMarket-sec .slick-prev {
-    position: absolute;
-    bottom: -80px;
-    left: 47%;
+    position: absolute !important;
+    bottom: -90px !important;
+    top: inherit !important;
+    left: 47.5% !important;
     background: transparent;
     border: 0;
     z-index: 999999;
@@ -606,13 +607,14 @@ p {
 }
 
 .bookMarket-sec .slick-next {
-    position: absolute;
-    bottom: -80px;
-    left: 52%;
-    background: transparent;
-    border: 0;
-    z-index: 999999;
-    opacity: 0;
+    position: absolute !important;
+    bottom: -80px !important;
+    top: inherit !important;
+    left: 52% !important;
+    background: transparent !important;
+    border: 0 !important;
+    z-index: 999999 !important;
+    opacity: 0 !important;
 }
 
 .bookMarket-sec .leftArrow {
@@ -723,19 +725,21 @@ p {
 }
 
 .caseSec .slick-prev {
-    position: absolute;
-    bottom: -68px;
-    left: 45.2%;
-    z-index: 99999;
-    opacity: 0;
+    position: absolute !important;
+    bottom: -68px !important;
+    top: inherit !important;
+    left: 45.2% !important;
+    z-index: 99999 !important;
+    opacity: 0 !important;
 }
 
 .caseSec .slick-next {
-    position: absolute;
-    left: 53.3%;
-    bottom: -68px;
-    z-index: 999;
-    opacity: 0;
+    position: absolute !important;
+    left: 53.3% !important;
+    bottom: -68px !important;
+    top: inherit !important;
+    z-index: 999 !important;
+    opacity: 0 !important;
 }
 
 /* CaseStudies End */
@@ -948,19 +952,21 @@ p {
 }
 
 .streamed-sec .slick-next {
-    position: absolute;
-    bottom: 0px;
-    left: 53.3%;
-    z-index: 99999;
-    opacity: 0;
+    position: absolute !important;
+    bottom: -20px !important;
+    top: inherit !important;
+    left: 53% !important;
+    z-index: 99999 !important;
+    opacity: 0 !important;
 }
 
 .streamed-sec .slick-prev {
-    position: absolute;
-    bottom: 0px;
-    left: 45%;
-    z-index: 99999;
-    opacity: 0;
+    position: absolute !important;
+    bottom: -20px !important;
+    top: inherit !important;
+    left: 46% !important;
+    z-index: 99999 !important;
+    opacity: 0 !important;
 }
 
 .streamed-sec .secBtns {
@@ -1328,19 +1334,21 @@ p {
 }
 
 .testimonials-sec .slick-prev {
-    position: absolute;
-    bottom: -78px;
-    left: 46.2%;
-    z-index: 99999;
-    opacity: 0;
+    position: absolute !important;
+    bottom: -78px !important;
+    top: inherit !important;
+    left: 46.2% !important;
+    z-index: 99999 !important;
+    opacity: 0 !important;
 }
 
 .testimonials-sec .slick-next {
-    position: absolute;
-    bottom: -77px;
-    left: 53.2%;
-    z-index: 9999;
-    opacity: 0;
+    position: absolute !important;
+    bottom: -77px !important;
+    top: inherit !important;
+    left: 53.2% !important;
+    z-index: 9999 !important;
+    opacity: 0 !important;
 }
 
 /* Testimonials End */
