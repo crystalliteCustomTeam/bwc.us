@@ -867,6 +867,7 @@ p {
 
 .streamed-sec .cardMain {
     position: relative;
+    height: 100%;
 }
 
 .streamed-sec .right-arrow {
@@ -1115,7 +1116,7 @@ p {
     line-height: 25px;
     margin-bottom: 50px;
     color: white;
-    width: 62%;
+    width: 72%;
     margin: 0px auto 0;
 }
 
