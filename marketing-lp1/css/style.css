@@ -149,8 +149,8 @@ p {
 }
 
 .lpHeader .navbar-nav {
-    margin-right: 70px;
-    gap: 70px;
+    margin-right: 40px;
+    gap: 30px;
 }
 
 .btnOne {
@@ -734,7 +734,7 @@ p {
     border-radius: 30px;
     padding: 0 45px;
     overflow-y: visible;
-    height: 404px;
+    height: auto;
 }
 
 .ready-sec .txt {

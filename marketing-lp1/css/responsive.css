@@ -16,8 +16,8 @@
 
 @media only screen and (max-width: 1399px) {
     .lpHeader .navbar-nav {
-        margin-right: 70px;
-        gap: 40px;
+        margin-right: 20px;
+        gap: 15px;
     }
 
     .banner-sec {
@@ -38,7 +38,7 @@
     }
 
     .ready-sec .secBg {
-        height: 375px;
+        height: auto;
     }
 
     .ready-sec .txt {
@@ -72,8 +72,8 @@
 
 @media only screen and (max-width: 1299px) {
     .lpHeader .navbar-nav {
-        margin-right: 55px;
-        gap: 55px;
+        margin-right: 10px;
+        gap: 10px;
     }
 }
 
