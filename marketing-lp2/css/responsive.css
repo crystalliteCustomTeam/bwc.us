@@ -83,7 +83,9 @@
     }
 
     .ready-sec .secBg {
-        height: 375px;
+        height: auto;
+        border-radius: 30px;
+        padding: 30px 20px;
     }
 
     .ready-sec .txt {
@@ -112,6 +114,9 @@
 
     .choose-sec .card p {
         padding-right: 0px;
+    }
+    .streamed-sec .card p {
+        height: 140px;
     }
 }
 

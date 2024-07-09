@@ -796,7 +796,7 @@ p {
     border-radius: 30px;
     padding: 0 45px;
     overflow-y: visible;
-    height: 404px;
+    height: auto;
 }
 
 .ready-sec .txt {
@@ -897,6 +897,8 @@ p {
 }
 
 .streamed-sec .card {
+    position: relative;
+    z-index: 999999;
     background-image: linear-gradient(to right, #13487A, #1768BA);
     padding: 40px 20px 20px;
     border-radius: 20px;
@@ -911,12 +913,26 @@ p {
     line-height: 30px;
     margin-bottom: 20px;
 }
+.streamed-sec .card p::-webkit-scrollbar {
+    width: 5px;
+}
 
+/* Track */
+.streamed-sec .card p::-webkit-scrollbar-track {
+    background: #13487A;
+}
+
+/* Handle */
+.streamed-sec .card p::-webkit-scrollbar-thumb {
+    background:#fff ;
+}
 .streamed-sec .card p {
     font-size: 16px;
     line-height: 25px;
     font-weight: 300;
     padding-right: 24px;
+    height: 100px;
+    overflow: auto;
 }
 
 .streamed-sec .card h4 {

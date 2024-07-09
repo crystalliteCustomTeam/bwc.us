@@ -12,6 +12,7 @@
     .bookMarket-sec .sliderMain .card p {
         font-size: 14px;
     }
+    
 }
 
 @media only screen and (max-width: 1399px) {
@@ -39,6 +40,8 @@
 
     .ready-sec .secBg {
         height: auto;
+        border-radius: 30px;
+        padding: 30px 20px;
     }
 
     .ready-sec .txt {
@@ -67,6 +70,9 @@
 
     .choose-sec .card p {
         padding-right: 0px;
+    }
+    .streamed-sec .card p {
+        height: 140px;
     }
 }
 

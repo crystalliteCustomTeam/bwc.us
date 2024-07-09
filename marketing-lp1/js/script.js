@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-
 $('.marketing-slider').slick({
     dots: false,
     infinite: true,
