@@ -88,11 +88,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -117,11 +113,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -141,11 +133,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -169,11 +157,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -193,11 +177,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -217,11 +197,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -245,11 +221,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -269,11 +241,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -293,11 +261,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -326,11 +290,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -351,11 +311,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -375,11 +331,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -399,11 +351,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -423,11 +371,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -452,11 +396,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -476,11 +416,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -504,11 +440,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -528,11 +460,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -552,11 +480,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -580,11 +504,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -604,11 +524,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -628,23 +544,11 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <a href="#" data-toggle="modal" data-target="#mypopupdiscuss" rel="noopener noreferrer"
-                    class="btn d-block btn-secondary px-sm-4 px-3"
-                    style="font-size: 15px; width: max-content; margin: 50px auto 0;">See More
-                    Books</a>
             </div>
         </div>
     </div>`;
@@ -720,11 +624,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -744,11 +644,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -768,11 +664,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -796,11 +688,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -820,11 +708,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -848,11 +732,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -872,11 +752,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -897,11 +773,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -921,11 +793,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -949,11 +817,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -973,11 +837,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -997,11 +857,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -1021,11 +877,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -1054,11 +906,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -1082,11 +930,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -1120,11 +964,7 @@ function yearlyTabsChange() {
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
-                                <div
-                                    class="__publisher d-flex flex-lg-nowrap flex-wrap justify-content-center align-items-center">
-                                    <h6>Publisher</h6>
-                                    <h5>Kevin Sanders</h5>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -1139,14 +979,6 @@ function yearlyTabsChange() {
                 <div class="row align-items-center">
     
                 </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <a href="#" data-toggle="modal" data-target="#mypopupdiscuss" rel="noopener noreferrer"
-                    class="btn d-block btn-secondary px-sm-4 px-3"
-                    style="font-size: 15px; width: max-content; margin: 50px auto 0;">See More
-                    Books</a>
             </div>
         </div>
     </div>
