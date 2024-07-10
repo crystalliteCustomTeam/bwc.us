@@ -226,8 +226,26 @@ section {
         font-size: 40px;
         line-height: 200px;
     }
+    .__publishingPortfolio .tab-content .__content h3{
+        font-size: 22px;
+        line-height: normal;
+    }
+    .__publishingPortfolio .tab-content .__content h3 br{
+        display: none;
+    }
+    .__publishingPortfolio .tab-content .__content > img{
+        width: 35px;
+    }
+    .__publishingPortfolio .tab-content .__content span{
+        font-size: 14px;
+    }
     .__publishingPortfolio .tab-content .__card {
         padding: 20px 20px 50px;
+        text-align: center;
+    }
+    .__publishingPortfolio .tab-content .__card .__bookImages{
+        margin-left: auto;
+        margin-right: auto;
     }
     .__publishingPortfolio .__smallBanner{
         height: 200px;
@@ -244,13 +262,6 @@ section {
     .__publishingPortfolio .__content h1 {
         font-size: 25px;
         line-height: 150px;
-    }
-    .__publishingPortfolio .tab-content .__content h3{
-        font-size: 22px;
-        line-height: normal;
-    }
-    .__publishingPortfolio .tab-content .__content h3 br{
-        display: none;
     }
     .__publishingPortfolio .nav {
         gap: 20px;
