@@ -175,7 +175,7 @@ section {
     color: var(--black-color);
 }
 .__publishingPortfolio .tab-content .__content p {
-    
+    min-height: 90px;
 }
 
 .__publishingPortfolio .tab-content .__publisher h6 {
@@ -265,6 +265,9 @@ section {
         line-height: 150px;
     }
     .__publishingPortfolio .tab-content .__content h3{
+        min-height: auto;
+    }
+    .__publishingPortfolio .tab-content .__content p {
         min-height: auto;
     }
     .__publishingPortfolio .nav {
