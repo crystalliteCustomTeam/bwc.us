@@ -57,17 +57,17 @@ function yearlyTabsChange() {
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="jan" role="tabpanel" aria-labelledby="jan-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="feb" role="tabpanel" aria-labelledby="feb-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="mar" role="tabpanel" aria-labelledby="mar-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="apr" role="tabpanel" aria-labelledby="apr-tab">
@@ -269,7 +269,7 @@ function yearlyTabsChange() {
             </div>
             <div class="tab-pane fade" id="aug" role="tabpanel" aria-labelledby="aug-tab">
                 <div class="row align-items-center">
-    
+                     <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="sep" role="tabpanel" aria-labelledby="sep-tab">
@@ -413,6 +413,26 @@ function yearlyTabsChange() {
                                 <p>This book is about a hero. The hero in the book is you. All humans have the same basic
                                     goals in life: Survive and thrive.</p>
                                 <a href="https://www.amazon.com/Hate-Me-Now-Thank-Later/dp/B0CLJQGSY3/ref=sr_1_1?crid=39IXDVKRL470W&dib=eyJ2IjoiMSJ9.ED5bwifj6krlYpeJSkC9uG0oPyiRtrInuSeLyh1r9c4.fRC6SXhHKKwMR_24jljIjRK6Jm3B9cGqGhM-dh1K2ws&dib_tag=se&keywords=hate+me+now+thank+me+later+brad+henderson&qid=1720555940&s=books&sprefix=hate+me+now+%2Cstripbooks-intl-ship%2C276&sr=1-1"
+                                    target="_blank"><u>Visit On Amazon</u> <img
+                                        src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                        class="d-inline-block"></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 py-5">
+                        <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                            <div class="__bookImages">
+                                <img width="150" height="225" src="../images/portfolio-lp/brandon.webp" alt="Book" />
+                            </div>
+                            <div class="__content">
+                                <h3>The Art <br />of Adaptation</h3>
+                                <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                    style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                                <span>Brandon Richard</span>
+                                <p>As a young boy, Brandon’s world shatters when he is forced to move away from home,
+                                    leaving behind the one person</p>
+                                <a href="https://www.amazon.com/Art-Adaptation-Brandon-Richard/dp/1961563126/ref=sr_1_1?crid=3BYCKBB37HDQO&dib=eyJ2IjoiMSJ9.yXE_bMUp69ATWMXB7TTpNkjpyomRlG2PsZTlKwv4XqwH1WqM0Q1Ect4PPRQLSi6OOvUbMv5w-_yD6TjW8_ILD_zVmuCDGvHiS67aIdjJE3eKkbUG1nYYXQmsieD87xPhZIGErNj-n-3E710YYb4Vi-J8t8jVYHUqAG1VvYiNG6h_o8HhcfFj8FDY4k4zYdm6mF6BwxcYsPZSnCsknWuZ3N6DAc-OVCLFonXzw0TM88Y.VWIjz6ipwh3ZOX3xJjjZfb9Xlqz3lQSb1_llgEw_ScQ&dib_tag=se&keywords=the+art+of+adaptation&qid=1720556413&s=books&sprefix=the+art+of+adaptation%2Cstripbooks-intl-ship%2C252&sr=1-1"
                                     target="_blank"><u>Visit On Amazon</u> <img
                                         src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                         class="d-inline-block"></a>
@@ -885,7 +905,7 @@ function yearlyTabsChange() {
             </div>
             <div class="tab-pane fade" id="may" role="tabpanel" aria-labelledby="may-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="jun" role="tabpanel" aria-labelledby="jun-tab">
@@ -938,46 +958,27 @@ function yearlyTabsChange() {
             </div>
             <div class="tab-pane fade" id="aug" role="tabpanel" aria-labelledby="aug-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="sep" role="tabpanel" aria-labelledby="sep-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="oct" role="tabpanel" aria-labelledby="oct-tab">
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-12 py-5">
-                        <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
-                            <div class="__bookImages">
-                                <img width="150" height="225" src="../images/portfolio-lp/brandon.webp" alt="Book" />
-                            </div>
-                            <div class="__content">
-                                <h3>The Art <br />of Adaptation</h3>
-                                <img src="../images/portfolio-lp/default.jpg" alt="Client"
-                                    style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
-                                <span>Brandon Richard</span>
-                                <p>As a young boy, Brandon’s world shatters when he is forced to move away from home,
-                                    leaving behind the one person</p>
-                                <a href="https://www.amazon.com/Art-Adaptation-Brandon-Richard/dp/1961563126/ref=sr_1_1?crid=3BYCKBB37HDQO&dib=eyJ2IjoiMSJ9.yXE_bMUp69ATWMXB7TTpNkjpyomRlG2PsZTlKwv4XqwH1WqM0Q1Ect4PPRQLSi6OOvUbMv5w-_yD6TjW8_ILD_zVmuCDGvHiS67aIdjJE3eKkbUG1nYYXQmsieD87xPhZIGErNj-n-3E710YYb4Vi-J8t8jVYHUqAG1VvYiNG6h_o8HhcfFj8FDY4k4zYdm6mF6BwxcYsPZSnCsknWuZ3N6DAc-OVCLFonXzw0TM88Y.VWIjz6ipwh3ZOX3xJjjZfb9Xlqz3lQSb1_llgEw_ScQ&dib_tag=se&keywords=the+art+of+adaptation&qid=1720556413&s=books&sprefix=the+art+of+adaptation%2Cstripbooks-intl-ship%2C252&sr=1-1"
-                                    target="_blank"><u>Visit On Amazon</u> <img
-                                        src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
-                                        class="d-inline-block"></a>
-                                
-                            </div>
-                        </div>
-                    </div>
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="nov" role="tabpanel" aria-labelledby="nov-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="dec" role="tabpanel" aria-labelledby="dec-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
         </div>
@@ -988,4 +989,5 @@ function yearlyTabsChange() {
     } else if (x == 2024) {
     document.getElementById("yearlyTabsChangeContent").innerHTML = content2024;
     }
+    
     }
