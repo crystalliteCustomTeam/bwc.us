@@ -57,17 +57,17 @@ function yearlyTabsChange() {
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="jan" role="tabpanel" aria-labelledby="jan-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="feb" role="tabpanel" aria-labelledby="feb-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="mar" role="tabpanel" aria-labelledby="mar-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="apr" role="tabpanel" aria-labelledby="apr-tab">
@@ -269,7 +269,7 @@ function yearlyTabsChange() {
             </div>
             <div class="tab-pane fade" id="aug" role="tabpanel" aria-labelledby="aug-tab">
                 <div class="row align-items-center">
-    
+                     <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="sep" role="tabpanel" aria-labelledby="sep-tab">
@@ -905,7 +905,7 @@ function yearlyTabsChange() {
             </div>
             <div class="tab-pane fade" id="may" role="tabpanel" aria-labelledby="may-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="jun" role="tabpanel" aria-labelledby="jun-tab">
@@ -958,27 +958,27 @@ function yearlyTabsChange() {
             </div>
             <div class="tab-pane fade" id="aug" role="tabpanel" aria-labelledby="aug-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="sep" role="tabpanel" aria-labelledby="sep-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="oct" role="tabpanel" aria-labelledby="oct-tab">
                 <div class="row align-items-center">
-                    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="nov" role="tabpanel" aria-labelledby="nov-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
             <div class="tab-pane fade" id="dec" role="tabpanel" aria-labelledby="dec-tab">
                 <div class="row align-items-center">
-    
+                    <p class="text-center py-5 w-100">No Book Found</p>
                 </div>
             </div>
         </div>
@@ -989,4 +989,5 @@ function yearlyTabsChange() {
     } else if (x == 2024) {
     document.getElementById("yearlyTabsChangeContent").innerHTML = content2024;
     }
+    
     }
