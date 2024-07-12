@@ -165,6 +165,7 @@ section {
     -webkit-box-orient: vertical;
     color: var(--black-color);
     min-height: 78px;
+    text-transform: capitalize;
 }
 
 .__publishingPortfolio .tab-content .__content span {
