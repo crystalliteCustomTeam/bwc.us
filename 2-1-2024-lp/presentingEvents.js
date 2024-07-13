@@ -1,7 +1,7 @@
 function yearlyTabsChange() {
-let x = document.getElementById("yearlyTabsChange").value;
+    let x = document.getElementById("yearlyTabsChange").value;
 
-let content2023 = `
+    let content2023 = `
 
 <ul class="nav nav-tabs my-5" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
@@ -201,6 +201,44 @@ let content2023 = `
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/melvin.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>Reflections of  <br /> Bygone Days</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Melvin Rasmussen</span>
+                            <p>A collection of classic and timeless poetrie.</p>
+                            <a href="https://www.amazon.com/Reflections-Bygone-Days-Melvin-Rasmussen/dp/B0C87M9TLT/ref=sr_1_1?crid=1170PDOWHVFTD&keywords=reflections+of+bygone+days&qid=1690848313&s=digital-text&sprefix=reflections+of+bygone+day%2Cdigital-text%2C454&sr=1-1-catcorr"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/joseph.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>Rural EMS IS Different : An Early History of Beaver Island EMS</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Joseph Moore </span>
+                            <p>This book is written from the perspective of an emergency medical care provider, who worked his way from</p>
+                            <a href="https://www.amazon.com/Rural-EMS-Different-History-Beaver-ebook/dp/B0C7Y664C1/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="tab-pane fade" id="jul" role="tabpanel" aria-labelledby="jul-tab">
@@ -317,6 +355,47 @@ let content2023 = `
                             <span>Suelynn Howden</span>
                             <p>Once upon a time there was a girl named Ivy who was very proud of her dad. Her dad was an ordinary man,</p>
                             <a href="https://www.amazon.com/My-Daddy-Electrician-Suelynn-Howden-ebook/dp/B0CCXN9X1R/ref=sr_1_1?crid=JI0SMFCJUR8D&dib=eyJ2IjoiMSJ9.Qylhz_x2qvzIiUPcB61F3w.Swf5k19YVB15HjAdHYSDYCiuCs2jjRfzQsvmufmVsAo&dib_tag=se&keywords=my+daddy+the+electrician&qid=1720746910&s=digital-text&sprefix=my+daddy+the+electrician%2Cdigital-text%2C258&sr=1-1"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/Raymond.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>Drawing Nudes</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Raymond Skibinski </span>
+                            <p>I have collected a series of drawings of nudes, male and female. The sketches were done in a studio setting</p>
+                            <a href="https://www.amazon.com/Drawing-Nudes-Raymond-M-Skibinski/dp/B0CCCMPBZ4/ref=sr_1_1?crid=JXMXSZX3JZQ1&dib=eyJ2IjoiMSJ9.Z7JQdSrguEAgeI9eI0tnLA.Jdwvoq2Rmw7iGZGQNuj_3oph_vUz6bpvlWcbTeUVDW0&dib_tag=se&keywords=Raymond+Skibinski&qid=1720478423&s=books&sprefix=raymond+skibinsk%2Cstripbooks%2C321&sr=1-1"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/claude.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>The Prequill: Once upon a time, and times, and half a time</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Claude Moreau</span>
+                            <p>The Prequill
+                                Once upon a time, and times and half a time…
+
+                                The greatest hunter of all time,</p>
+                            <a href="https://www.amazon.com/Prequill-Once-upon-time-times-ebook/dp/B0CBCY9CYX/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
                                 target="_blank"><u>Visit On Amazon</u> <img
                                     src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                     class="d-inline-block"></a>
@@ -490,6 +569,44 @@ let content2023 = `
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/robert.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>Funny, I Don’t Remember Any Good Dope Days</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Robert Durst</span>
+                            <p>This book is dedicated to the memories of those who have lost their lives to addiction and to the courage of those</p>
+                            <a href="https://www.amazon.com/Funny-Dont-Remember-Good-Dope/dp/B0CHL7DGYV"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/keenan.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>I Love You and I Am Sorry: The High Cost of Loss</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Keenan Corley</span>
+                            <p>All readers, beware you are going to fall in love with little Kee-Kee (Keenan). “I Love You and I Am Sorry” is a fascinating</p>
+                            <a href="https://www.amazon.com/Love-You-Am-Sorry-High-ebook/dp/B0CHGJJHWF/ref=sr_1_1?crid=1UEO7GYW4RQ2H&dib=eyJ2IjoiMSJ9.3VxX0wjsOOVHQfBGsXocrhiD-Y-Z_0Nyz3XmC5iqs5VVL9D0Us8l2nC0yOMTLyKO6K3MdQeU-9Xltf7OGaS_HAEhCp9ttwR2CruBCImNrjW4uV0r7c-DwFENfhbQWiaaYXctbj_0kzpgklYldGxCjAsr8wRspaTwW973bW2RUde7y-Oqp5-pKWXzCRcPe8vr2nvYdvzJjW93ZXnuHKKLRJCOYNBPb4x8om_gWBh5MGA.JRCCq6aRlNGl4Hiw-J6gTCemYI0PrHbVei4qjP_GTS0&dib_tag=se&keywords=Keenan+Corley&qid=1720478571&s=digital-text&sprefix=keenan+corley%2Cdigital-text%2C320&sr=1-1"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="tab-pane fade" id="oct" role="tabpanel" aria-labelledby="oct-tab">
@@ -572,6 +689,63 @@ let content2023 = `
                                     src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
                                     class="d-inline-block"></a>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/jill.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>40 Weeks</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Jill Rosenfeld</span>
+                            <p>This is the amazing true story of one woman's determination and struggle to carry a child to term. The devastation</p>
+                            <a href="https://www.amazon.com/40-Weeks-Jill-Rosenfeld-ebook/dp/B0CLZ4S79J/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/sasha.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>CAROUSEL: A Novel</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Sasha Seltsova</span>
+                            <p>Alice's world seems perfect: a successful company she leads, a loving family that adores her, and everything</p>
+                            <a href="https://www.amazon.com/CAROUSEL-Novel-Sasha-Seltsova/dp/B0CLVSN621/ref=tmm_hrd_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.w0YrBhIMafma2Hy5oMC_PQ.iLjnX4m3ey_VzPHCVQ67oA1K5cSZNp7Cm_-DcE6lyaQ&qid=1720478714&sr=1-1"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/mary.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>WISDOM FROM A WOMAN OF FAITH’S SPIRITUAL JOURNEY</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Mary Uzoma</span>
+                            <p>This book chronicles a woman's spiritual journey, addressing human imperfections in applying the Bible's guidance.</p>
+                            <a href="https://www.amazon.com/WISDOM-WOMAN-FAITHS-SPIRITUAL-JOURNEY-ebook/dp/B0CLR654KB/ref=sr_1_1?crid=3CSMI6VZZF7XI&dib=eyJ2IjoiMSJ9.JhTGdoWf9aUZ23C1GPJUE8RjIfPpFOzVJZCTkf6DOGhCb4saKjTJGtAmhRDNY4ou.qiqL0T49u1vny0gK5G2tWAzhUjz8-vHlvi7nL1W3Ve8&dib_tag=se&keywords=mary+pat+Uzoma&qid=1720481395&sprefix=mary+pat+uzom%2Caps%2C339&sr=8-1"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -717,6 +891,26 @@ let content2023 = `
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/alex2.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>THE FORBIDDEN SMILE</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Alex J </span>
+                            <p>To my children,
+                            Thank you for believing in me and making it possible to become the mother you so deserved as children.</p>
+                            <a href="https://www.amazon.com/FORBIDDEN-SMILE-Alex-J-ebook/dp/B0CN9R7GM3/ref=tmm_kin_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.lfKivAl3u8JrvRZgtdvho5IeMdJjAbne-61AyoT3Rw8vpe1gWXv_nSlIyiYEKE5_l0C0gDJXoWvp5FcNuaJbwTn00tDIUNfEFrMzj2o12GDfMwRasEWZAl9upqE1alhZHraHhq3zj-IXRZaL4xXS4FCaW9njpyxmL67D1u_zQkozZ3R8NDepHseu5j5fR3866SV_1z73LWyA_lqNTEJHHzzMIrKLlCP5SGjkTlbiXuM.M3sZKSiKP0_7w7dtGcoAhSk1IpkZw-2x-UzQmxC6DFA&qid=1720482900&sr=1-1"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="tab-pane fade" id="dec" role="tabpanel" aria-labelledby="dec-tab">
@@ -821,11 +1015,30 @@ let content2023 = `
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-12 py-5">
+                    <div class="__card d-flex flex-lg-nowrap flex-wrap align-items-start">
+                        <div class="__bookImages">
+                            <img width="150" height="225" src="../images/portfolio-lp/mahra.webp" alt="Book" />
+                        </div>
+                        <div class="__content">
+                            <h3>The Sun and the Moon Are the Best of Friends: A short story about friendshipr</h3>
+                            <img src="../images/portfolio-lp/default.jpg" alt="Client"
+                                style="margin: 24px 5px 24px 0; box-shadow: 0 4px 10px; border-radius: 50px;">
+                            <span>Mahra Alhosani</span>
+                            <p>"The Sun and the Moon Are the Best of Friends," embark on a journey celebrating the unbreakable bond between</p>
+                            <a href="https://www.amazon.com/dp/B0CR7ZNDCQ?ref=cm_sw_r_cp_ud_dp_V7R2AKJRPPQFN3MZ6ZGM&ref_=cm_sw_r_cp_ud_dp_V7R2AKJRPPQFN3MZ6ZGM&social_share=cm_sw_r_cp_ud_dp_V7R2AKJRPPQFN3MZ6ZGM"
+                                target="_blank"><u>Visit On Amazon</u> <img
+                                    src="../images/portfolio-lp/arrow-right-orange.png" alt="Icons"
+                                    class="d-inline-block"></a>
+                            
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>`;
-let content2024 = `
+    let content2024 = `
 <ul class="nav nav-tabs my-5" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
         <button class="nav-link active" id="jan-tab" data-toggle="tab" data-target="#jan" type="button" role="tab"
@@ -1753,10 +1966,10 @@ let content2024 = `
     </div>
 </div>
 `
-if (x == 2023) {
-document.getElementById("yearlyTabsChangeContent").innerHTML = content2023;
-} else if (x == 2024) {
-document.getElementById("yearlyTabsChangeContent").innerHTML = content2024;
-}
+    if (x == 2023) {
+        document.getElementById("yearlyTabsChangeContent").innerHTML = content2023;
+    } else if (x == 2024) {
+        document.getElementById("yearlyTabsChangeContent").innerHTML = content2024;
+    }
 
 }
