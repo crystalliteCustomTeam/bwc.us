@@ -44,7 +44,7 @@
         	$mail->SMTPSecure="tls";
         	$mail->SMTPAuth=true;
         	$mail->Username="signups@bookwritingcube.com";
-        	$mail->Password="10@Kskwoks";
+        	$mail->Password="LYU2M95NQ4Um6gW@";
         	$mail->SetFrom("signups@bookwritingcube.com");
         	$mail->addAddress("signups@bookwritingcube.com");
         	$mail->IsHTML(true);
