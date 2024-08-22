@@ -65,7 +65,39 @@
 
 mysqli_close($conn);
 
-?>
+// The URL where you want to send the request
+$url = 'https://brandsapi.cryscampus.com/api/v1/leads'; // Replace with your target URL
+
+
+
+
+// Data to be sent in the request
+$data3 = array(
+    'page_url' => $pageURL,
+    'user_ip' => $clientIP,
+    'lead_data' => $params
+);
+// Initialize cURL session
+$ch = curl_init($url);
+// Set the necessary cURL options
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // Return the response as a string
+curl_setopt($ch, CURLOPT_POST, true); // Specify the request type as POST
+curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data3)); // Encode the data array to JSON and set it as POST fields
+curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+    'Content-Type: application/json', // Set the content type to JSON
+    'Content-Length: ' . strlen(json_encode($data3)) // Set the content length
+));
+// Execute the cURL request and get the response
+$response = curl_exec($ch);
+// Check for errors
+if (curl_errno($ch)) {
+    echo 'Error:' . curl_error($ch);
+} else {
+    // Print the response
+    echo 'Response:' . $response;
+}
+// Close the cURL session
+curl_close($ch);
 	
 	
 
