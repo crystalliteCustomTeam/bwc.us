@@ -25,10 +25,10 @@
 	$mail->Port=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="info@bookwritingcube.com";
+	$mail->Username="info@bookwritingcube.us";
 	$mail->Password="mark@BWC!23*";
-	$mail->SetFrom("info@bookwritingcube.com");
-	$mail->addAddress("info@bookwritingcube.com");
+	$mail->SetFrom("info@bookwritingcube.us");
+	$mail->addAddress("info@bookwritingcube.us");
 	$mail->IsHTML(true);
 	$mail->Subject="Lead Form - BWC - Book Writing";
 	$mail->Body=$html;

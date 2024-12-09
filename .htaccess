@@ -1,6 +1,6 @@
 
-RewriteCond %{HTTP_HOST} ^bookwritingcube.com
-RewriteRule (.*) https://www.bookwritingcube.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^bookwritingcube.us
+RewriteRule (.*) https://www.bookwritingcube.us/$1 [R=301,L]
 ErrorDocument 404 /404.html
 ErrorDocument 500 /404.html
 
@@ -204,7 +204,7 @@ Redirect /digital-marketing/	/digital-marketing-services
 Redirect /children-book-publication/	/publication-services
 Redirect /childrens-book-illustrations/	/book-illustration-services
 Redirect /book-marketing-ser	/book-marketing-services
-# Redirect /index.html	https://www.bookwritingcube.com
+# Redirect /index.html	https://www.bookwritingcube.us
 Redirect /contact.html	/contact
 Redirect /book-publishing-services-services/	/book-publishing-services
 Redirect /book-publication-services/	/book-publishing-services

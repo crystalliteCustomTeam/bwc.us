@@ -11,11 +11,11 @@ include('smtp/PHPMailerAutoload.php');
            	$mail->SMTPSecure="tls";
            $mail->Port = 587;
            $mail->SMTPAuth = true; // turn on SMTP authentication
-           	$mail->Username="info@bookwritingcube.com";
+           	$mail->Username="info@bookwritingcube.us";
 	        $mail->Password="mark@BWC!23*";
            $Mail->Priority = 1;
-         	$mail->addAddress("info@bookwritingcube.com");
-        	$mail->SetFrom("info@bookwritingcube.com");
+         	$mail->addAddress("info@bookwritingcube.us");
+        	$mail->SetFrom("info@bookwritingcube.us");
            $mail->Subject  = "This is a Test Message";
            $mail->Body     = "HELLO";
            $mail->WordWrap = 50;
