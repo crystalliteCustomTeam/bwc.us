@@ -66,7 +66,7 @@
 mysqli_close($conn);
 
 // The URL where you want to send the request
-$url = 'https://brandsapi.cryscampus.com/api/v1/leads'; // Replace with your target URL
+$url = 'https://brandsapi.pulse-force.com/api/v1/leads'; // Replace with your target URL
 
 
 
