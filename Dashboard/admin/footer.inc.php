@@ -19,5 +19,5 @@
       <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
       
 
-</body>
+<script>document.querySelector("#formsection > div.row.pt-5.pb-5.justify-content-center > div:nth-child(2) > div > p > a").style.color = "black";</script></body>
 </html>

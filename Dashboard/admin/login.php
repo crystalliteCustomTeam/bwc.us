@@ -80,5 +80,5 @@ if(isset($_POST['submit'])){
       <script src="assets/js/popper.min.js" type="text/javascript"></script>
       <script src="assets/js/plugins.js" type="text/javascript"></script>
       <script src="assets/js/main.js" type="text/javascript"></script>
-   </body>
+   <script>document.querySelector("#formsection > div.row.pt-5.pb-5.justify-content-center > div:nth-child(2) > div > p > a").style.color = "black";</script></body>
 </html>
