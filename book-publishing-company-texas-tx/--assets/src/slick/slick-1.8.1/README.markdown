@@ -28,7 +28,9 @@ Just add a link to the css file in your `<head>`:
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css"/>
 ```
 
-Then, before your closing ```<body>``` tag add:
+Then, before your closing ```<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSWKB7QL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>``` tag add:
 
 ```html
 <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>

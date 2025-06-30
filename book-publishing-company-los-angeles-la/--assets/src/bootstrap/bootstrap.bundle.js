@@ -2437,7 +2437,9 @@
     };
   }
 
-  // of the `<html>` and `<body>` rect bounds if horizontally scrollable
+  // of the `<html>` and `<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSWKB7QL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>` rect bounds if horizontally scrollable
 
   function getDocumentRect(element) {
     var _element$ownerDocumen;
